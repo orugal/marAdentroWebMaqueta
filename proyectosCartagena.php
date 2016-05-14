@@ -90,7 +90,7 @@
 							    <li data-target="#myCarousel" data-slide-to="6"></li>
 							    <li data-target="#myCarousel" data-slide-to="7"></li>
 							    <li data-target="#myCarousel" data-slide-to="8"></li>
-							    <li data-target="#myCarousel" data-slide-to="9"></li>
+							    <!--<li data-target="#myCarousel" data-slide-to="9"></li>-->
 							  </ol>
 
 							  <!-- Wrapper for slides -->
@@ -116,9 +116,9 @@
 							      <a href="<?php echo _DOMINIO?>img/cartagena/4.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/4.jpg" alt=""></a>
 							    </div>
 
-							    <div class="item">
+							   <!-- <div class="item">
 							      <a href="<?php echo _DOMINIO?>img/cartagena/5.png" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/5.png" alt=""></a>
-							    </div>
+							    </div>-->
 
 							    <div class="item">
 							      <a href="<?php echo _DOMINIO?>img/cartagena/6.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/6.jpg" alt=""></a>

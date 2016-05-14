@@ -26,8 +26,8 @@
 							          	AMENITIES <b class="caret"></b>
 							          	<ul class="dropdown-menu">
 									        <li><a style="color:#005b84" href="<?php echo _DOMINIO?>amenities/neiva">NEIVA</a></li>
-									        <li><a style="color:#005b84" href="#">FLANDES </a></li>
-									        <li><a style="color:#005b84" href="#">CARTAGENA </a></li>
+									        <li><a style="color:#005b84" href="#">FLANDES PRÓXIMOS LANZAMIENTOS</a></li>
+									        <li><a style="color:#005b84" href="#">CARTAGENA PRÓXIMOS LANZAMIENTOS</a></li>
 			        					</ul>
 							        </a>
 						        </li>

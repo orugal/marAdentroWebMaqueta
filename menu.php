@@ -32,8 +32,8 @@
 					          	PROYECTOS <b class="caret"></b>
 					          	<ul class="dropdown-menu">
 							        <li><a href="<?php echo _DOMINIO?>proyectos/neiva">NEIVA</a></li>
-							        <li><a href="<?php echo _DOMINIO?>proyectos/flandes">FLANDES </a></li>
-							        <li><a href="<?php echo _DOMINIO?>proyectos/cartagena">CARTAGENA </a></li>
+							        <li><a href="<?php echo _DOMINIO?>proyectos/flandes">FLANDES PRÓXIMOS LANZAMIENTOS</a></li>
+							        <li><a href="<?php echo _DOMINIO?>proyectos/cartagena">CARTAGENA PRÓXIMOS LANZAMIENTOS</a></li>
 	        					</ul>
 					        </a>
 				        </li>
