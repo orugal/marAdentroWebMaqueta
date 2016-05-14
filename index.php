@@ -32,23 +32,41 @@
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
 				      </button>
-				      <a class="navbar-brand visible-lg visible-md margin" href="home">
+				      <a class="navbar-brand visible-lg visible-md margin" href="http://www.maradentro.com.co/home">
 				      	<img src="img/logoBlanco.png" width="250px" />
 				      </a>
-				      <a class="navbar-brand visible-xs visible-sm" href="home" style="margin-top:-61px">
+				      <a class="navbar-brand visible-xs visible-sm" href="http://www.maradentro.com.co/home" style="margin-top:-61px">
 				      	<img src="img/logoBlanco.png" width="100%" />
 				      </a>
 				    </div>
 
 				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="border:none;box-shadow: none;">
 				      <ul class="nav navbar-nav">
-				        <li><a href="proyectos">PROYECTOS</a></li>
-				        <li><a href="ubicacion">UBICACIÓN</a></li>
-				        <li><a href="amenities">AMENITIES</a></li>
-				        <li><a href="galeria">GALERÍA</a></li>
-				        <li><a href="crystalLagoons">CRYSTAL LAGOONS</a></li>
+				        <li class="dropdown">
+					        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					          	PROYECTOS <b class="caret"></b>
+					          	<ul class="dropdown-menu">
+							        <li><a href="http://www.maradentro.com.co/proyectos/neiva">NEIVA</a></li>
+							        <li><a href="#">FLANDES </a></li>
+							        <li><a href="http://www.maradentro.com.co/proyectos/cartagena">CARTAGENA </a></li>
+	        					</ul>
+					        </a>
+				        </li>
+				        <li><a href="http://www.maradentro.com.co/ubicacion">UBICACIÓN</a></li>
+				        <li class="dropdown">
+					        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					          	AMENITIES <b class="caret"></b>
+					          	<ul class="dropdown-menu">
+							        <li><a href="http://www.maradentro.com.co/amenities/neiva">NEIVA</a></li>
+							        <li><a href="#">FLANDES </a></li>
+							        <li><a href="#">CARTAGENA </a></li>
+	        					</ul>
+					        </a>
+				        </li>
+				        <li><a href="http://www.maradentro.com.co/galeria">GALERÍA</a></li>
+				        <li><a href="http://www.maradentro.com.co/crystalLagoons">CRYSTAL LAGOONS</a></li>
 				        <li><a href="http://www.constructoranio.com/" target="_blank">NIO</a></li>
-				        <li><a href="contacto">CONTACTO</a></li>
+				        <li><a href="http://www.maradentro.com.co/contacto">CONTACTO</a></li>
 				      </ul>
 				      
 				      
@@ -72,7 +90,7 @@
                 <div class="fill" style="background-image:url('img/1.jpg');"></div>
                 <div class="carousel-caption" style="text-align: left;">
                     <!--<h2>Caption 1</h2>-->
-                    <h2>La sensación del caribe en Neiva.</h2>
+                    <h2>La sensación del caribe al interior de Colombia.</h2>
                 </div>
             </div>
             <div class="item">

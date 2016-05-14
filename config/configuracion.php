@@ -17,4 +17,14 @@ define('_SMTP_PASS'										,'Jg$E3D+u');//configurar
 define('_ES_HTML'										,true);
 //Correo del administrador
 define('_MAIL_ADMIN'									,'kyo20052@gmail.com,catacruz@gmail.com');//configurar
+
+//BASE DE DATOS
+//Nombre del hosting
+define('_HOST'											,'localhost');
+//Usuario base de datos
+define('_USER'											,'vivemara_user');
+//Contraseña del usuario
+define('_PASS'											,'Jg$E3D+u');
+//base de datos
+define('_DB'											,'vivemara_contacto');
 ?>

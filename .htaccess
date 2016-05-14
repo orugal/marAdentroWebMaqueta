@@ -9,3 +9,7 @@ RewriteRule ^contacto$ contacto.php
 RewriteRule ^ubicacion$ ubicacion.php
 RewriteRule ^gracias$ contacto.php?gracias
 RewriteRule ^crystalLagoons$ crystalLagoons.php
+
+RewriteRule ^proyectos/neiva$ proyectosNeiva.php
+RewriteRule ^proyectos/cartagena$ proyectosCartagena.php
+RewriteRule ^amenities/neiva$ amenitiesNeiva.php
