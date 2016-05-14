@@ -185,7 +185,7 @@ nav.navbar {
   .navbar-header{margin:6%;}
   nav.navbar ul.nav li{margin:0 0 10% 0;}
 
-.colorMsgCenter h1{font-size: 1.5em}
+.colorMsgCenter h1{font-size: 1.5em;margin:10% 0 0 0;}
 .bgGaleria{background: url(../img/bgGaleria.jpg)no-repeat center center; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -257,7 +257,7 @@ nav.navbar {
   .navbar-header{margin:6%;}
   nav.navbar ul.nav li{margin:0 0 10% 0;}
 
-.colorMsgCenter h1{font-size: 1.5em}
+.colorMsgCenter h1{font-size: 1.5em;margin:10% 0 0 0;}
 
 .bgGaleria{background: url(../img/bgGaleria.jpg)no-repeat center center; 
       -webkit-background-size: cover;

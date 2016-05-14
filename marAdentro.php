@@ -82,7 +82,7 @@ $curacao[2]['img'] = "3.png";
 
 	<div class="container-fluid bgGaleria">
 		<div class="container text-center colorMsgCenter">
-			<h1>Una iniciatica privada lleva el mar al interior de Colombia</h1>
+			<h1>Una iniciativa privada lleva el mar al interior de Colombia</h1>
 		</div>
 	</div>
 
