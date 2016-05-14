@@ -185,6 +185,64 @@ nav.navbar {
   .navbar-header{margin:6%;}
   nav.navbar ul.nav li{margin:0 0 10% 0;}
 
+.colorMsgCenter h1{font-size: 1.5em}
+.bgGaleria{background: url(../img/bgGaleria.jpg)no-repeat center center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 16%;
+}
+
+.bgCrystal{background: url(../img/bgCrystal.png)no-repeat center center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 16%;
+}
+
+.bgUbi{background: url(../img/bgUbi.png)no-repeat bottom center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 16%;
+}
+
+.bgAme{background: url(../img/bgAme.png)no-repeat center center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 16%;
+}
+
+
+.bgAmenities1{background: url(../img/ame1.png)no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 16%;
+}
+
+.bgAmenities2{background: url(../img/ame2.png)no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 16%;
+}
+
+.bgAmenities3{background: url(../img/ame3.png)no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 16%;
+}
+
 }
 
 /* Extra Small Devices, Phones */ 
@@ -199,4 +257,62 @@ nav.navbar {
   .navbar-header{margin:6%;}
   nav.navbar ul.nav li{margin:0 0 10% 0;}
 
+.colorMsgCenter h1{font-size: 1.5em}
+
+.bgGaleria{background: url(../img/bgGaleria.jpg)no-repeat center center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 16%;
+}
+
+.bgCrystal{background: url(../img/bgCrystal.png)no-repeat center center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 16%;
+}
+
+.bgUbi{background: url(../img/bgUbi.png)no-repeat bottom center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 16%;
+}
+
+.bgAme{background: url(../img/bgAme.png)no-repeat center center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 16%;
+}
+
+
+.bgAmenities1{background: url(../img/ame1.png)no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 16%;
+}
+
+.bgAmenities2{background: url(../img/ame2.png)no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 16%;
+}
+
+.bgAmenities3{background: url(../img/ame3.png)no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 16%;
+}
 }

@@ -98,7 +98,8 @@ nav.navbar {
       -o-background-size: cover;
       background-size: cover;
     }    
-    .carousel-caption{font-size: 0.7em !important}  
+    
+.carousel-caption h2{font-family: 'Fira Sans', sans-serif !important;font-weight: 300 !important;font-size: 2.0em}
     .navbar-collapse{background:#fff !important;margin:12% 0 0 0 !important;position: relative !important;z-index:20;}
 }
 
@@ -110,7 +111,8 @@ nav.navbar {
       -o-background-size: cover;
       background-size: cover;
     }  
-        .carousel-caption{font-size: 0.7em !important}  
+        
+        .carousel-caption h2{font-family: 'Fira Sans', sans-serif !important;font-weight: 300 !important;font-size: 2.0em}  
         .navbar-collapse{background:#fff !important;margin:12% 0 0 0 !important;position: relative !important;z-index:20;}
 }
 

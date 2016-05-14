@@ -93,10 +93,7 @@ $curacao[2]['img'] = "3.png";
 				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
 					<h2 class="tituloSeccion">MAR ADENTRO</h2>
 					<p class="pInternas2">
-					<strong>Mar Adentro</strong> es la nueva era de la vivienda en Colombia al introducir en las
-					soluciones de vivienda el mar y la arena blanca, elementos que llevará a las
-					ciudades de clima caliente no costeras como Neiva, Ibagué, Montería, Valledupar,
-					Cartagena y Flandes.<br><br>
+					<strong>Mar Adentro</strong> es la nueva era de la vivienda en Colombia al introducir en las soluciones de vivienda el mar y la arena blanca, elementos que llevará a las principales ciudades como Neiva, Ibagué, Montería, Valledupar, Cartagena y Flandes.<br><br>
 
 					<strong>Mar Adentro</strong> es una iniciativa privada que trae la única tecnología capaz de crear
 					una experiencia Caribe. Así <strong>Constructora NIO</strong> mediante alianzas internacionales,
