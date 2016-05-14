@@ -185,13 +185,13 @@ nav.navbar {
   .navbar-header{margin:6%;}
   nav.navbar ul.nav li{margin:0 0 10% 0;}
 
-.colorMsgCenter h1{font-size: 1.5em;margin:10% 0 0 0;}
+.colorMsgCenter h1{font-size: 1.5em;margin:60% 0 0 0;}
 .bgGaleria{background: url(../img/bgGaleria.jpg)no-repeat center center; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      padding: 16%;
+      padding: 5%;
 }
 
 .bgCrystal{background: url(../img/bgCrystal.png)no-repeat center center; 
@@ -199,7 +199,7 @@ nav.navbar {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      padding: 16%;
+      padding: 5%;
 }
 
 .bgUbi{background: url(../img/bgUbi.png)no-repeat bottom center; 
@@ -207,7 +207,7 @@ nav.navbar {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      padding: 16%;
+      padding: 5%;
 }
 
 .bgAme{background: url(../img/bgAme.png)no-repeat center center; 
@@ -215,7 +215,7 @@ nav.navbar {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      padding: 16%;
+      padding: 5%;
 }
 
 
@@ -224,7 +224,7 @@ nav.navbar {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      padding: 16%;
+      padding: 5%;
 }
 
 .bgAmenities2{background: url(../img/ame2.png)no-repeat center center fixed; 
@@ -232,7 +232,7 @@ nav.navbar {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      padding: 16%;
+      padding: 5%;
 }
 
 .bgAmenities3{background: url(../img/ame3.png)no-repeat center center fixed; 
@@ -240,7 +240,7 @@ nav.navbar {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      padding: 16%;
+      padding: 5%;
 }
 
 }
@@ -257,14 +257,14 @@ nav.navbar {
   .navbar-header{margin:6%;}
   nav.navbar ul.nav li{margin:0 0 10% 0;}
 
-.colorMsgCenter h1{font-size: 1.5em;margin:10% 0 0 0;}
+.colorMsgCenter h1{font-size: 1.5em;margin:60% 0 0 0;}
 
 .bgGaleria{background: url(../img/bgGaleria.jpg)no-repeat center center; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      padding: 16%;
+      padding: 5%;
 }
 
 .bgCrystal{background: url(../img/bgCrystal.png)no-repeat center center; 
@@ -272,7 +272,7 @@ nav.navbar {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      padding: 16%;
+      padding: 5%;
 }
 
 .bgUbi{background: url(../img/bgUbi.png)no-repeat bottom center; 
@@ -280,7 +280,7 @@ nav.navbar {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      padding: 16%;
+      padding: 5%;
 }
 
 .bgAme{background: url(../img/bgAme.png)no-repeat center center; 
@@ -288,7 +288,7 @@ nav.navbar {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      padding: 16%;
+      padding: 5%;
 }
 
 
@@ -297,7 +297,7 @@ nav.navbar {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      padding: 16%;
+      padding: 5%;
 }
 
 .bgAmenities2{background: url(../img/ame2.png)no-repeat center center fixed; 
@@ -305,7 +305,7 @@ nav.navbar {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      padding: 16%;
+      padding: 5%;
 }
 
 .bgAmenities3{background: url(../img/ame3.png)no-repeat center center fixed; 
@@ -313,6 +313,6 @@ nav.navbar {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      padding: 16%;
+      padding: 5%;
 }
 }
