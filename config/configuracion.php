@@ -16,7 +16,7 @@ define('_SMTP_USER'										,'noreply@maradentro.com.co');//configurar
 define('_SMTP_PASS'										,'Jg$E3D+u');//configurar
 define('_ES_HTML'										,true);
 //Correo del administrador
-define('_MAIL_ADMIN'									,'kyo20052@gmail.com,catacruz@gmail.com');//configurar
+define('_MAIL_ADMIN'									,'ncastronio@gmail.com,jforero@constructoranio.com,jbeltran@constructoranio.com');//configurar
 
 //BASE DE DATOS
 //Nombre del hosting
