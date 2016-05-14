@@ -1,7 +1,7 @@
 *{font-family: "Roboto"}
 body{font-family: "Roboto"}
 
-.navbar-default{box-shadow: none !important;
+.navbar-fixed-top{box-shadow: none !important;
     border: none;
     background: none;}
 
@@ -23,9 +23,9 @@ nav.navbar ul.nav .active a:hover{
 }
 
 nav.navbar ul{
-	margin: 8% 0 0 0
+	margin: 8% 0 0 0%;
 }
-.wallCabezaHome{background: url(../img/fondo.jpg)no-repeat center center fixed; 
+.wallCabezaHome{background: url(../img/1.jpg)no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -53,7 +53,9 @@ nav.navbar {
 }
  
 /* Color */
- 
+ .carousel-indicators{display: none}
+.carousel-caption h2{font-family: 'Fira Sans', sans-serif !important;font-weight: 300 !important;font-size: 3.0em}
+
 .negro {
   color: #d7d7d7;
   border: solid 1px #333;
@@ -70,37 +72,44 @@ nav.navbar {
 }
 .flechas{margin-top:2%;}
 .redes{color: #064169;font-size: 1.3em}
+.redes2{color: #064169;}
 .clasH2{font-weight: 300}
 .maName{font-weight: 400}
 
-.navbar-default .navbar-toggle{border:none}
-.navbar-default .navbar-toggle:hover{background: transparent;}
+.navbar-fixed-top .navbar-toggle{border:none}
+.navbar-fixed-top .navbar-toggle:hover{background: transparent;}
 
-.navbar-default .navbar-toggle .icon-bar{background: #fff}
+.navbar-fixed-top .navbar-toggle .icon-bar{background: #fff}
 
-.navbar-default .navbar-brand{color:#fff;}
-.navbar-default .navbar-brand:hover{color:#fff;}
+.navbar-fixed-top .navbar-brand{color:#fff;}
+.navbar-fixed-top .navbar-brand:hover{color:#fff;}
 
 /*.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{margin-top:30%;}*/
 
-.margin{margin-top:30%;}
+.margin{margin-top:11%;}
 
-@media only screen and (min-width : 320px) 
+    .navbar-collapse{background:transparent !important;margin:0% 0 0 0 !important}
+@media only screen and (max-width : 320px) 
 {
-    .wallCabezaHome{background: url(../img/fondo.jpg)no-repeat center center; 
+    .wallCabezaHome{background: url(../img/1.jpg)no-repeat center center; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
     }    
+    .carousel-caption{font-size: 0.7em !important}  
+    .navbar-collapse{background:#fff !important;margin:12% 0 0 0 !important;position: relative !important;z-index:20;}
 }
 
 /* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
-   .wallCabezaHome{background: url(../img/fondo.jpg)no-repeat center center; 
+@media only screen and (max-width : 480px) {
+   .wallCabezaHome{background: url(../img/1.jpg)no-repeat center center; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
     }  
+        .carousel-caption{font-size: 0.7em !important}  
+        .navbar-collapse{background:#fff !important;margin:12% 0 0 0 !important;position: relative !important;z-index:20;}
 }
+

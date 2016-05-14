@@ -5,6 +5,10 @@ body{font-family: "Roboto"}
     border: none;
     background: none;}
 
+
+.clasMenPie li a{color:#fff;font-size:0.8em;font-weight: 400}
+.clasMenPie li a:hover{color:#143764;}
+
 nav.navbar ul.nav li a{
     font-family: "Roboto", Helvetica, Arial, sans-serif;
     color:#6c6f6f;
@@ -25,7 +29,7 @@ nav.navbar ul.nav .active a:hover{
 	box-shadow: none;
 	font-weight: 700
 }
-h1 {font-size: 4.0em;font-family: 'Varela Round', sans-serif;text-shadow: 0px 0px 5px #999}
+h1 {font-size: 4.0em;font-family: 'Fira Sans', sans-serif;text-shadow: 0px 0px 5px #999}
 
 .tituloSeccion{font-family: 'Varela Round', sans-serif !important;}
 
@@ -83,7 +87,7 @@ nav.navbar {
 .navbar-default .navbar-toggle{border:none}
 .navbar-default .navbar-toggle:hover{background: transparent;}
 
-.navbar-default .navbar-toggle .icon-bar{background: #fff}
+.navbar-default .navbar-toggle .icon-bar{background: #143764}
 
 .navbar-default .navbar-brand{color:#fff;}
 .navbar-default .navbar-brand:hover{color:#fff;}
@@ -91,7 +95,13 @@ nav.navbar {
 /*.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{margin-top:30%;}*/
 
 .margin{margin-top:0%;}
-.colorMsgCenter{color: #fff}
+.colorMsgCenter{color: #fff;float:left;width: 100%}
+.colorMsgCenter h1{font-size: 2.8em}
+
+.pInternas{color:#797979;font-size:1.2em;font-weight: 300;text-align: justify;}
+.pInternas2{color:#797979;font-size:1.2em;font-weight: 300;text-align: justify;}
+
+
 
 .bgGaleria{background: url(../img/bgGaleria.jpg)no-repeat center center; 
       -webkit-background-size: cover;
@@ -101,22 +111,92 @@ nav.navbar {
       padding: 8%;
 }
 
-@media only screen and (min-width : 320px) 
+.bgCrystal{background: url(../img/bgCrystal.png)no-repeat center center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 8%;
+}
+
+.bgUbi{background: url(../img/bgUbi.png)no-repeat bottom center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 8%;
+}
+
+.bgAme{background: url(../img/bgAme.png)no-repeat center center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 8%;
+}
+
+
+.bgAmenities1{background: url(../img/ame1.png)no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 8%;
+}
+
+.bgAmenities2{background: url(../img/ame2.png)no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 8%;
+}
+
+.bgAmenities3{background: url(../img/ame3.png)no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 8%;
+}
+
+.amenities{padding: 15% !important}
+.amenities h1{font-size:2.5em;}
+.amenities p{font-size:1.2em;font-weight: 300;text-align: center;}
+.btn-ameni{color:#fff;background:url(../img/transBtn.png);border-color:#fff;padding: 1.5% 5%;border-radius:0 }
+.btn-ameni:hover{color:#fff;}
+
+
+
+.saltoGaleria{margin-bottom:5%;}
+.pieBg{background:#143764;color:#fff;font-size:1.2em;font-weight: 300;}
+.textPie{text-align: left;}
+
+@media only screen and (max-width : 320px) 
 {
     .wallCabezaHome{background: url(../img/fondo.jpg)no-repeat center center; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-    }    
+    } 
+
+  nav.navbar ul{margin: 10% 0 2% 0}
+  .navbar-header{margin:6%;}
+  nav.navbar ul.nav li{margin:0 0 10% 0;}
+
 }
 
 /* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
+@media only screen and (max-width : 480px) {
    .wallCabezaHome{background: url(../img/fondo.jpg)no-repeat center center; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
     }  
+  nav.navbar ul{margin: 10% 0 2% 0}
+  .navbar-header{margin:6%;}
+  nav.navbar ul.nav li{margin:0 0 10% 0;}
+
 }

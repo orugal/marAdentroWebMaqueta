@@ -1,0 +1,11 @@
+RewriteEngine On
+#ErrorDocument 404 /noPage.php
+
+RewriteRule ^home$ index.php
+RewriteRule ^galeria$ galeria.php
+RewriteRule ^proyectos$ proyectos.php
+RewriteRule ^amenities$ amenities.php
+RewriteRule ^contacto$ contacto.php
+RewriteRule ^ubicacion$ ubicacion.php
+RewriteRule ^gracias$ contacto.php?gracias
+RewriteRule ^crystalLagoons$ crystalLagoons.php
