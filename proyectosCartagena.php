@@ -7,6 +7,8 @@
 
    Desarrollado por  @orugal
 -->
+
+<?php require("config/configuracion.php"); ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -16,12 +18,12 @@
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,400italic,500italic,700,700italic,900italic,900&subset=latin,greek,vietnamese,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="http://www.maradentro.com.co/css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="http://www.maradentro.com.co/css/bootstrap-theme.css" />
-		<link rel="stylesheet" type="text/css" href="http://www.maradentro.com.co/css/maInt.css" />
-		<link rel="stylesheet" type="text/css" href="http://www.maradentro.com.co/css/blueimp-gallery.min.css" />
-		<link rel="stylesheet" type="text/css" href="http://www.maradentro.com.co/css/bootstrap-image-gallery.min.css" />
-		<link rel="shortcut icon" type="image/x-icon" href="http://www.maradentro.com.co/img/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="<?php echo _DOMINIO?>css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo _DOMINIO?>css/bootstrap-theme.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo _DOMINIO?>css/maInt.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo _DOMINIO?>css/blueimp-gallery.min.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo _DOMINIO?>css/bootstrap-image-gallery.min.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="<?php echo _DOMINIO?>img/favicon.ico" />
 	</head>
 	<body>
 <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
@@ -95,43 +97,43 @@
 							  <div class="carousel-inner" role="listbox">
 
 							  	<!--<div class="item active">
-							      <a href="http://www.maradentro.com.co/img/cartagena/0.jpg" data-gallery><img src="http://www.maradentro.com.co/img/cartagena/0.jpg" alt=""></a>
+							      <a href="<?php echo _DOMINIO?>img/cartagena/0.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/0.jpg" alt=""></a>
 							    </div>-->
 
 							    <div class="item active">
-							      <a href="http://www.maradentro.com.co/img/cartagena/1.jpg" data-gallery><img src="http://www.maradentro.com.co/img/cartagena/1.jpg" alt=""></a>
+							      <a href="<?php echo _DOMINIO?>img/cartagena/1.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/1.jpg" alt=""></a>
 							    </div>
 
 							    <div class="item">
-							      <a href="http://www.maradentro.com.co/img/cartagena/2.jpg" data-gallery><img src="http://www.maradentro.com.co/img/cartagena/2.jpg" alt=""></a>
+							      <a href="<?php echo _DOMINIO?>img/cartagena/2.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/2.jpg" alt=""></a>
 							    </div>
 
 							    <div class="item">
-							      <a href="http://www.maradentro.com.co/img/cartagena/3.jpg" data-gallery><img src="http://www.maradentro.com.co/img/cartagena/3.jpg" alt=""></a>
+							      <a href="<?php echo _DOMINIO?>img/cartagena/3.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/3.jpg" alt=""></a>
 							    </div>
 
 							    <div class="item">
-							      <a href="http://www.maradentro.com.co/img/cartagena/4.jpg" data-gallery><img src="http://www.maradentro.com.co/img/cartagena/4.jpg" alt=""></a>
+							      <a href="<?php echo _DOMINIO?>img/cartagena/4.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/4.jpg" alt=""></a>
 							    </div>
 
 							    <div class="item">
-							      <a href="http://www.maradentro.com.co/img/cartagena/5.png" data-gallery><img src="http://www.maradentro.com.co/img/cartagena/5.png" alt=""></a>
+							      <a href="<?php echo _DOMINIO?>img/cartagena/5.png" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/5.png" alt=""></a>
 							    </div>
 
 							    <div class="item">
-							      <a href="http://www.maradentro.com.co/img/cartagena/6.jpg" data-gallery><img src="http://www.maradentro.com.co/img/cartagena/6.jpg" alt=""></a>
+							      <a href="<?php echo _DOMINIO?>img/cartagena/6.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/6.jpg" alt=""></a>
 							    </div>
 
 							    <div class="item">
-							      <a href="http://www.maradentro.com.co/img/cartagena/7.jpg" data-gallery><img src="http://www.maradentro.com.co/img/cartagena/7.jpg" alt=""></a>
+							      <a href="<?php echo _DOMINIO?>img/cartagena/7.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/7.jpg" alt=""></a>
 							    </div>
 
 							    <div class="item">
-							      <a href="http://www.maradentro.com.co/img/cartagena/8.jpg" data-gallery><img src="http://www.maradentro.com.co/img/cartagena/8.jpg" alt=""></a>
+							      <a href="<?php echo _DOMINIO?>img/cartagena/8.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/8.jpg" alt=""></a>
 							    </div>
 
 							    <div class="item">
-							      <a href="http://www.maradentro.com.co/img/cartagena/9.jpg" data-gallery><img src="http://www.maradentro.com.co/img/cartagena/9.jpg" alt=""></a>
+							      <a href="<?php echo _DOMINIO?>img/cartagena/9.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/9.jpg" alt=""></a>
 							    </div>
 
 							  </div>
@@ -152,7 +154,7 @@
 					<!--<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>-->
-					<!--<a href="http://www.maradentro.com.co/img/cartagena/1.jpg" data-gallery alt="Cocina" title="Cocina">Ver imágenes</a>-->
+					<!--<a href="<?php echo _DOMINIO?>img/cartagena/1.jpg" data-gallery alt="Cocina" title="Cocina">Ver imágenes</a>-->
 				</div>
 			</div>
 		</div>
@@ -162,13 +164,13 @@
 
 
 
-	<script type="text/javascript" src="http://www.maradentro.com.co/js/jquery.min.js"></script>
-	<script type="text/javascript" src="http://www.maradentro.com.co/js/jquery.parallax-1.1.3.js"></script>
-	<script type="text/javascript" src="http://www.maradentro.com.co/js/R-preloadcssimages.jquery.js"></script>
-	<script type="text/javascript" src="http://www.maradentro.com.co/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="http://www.maradentro.com.co/js/jquery.blueimp-gallery.min.js"></script>
-	<script type="text/javascript" src="http://www.maradentro.com.co/js/bootstrap-image-gallery.min.js"></script>
-	<script type="text/javascript" src="http://www.maradentro.com.co/js/ma.js"></script>
+	<script type="text/javascript" src="<?php echo _DOMINIO?>js/jquery.min.js"></script>
+	<script type="text/javascript" src="<?php echo _DOMINIO?>js/jquery.parallax-1.1.3.js"></script>
+	<script type="text/javascript" src="<?php echo _DOMINIO?>js/R-preloadcssimages.jquery.js"></script>
+	<script type="text/javascript" src="<?php echo _DOMINIO?>js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="<?php echo _DOMINIO?>js/jquery.blueimp-gallery.min.js"></script>
+	<script type="text/javascript" src="<?php echo _DOMINIO?>js/bootstrap-image-gallery.min.js"></script>
+	<script type="text/javascript" src="<?php echo _DOMINIO?>js/ma.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function{
 			$('.carousel').carousel({

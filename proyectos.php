@@ -23,6 +23,7 @@ $curacao[1]['img'] = "2.png";
 $curacao[2]['img'] = "3.png";
 
 ?>
+<?php require("config/configuracion.php"); ?>
 
 <!DOCTYPE html>
 <html>
@@ -81,7 +82,7 @@ $curacao[2]['img'] = "3.png";
 
 	<div class="container-fluid bgGaleria">
 		<div class="container text-center colorMsgCenter">
-			<h1>La Nueva Era de la vivienda en Colombia</h1>
+			<h1>Una iniciativa privada lleva el mar a ciudades intermedias</h1>
 		</div>
 	</div>
 
@@ -92,32 +93,35 @@ $curacao[2]['img'] = "3.png";
 				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
 					<h2 class="tituloSeccion">MAR ADENTRO</h2>
 					<p class="pInternas2">
-					Una iniciativa privada lleva por primera vez el mar a ciudades intermedias
-					Un Mar artificial y arena blanca en el centro del país, en Neiva, Huila, el Caribe en
-					el corazón de Colombia, es lo que hace posible la Constructora NIO al traer la
-					única tecnología en el mundo mediante alianzas internacionales en el gran
-					proyecto privado inmobiliario, <strong>Mar Adentro</strong>, que cambiará por completo el estilo
-					de vida en la región y será pionero en el país pues su concepto se extenderá a
-					Ibagué, Montería, Valledupar, Cartagena y Flandes.<br><br>
-					Es el primer proyecto en Colombia con una laguna cristalina de gran formato, que
-					transporta a los visitantes y residentes al Caribe al fundirse el azul de la laguna
-					con el del cielo en un efecto espejo único, relajante, divertido y refrescante a 38
-					grados centígrados en el sur de Neiva, en una zona exclusiva para <strong>Mar Adentro</strong>.
-					En <strong>Mar Adentro</strong> las viviendas están alrededor de la gran laguna, lo que se hace
-					posible en alianza con la líder mundial en la tecnología, Crystal Lagoons,
-					creadora de lagunas cristalinas y mares interiores revolucionando el mercado
-					mundial de vivienda, el amenity top del momento que transforma un lugar
-					tradicional en un paraíso idílico.
-					<strong>Mar Adentro</strong> eleva así la calidad y estilo de vida del colombiano durante los 12
+					<strong>Mar Adentro</strong> es la nueva era de la vivienda en Colombia al introducir en las
+					soluciones de vivienda el mar y la arena blanca, elementos que llevará a las
+					ciudades de clima caliente no costeras como Neiva, Ibagué, Montería, Valledupar,
+					Cartagena y Flandes.<br><br>
 
+					<strong>Mar Adentro</strong> es una iniciativa privada que trae la única tecnología capaz de crear
+					una experiencia Caribe. Así <strong>Constructora NIO</strong> mediante alianzas internacionales,
+					cambia por completo el estilo de vida de los colombianos comenzando por Neiva
+					en el Huila en el mes de mayo.<br><br>
+
+					Se trata de una laguna cristalina de gran formato y una playa con las múltiples
+					sensaciones que esta despierta al fundirse el azul de la laguna con el del cielo en
+					un efecto espejo único, relajante, divertido y refrescante.<br><br>
+
+					En <strong>Mar Adentro</strong> las viviendas están alrededor de la gran laguna, lo que se hace
+					posible en equipo con su aliada líder mundial <strong>Crystal Lagoons</strong>, creadora de
+					lagunas cristalinas y mares interiores que han revolucionado el mercado mundial
+					de vivienda, el amenity top del momento, al convertir un lugar tradicional en un
+					paraíso idílico.<br><br>
+
+					<strong>Mar Adentro</strong> eleva así la calidad y estilo de vida del colombiano durante los 12
 					meses del año.
 					</p>
-					<br>
+					<!--<br>
 					<center><a href="files/Brochure.pdf" target="_blank" type="button" class="btn btn-danger fa fa-file-pdf-o" style="padding:2%;border:none">
 					    <i class="fa fa-file-pdf-o">
 					    	<img src="img/bajar.png" />
 					    </i> Descargar Brochure
-					  </a></center>
+					  </a></center>-->
 				</div>
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
 			</div>
@@ -125,7 +129,48 @@ $curacao[2]['img'] = "3.png";
 		</div>
 	</div>
 
+	<div class="container-fluid" style="padding: 3%;">
+		<div class="container">
+			<div class="row saltoGaleria">
 
+				<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 text-center">
+					<div class="card">
+					  <img class="card-img-top" src="<?php echo _DOMINIO ?>img/portCar.jpg" alt="Neiva">
+					  <div class="card-block">
+					    <h4 class="card-title">NEIVA</h4>
+					    
+					    <a href="<?php echo _DOMINIO ?>proyectos/neiva" class="btn btn-danger" style="padding:2%;border:none">Ver Proyecto</a>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 text-center">
+					<div class="card">
+					  <img class="card-img-top" src="<?php echo _DOMINIO ?>img/portNeiv.jpg" alt="Flandes">
+					  <div class="card-block">
+					    <h4 class="card-title">FLANDES</h4>
+					    
+					    <a href="<?php echo _DOMINIO ?>proyectos/flandes" class="btn btn-danger" style="padding:2%;border:none">Ver Proyecto</a>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 text-center">
+					<div class="card">
+					  <img class="card-img-top" src="<?php echo _DOMINIO ?>img/portNeiv.jpg" alt="Cartagena">
+					  <div class="card-block">
+					    <h4 class="card-title">CARTAGENA</h4>
+					    
+					    <a href="<?php echo _DOMINIO ?>proyectos/cartagena" class="btn btn-danger" style="padding:2%;border:none">Ver Proyecto</a>
+					  </div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>	
+
+<!--
 	<div class="container-fluid" style="padding: 3%;background: #F1F1F1">
 		<div class="container text-center">
 			<div class="row saltoGaleria">
@@ -139,7 +184,7 @@ $curacao[2]['img'] = "3.png";
 					    
 					  </ol>
 
-					  <!-- Wrapper for slides -->
+					  
 					  <div class="carousel-inner" role="listbox">
 						  <?php $cont=1;foreach($curacao as $cu1){ ?>
 						    <div class="item <?php if($cont==1){ echo 'active';}?>">
@@ -148,7 +193,7 @@ $curacao[2]['img'] = "3.png";
 						  <?php $cont++;}?>  
 					  </div>
 
-					  <!-- Left and right controls -->
+					  
 					  <a class="left carousel-control" href="#myCarousel1" role="button" data-slide="prev">
 					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 					    <span class="sr-only">Anterior</span>
@@ -165,7 +210,7 @@ $curacao[2]['img'] = "3.png";
 						 Curacao 352 Viviendas: 29 meses. Aptos de 62 m2<br><br>
 						Todos los apartamentos tendrán un Valor de 135 SMLV + un paquete de acabados + Fee de Laguna + Parqueaderos.
 					</p>
-					<!--<a href="img/big_img1.jpg" data-gallery alt="Cocina" title="Cocina">Ver imágenes</a>-->
+					
 				</div>
 				
 			</div>
@@ -181,7 +226,7 @@ $curacao[2]['img'] = "3.png";
 						  <?php $cont4++;}?>
 					  </ol>
 
-					  <!-- Wrapper for slides -->
+					  
 					  <div class="carousel-inner" role="listbox">
 					     <?php $cont3=1;foreach($aruba as $cu3){ ?>
 						    <div class="item <?php if($cont3==1){ echo 'active';}?>">
@@ -190,7 +235,7 @@ $curacao[2]['img'] = "3.png";
 						  <?php $cont3++;}?> 
 					  </div>
 
-					  <!-- Left and right controls -->
+					  
 					  <a class="left carousel-control" href="#myCarousel3" role="button" data-slide="prev">
 					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 					    <span class="sr-only">Previous</span>
@@ -205,7 +250,7 @@ $curacao[2]['img'] = "3.png";
 					<h4 class="tituloSeccion"> ARUBA</h4>
 					<p class=""> Aruba 528 Viviendas: 17.6 Meses. Aptos de 51, 56 y 65 m2<br><br>
 						Todos los apartamentos tendrán un Valor de 135 SMLV + un paquete de acabados + Fee de Laguna + Parqueaderos.</p>
-					<!--<a href="img/big_img2.jpg" data-gallery alt="Alcoba" title="Alcoba">Ver imágenes</a>-->
+					
 				</div>
 				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 visible-lg visible-md">
 					<div id="myCarousel2" class="carousel slide" data-ride="carousel">
@@ -215,7 +260,7 @@ $curacao[2]['img'] = "3.png";
 						  <?php $cont6++;}?>
 					  </ol>
 
-					  <!-- Wrapper for slides -->
+					  
 					  <div class="carousel-inner" role="listbox">
 					    <?php $cont5=1;foreach($aruba as $cu4){ ?>
 						    <div class="item <?php if($cont5==1){ echo 'active';}?>">
@@ -224,7 +269,7 @@ $curacao[2]['img'] = "3.png";
 						  <?php $cont5++;}?> 
 					  </div>
 
-					  <!-- Left and right controls -->
+					  
 					  <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
 					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 					    <span class="sr-only">Previous</span>
@@ -240,7 +285,7 @@ $curacao[2]['img'] = "3.png";
 
 
 		</div>
-	</div>
+	</div>-->
 
 	<?php include("pie.php") ?>
 

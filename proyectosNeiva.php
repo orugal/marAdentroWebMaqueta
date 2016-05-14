@@ -24,6 +24,7 @@ $curacao[2]['img'] = "3.png";
 
 ?>
 
+<?php require("config/configuracion.php"); ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -33,12 +34,12 @@ $curacao[2]['img'] = "3.png";
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,400italic,500italic,700,700italic,900italic,900&subset=latin,greek,vietnamese,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="http://www.maradentro.com.co/css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="http://www.maradentro.com.co/css/bootstrap-theme.css" />
-		<link rel="stylesheet" type="text/css" href="http://www.maradentro.com.co/css/maInt.css" />
-		<link rel="stylesheet" type="text/css" href="http://www.maradentro.com.co/css/blueimp-gallery.min.css" />
-		<link rel="stylesheet" type="text/css" href="http://www.maradentro.com.co/css/bootstrap-image-gallery.min.css" />
-		<link rel="shortcut icon" type="image/x-icon" href="http://www.maradentro.com.co/img/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="<?php echo _DOMINIO?>css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo _DOMINIO?>css/bootstrap-theme.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo _DOMINIO?>css/maInt.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo _DOMINIO?>css/blueimp-gallery.min.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo _DOMINIO?>css/bootstrap-image-gallery.min.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="<?php echo _DOMINIO?>img/favicon.ico" />
 	</head>
 	<body>
 <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
@@ -90,8 +91,8 @@ $curacao[2]['img'] = "3.png";
 			<div class="row">
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
 				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
-					<h2 class="tituloSeccion">MAR ADENTRO</h2>
-					<p class="pInternas2">
+					<h2 class="tituloSeccion">NEIVA</h2>
+					<!--<p class="pInternas2">
 					Una iniciativa privada lleva por primera vez el mar a ciudades intermedias
 					Un Mar artificial y arena blanca en el centro del país, en Neiva, Huila, el Caribe en
 					el corazón de Colombia, es lo que hace posible la Constructora NIO al traer la
@@ -111,13 +112,7 @@ $curacao[2]['img'] = "3.png";
 					<strong>Mar Adentro</strong> eleva así la calidad y estilo de vida del colombiano durante los 12
 
 					meses del año.
-					</p>
-					<br>
-					<center><a href="http://www.maradentro.com.co/files/Brochure.pdf" target="_blank" type="button" class="btn btn-danger fa fa-file-pdf-o" style="padding:2%;border:none">
-					    <i class="fa fa-file-pdf-o">
-					    	<img src="http://www.maradentro.com.co/img/bajar.png" />
-					    </i> Descargar Brochure
-					  </a></center>
+					</p>-->
 				</div>
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
 			</div>
@@ -126,7 +121,7 @@ $curacao[2]['img'] = "3.png";
 	</div>
 
 
-	<div class="container-fluid" style="padding: 3%;background: #F1F1F1">
+	<div class="container-fluid" style="padding: 3%;">
 		<div class="container text-center">
 			<div class="row saltoGaleria">
 				
@@ -143,7 +138,7 @@ $curacao[2]['img'] = "3.png";
 					  <div class="carousel-inner" role="listbox">
 						  <?php $cont=1;foreach($curacao as $cu1){ ?>
 						    <div class="item <?php if($cont==1){ echo 'active';}?>">
-						      <a href="http://www.maradentro.com.co/img/curacao/<?php echo $cu1['img']?>" data-gallery><img  src="http://www.maradentro.com.co/img/curacao/<?php echo $cu1['img']?>" /></a>
+						      <a href="<?php echo _DOMINIO?>img/curacao/<?php echo $cu1['img']?>" data-gallery><img  src="<?php echo _DOMINIO?>img/curacao/<?php echo $cu1['img']?>" /></a>
 						    </div>
 						  <?php $cont++;}?>  
 					  </div>
@@ -167,7 +162,7 @@ $curacao[2]['img'] = "3.png";
 					</p>
 					<!--<a href="img/big_img1.jpg" data-gallery alt="Cocina" title="Cocina">Ver imágenes</a>-->
 				</div>
-				
+
 			</div>
 
 
@@ -185,7 +180,7 @@ $curacao[2]['img'] = "3.png";
 					  <div class="carousel-inner" role="listbox">
 					     <?php $cont3=1;foreach($aruba as $cu3){ ?>
 						    <div class="item <?php if($cont3==1){ echo 'active';}?>">
-						      <a href="http://www.maradentro.com.co/img/aruba/<?php echo $cu3['img']?>" data-gallery><img src="http://www.maradentro.com.co/img/aruba/<?php echo $cu3['img']?>" /></a>
+						      <a href="<?php echo _DOMINIO?>img/aruba/<?php echo $cu3['img']?>" data-gallery><img src="<?php echo _DOMINIO?>img/aruba/<?php echo $cu3['img']?>" /></a>
 						    </div>
 						  <?php $cont3++;}?> 
 					  </div>
@@ -219,7 +214,7 @@ $curacao[2]['img'] = "3.png";
 					  <div class="carousel-inner" role="listbox">
 					    <?php $cont5=1;foreach($aruba as $cu4){ ?>
 						    <div class="item <?php if($cont5==1){ echo 'active';}?>">
-						      <a href="http://www.maradentro.com.co/img/aruba/<?php echo $cu4['img']?>" data-gallery><img src="http://www.maradentro.com.co/img/aruba/<?php echo $cu4['img']?>" /></a>
+						      <a href="<?php echo _DOMINIO?>img/aruba/<?php echo $cu4['img']?>" data-gallery><img src="<?php echo _DOMINIO?>img/aruba/<?php echo $cu4['img']?>" /></a>
 						    </div>
 						  <?php $cont5++;}?> 
 					  </div>
@@ -236,6 +231,16 @@ $curacao[2]['img'] = "3.png";
 					</div>
 				</div>
 				
+				
+				
+				<div  class="col-lg-12 col-md-12 col-xs-12 col-sm-12 text-left pInternas">
+					<br>
+					<center><a href="<?php echo _DOMINIO?>files/Brochure.pdf" target="_blank" type="button" class="btn btn-danger fa fa-file-pdf-o" style="padding:2%;border:none">
+					    <i class="fa fa-file-pdf-o">
+					    	<img src="<?php echo _DOMINIO?>img/bajar.png" />
+					    </i> Descargar Brochure
+					  </a></center>
+				</div>
 			</div>
 
 
@@ -246,12 +251,12 @@ $curacao[2]['img'] = "3.png";
 
 
 
-	<script type="text/javascript" src="http://www.maradentro.com.co/js/jquery.min.js"></script>
-	<script type="text/javascript" src="http://www.maradentro.com.co/js/jquery.parallax-1.1.3.js"></script>
-	<script type="text/javascript" src="http://www.maradentro.com.co/js/R-preloadcssimages.jquery.js"></script>
-	<script type="text/javascript" src="http://www.maradentro.com.co/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="http://www.maradentro.com.co/js/jquery.blueimp-gallery.min.js"></script>
-	<script type="text/javascript" src="http://www.maradentro.com.co/js/bootstrap-image-gallery.min.js"></script>
-	<script type="text/javascript" src="http://www.maradentro.com.co/js/ma.js"></script>
+	<script type="text/javascript" src="<?php echo _DOMINIO?>js/jquery.min.js"></script>
+	<script type="text/javascript" src="<?php echo _DOMINIO?>js/jquery.parallax-1.1.3.js"></script>
+	<script type="text/javascript" src="<?php echo _DOMINIO?>js/R-preloadcssimages.jquery.js"></script>
+	<script type="text/javascript" src="<?php echo _DOMINIO?>js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="<?php echo _DOMINIO?>js/jquery.blueimp-gallery.min.js"></script>
+	<script type="text/javascript" src="<?php echo _DOMINIO?>js/bootstrap-image-gallery.min.js"></script>
+	<script type="text/javascript" src="<?php echo _DOMINIO?>js/ma.js"></script>
 	</body>
 </html>

@@ -8,6 +8,7 @@ body{font-family: "Roboto"}
 nav.navbar ul.nav li a{
     font-family: "Roboto", Helvetica, Arial, sans-serif;
     color:#005b84;
+    font-size: 0.95em;
 }
 nav.navbar ul.nav .active a{
 	color:#fff;

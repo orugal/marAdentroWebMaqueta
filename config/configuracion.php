@@ -6,6 +6,7 @@
 */
 
 define("_NOMBRE_EMPRESA"                                ,"Mar Adentro");//configurar
+define("_DOMINIO"                 		               ,"http://localhost/marAdentro/");//configurar
 
 //DATOS DE ENVIO DE CORREOS
 define('_DIR_PLUGIN'									,'core/phpmailer/');

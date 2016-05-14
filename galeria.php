@@ -7,6 +7,8 @@
 
    Desarrollado por  @orugal
 -->
+
+<?php require("config/configuracion.php"); ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -87,6 +89,8 @@
 							    <li data-target="#myCarousel" data-slide-to="5"></li>
 							    <li data-target="#myCarousel" data-slide-to="6"></li>
 							    <li data-target="#myCarousel" data-slide-to="7"></li>
+							    <li data-target="#myCarousel" data-slide-to="8"></li>
+							    <li data-target="#myCarousel" data-slide-to="9"></li>
 							  </ol>
 
 							  <!-- Wrapper for slides -->
@@ -97,6 +101,14 @@
 							    </div>-->
 
 							    <div class="item active">
+							      <a href="img/big_img8.jpg" data-gallery><img src="img/big_img8.jpg" alt=""></a>
+							    </div>
+
+							    <div class="item">
+							      <a href="img/big_img9.jpg" data-gallery><img src="img/big_img9.jpg" alt=""></a>
+							    </div>
+
+							    <div class="item">
 							      <a href="img/big_img5.jpg" data-gallery><img src="img/big_img5.jpg" alt=""></a>
 							    </div>
 

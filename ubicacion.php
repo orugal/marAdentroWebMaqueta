@@ -7,6 +7,8 @@
 
    Desarrollado por  @orugal
 -->
+
+<?php require("config/configuracion.php"); ?>
 <!DOCTYPE html>
 <html>
 	<head>
