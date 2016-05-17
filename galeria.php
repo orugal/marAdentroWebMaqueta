@@ -109,19 +109,19 @@
 							    </div>
 
 							    <div class="item">
-							      <a href="img/big_img12.jpg" data-gallery><img src="img/big_img12.jpg" alt=""></a>
+							      <a href="img/big_img10.jpg" data-gallery><img src="img/big_img10.jpg" alt=""></a>
 							    </div>
 
-							    <div class="item">
-							      <a href="img/big_img10.jpg" data-gallery><img src="img/big_img10.jpg" alt=""></a>
+							    <div class="item ">
+							      <a href="img/big_img8.jpg" data-gallery><img src="img/big_img8.jpg" alt=""></a>
 							    </div>
 
 							    <div class="item ">
 							      <a href="img/big_img11.jpg" data-gallery><img src="img/big_img11.jpg" alt=""></a>
 							    </div>
 
-							    <div class="item ">
-							      <a href="img/big_img8.jpg" data-gallery><img src="img/big_img8.jpg" alt=""></a>
+							    <div class="item">
+							      <a href="img/big_img12.jpg" data-gallery><img src="img/big_img12.jpg" alt=""></a>
 							    </div>
 
 							    <div class="item">
