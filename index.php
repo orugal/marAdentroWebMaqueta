@@ -177,11 +177,13 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/ma.js"></script>
 	<script type="text/javascript">
-		$(document).ready(function{
+
+		$(document).ready(function(){
 			$('.carousel').carousel({
 			  interval: 4000
 			})
 		});
+
 	</script>
 	</body>
 </html>
