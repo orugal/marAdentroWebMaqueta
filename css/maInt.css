@@ -15,7 +15,6 @@ nav.navbar ul.nav li a{
     border-right:1px solid #e7ebed;
     padding-top: 0;
     padding-bottom: 0;
-    font-size: 0.85em
 }
 nav.navbar ul.nav .active a{
   color:#fff;
@@ -35,7 +34,7 @@ h1 {font-size: 4.0em;font-family: 'Fira Sans', sans-serif;text-shadow: 0px 0px 5
 .tituloSeccion{font-family: 'Varela Round', sans-serif !important;}
 
 nav.navbar ul{
-	margin: 1% 0 2% 0
+	margin: 4% 0 2% 0
 }
 .wallCabezaHome{background: url(../img/fondo.jpg)no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -316,4 +315,53 @@ nav.navbar {
       background-size: cover;
       padding: 5%;
 }
+}
+
+.mini{font-size:0.8em;}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
 }

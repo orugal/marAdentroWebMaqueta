@@ -15,7 +15,7 @@ var ma =
 		var altoVentana = $("#myCarousel").height();
 		var medio 		= ((parseInt(altoVentana) / 2) - 50);
 		//alert(medio)
-		$(".carousel-caption").css("top",(medio)+"px")
+		//$(".carousel-caption").css("top",(medio)+"px")
 		/*var altoFinal	=  parseInt(altoVentana) - parseInt(100);
 		var altoMenu	=	$(".navbar-default").height();
 		var centroMensajito = ((altoFinal / 2) - parseInt(altoMenu) - 50);

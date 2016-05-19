@@ -23,7 +23,7 @@
 		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
 	</head>
 	<body>
-		<nav class="navbar navbar-fixed-top">
+		<nav class="navbar navbar-fixed-top navbar-center">
 			<div class="container">
 					<div class="container-fluid">
 				    <div class="navbar-header">
@@ -42,55 +42,7 @@
 				    </div>
 
 				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="border:none;box-shadow: none;">
-				      <ul class="nav navbar-nav">
-				        <li class=""><a href="<?php echo _DOMINIO?>marAdentro">MAR ADENTRO</a></li>
-				        <li class="dropdown">
-					         <a href="#" class="dropdown-toggle" data-toggle="dropdown"	>
-					          	LÍNEA ORO <b class="caret"></b>
-					          	<ul class="dropdown-menu">
-							        <li><a href="<?php echo _DOMINIO?>proyectos/neiva">NEIVA</a></li>
-							        <li><a href="<?php echo _DOMINIO?>proyectos/flandes">FLANDES PRÓXIMOS LANZAMIENTOS</a></li>
-							        <li><a href="<?php echo _DOMINIO?>proyectos/cartagena">CARTAGENA PRÓXIMOS LANZAMIENTOS</a></li>
-	        					</ul>
-					        </a>
-				        </li>
-				        <li class="dropdown">
-					         <a href="#" class="dropdown-toggle" data-toggle="dropdown"	>
-					          	LÍNEA PLATINO <b class="caret"></b>
-					          	<ul class="dropdown-menu">
-							        <li><a href="<?php echo _DOMINIO?>">PRONTO</a></li>
-	        					</ul>
-					        </a>
-				        </li>
-				        <li class="dropdown">
-					         <a href="#" class="dropdown-toggle" data-toggle="dropdown"	>
-					          	LÍNEA DIAMANTE <b class="caret"></b>
-					          	<ul class="dropdown-menu">
-							        <li><a href="<?php echo _DOMINIO?>">PRONTO</a></li>
-	        					</ul>
-					        </a>
-				        </li>
-				        <li><a href="<?php echo _DOMINIO?>">LOTES</a></li>
-<!--
-				        <li><a href="<?php echo _DOMINIO?>ubicacion">UBICACIÓN</a></li>
-				        <li class="dropdown">
-					        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-					          	AMENITIES <b class="caret"></b>
-					          	<ul class="dropdown-menu">
-							        <li><a href="<?php echo _DOMINIO?>amenities/neiva">NEIVA</a></li>
-							        <li><a href="#">FLANDES </a></li>
-							        <li><a href="#">CARTAGENA </a></li>
-	        					</ul>
-					        </a>
-				        </li>
-				        <li><a href="<?php echo _DOMINIO?>galeria">GALERÍA</a></li>
-				        -->
-				        <li><a href="<?php echo _DOMINIO?>crystalLagoons">CRYSTAL LAGOONS</a></li>
-				        <li><a href="http://www.constructoranio.com/" target="_blank">CONSTRUCTORA NIO</a></li>
-				        <li><a href="<?php echo _DOMINIO?>contacto">CONTACTO</a></li>
-				      </ul>
-				      
-				      
+				      <?php include("opcMenu.php") ?>
 				    </div>
 				  </div>
 			</div>
@@ -145,13 +97,12 @@
         <a class="right carousel-control" href="#myCarousel" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
-		<div class="container-fluid visible-lg visible-md" style="margin-top:-5%">
+		<!--<div class="container-fluid visible-lg visible-md" style="margin-top:-5%">
 			<div class="container text-center redes">
 				<div class="row">
 					<div class="col-sm-12 col-xs-12 col-md-3 col-lg-3 text-right visible-lg"></div>
 					<div class="col-sm-12 col-xs-12 col-md-3 col-lg-3 text-right">
 						<a href="https://www.facebook.com/ConstructoraNIO/" target="_blank"><img src="img/face.png" width="15%" /></a>
-					<!--<a href="#"><img src="img/youtube.png" width="15%" /></a>-->
 						<a href="https://www.instagram.com/constructora_nio/" target="_blank"><img src="img/insta.png" width="15%" /></a>
 						<a href="https://twitter.com/ConstructoraNIO" target="_blank"><img src="img/twitter.png" width="15%" />	</a>
 					</div>
@@ -162,7 +113,7 @@
 					<div class="col-sm-12 col-xs-12 col-md-3 col-lg-3 text-right visible-lg"></div>
 				</div>
 			</div>
-		</div>
+		</div>-->
     </header>
 
 	<div class="container-fluid" style="margin:1% 0 0 0 ">
@@ -186,6 +137,10 @@
 					<div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 text-center">
 						<h2 class="text-center redes2 clasH2"><span class="maName">MAR ADENTRO</span> TE DA LA BIENVENIDA <a href="" class="" style="margin:0 0 0 1%">
 							<a href="contacto"><img src="img/btnContacto.png" /></a>
+							<a href="https://www.facebook.com/ConstructoraNIO/" target="_blank"><img src="img/face.png" width="3%" /></a>
+					<!--<a href="#"><img src="img/youtube.png" width="3%" /></a>-->
+						<a href="https://www.instagram.com/constructora_nio/" target="_blank"><img src="img/insta.png" width="3%" /></a>
+						<a href="https://twitter.com/ConstructoraNIO" target="_blank"><img src="img/twitter.png" width="3%" />	</a>
 						</a></h2>
 					</div>
 			</div>	

@@ -25,56 +25,7 @@
 
 				    <!-- Collect the nav links, forms, and other content for toggling -->
 				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="border:none;box-shadow: none">
-				      <ul class="nav navbar-nav navbar-right">
-				        <li><a href="<?php echo _DOMINIO?>marAdentro">MAR ADENTRO</a></li>
-				        <li class="dropdown">
-					         <a href="#" class="dropdown-toggle" data-toggle="dropdown"	>
-					          	LÍNEA ORO <b class="caret"></b>
-					          	<ul class="dropdown-menu">
-							        <li><a href="<?php echo _DOMINIO?>proyectos/neiva">NEIVA</a></li>
-							        <li><a href="<?php echo _DOMINIO?>proyectos/flandes">FLANDES PRÓXIMOS LANZAMIENTOS</a></li>
-							        <li><a href="<?php echo _DOMINIO?>proyectos/cartagena">CARTAGENA PRÓXIMOS LANZAMIENTOS</a></li>
-	        					</ul>
-					        </a>
-				        </li>
-				        <li class="dropdown">
-					         <a href="#" class="dropdown-toggle" data-toggle="dropdown"	>
-					          	LÍNEA PLATINO <b class="caret"></b>
-					          	<ul class="dropdown-menu">
-							        <li><a href="<?php echo _DOMINIO?>">PRONTO</a></li>
-	        					</ul>
-					        </a>
-				        </li>
-				        <li class="dropdown">
-					         <a href="#" class="dropdown-toggle" data-toggle="dropdown"	>
-					          	LÍNEA DIAMANTE <b class="caret"></b>
-					          	<ul class="dropdown-menu">
-							        <li><a href="<?php echo _DOMINIO?>">PRONTO</a></li>
-	        					</ul>
-					        </a>
-				        </li>
-				        <li><a href="<?php echo _DOMINIO?>">LOTES</a></li>
-
-				        <!--
-				        <li><a href="<?php echo _DOMINIO?>ubicacion">UBICACIÓN</a></li>
-				        <li class="dropdown">
-					        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-					          	AMENITIES <b class="caret"></b>
-					          	<ul class="dropdown-menu">
-							        <li><a href="<?php echo _DOMINIO?>amenities/neiva">NEIVA</a></li>
-							        <li><a href="#">FLANDES </a></li>
-							        <li><a href="#">CARTAGENA </a></li>
-	        					</ul>
-					        </a>
-				        </li>
-				        <li><a href="<?php echo _DOMINIO?>galeria">GALERÍA</a></li>
-				        -->
-				        <li><a href="<?php echo _DOMINIO?>crystalLagoons">CRYSTAL LAGOONS</a></li>
-				        <li><a href="http://www.constructoranio.com/" target="_blank">CONSTRUCTORA NIO</a></li>
-				        <li><a href="<?php echo _DOMINIO?>contacto">CONTACTO</a></li>
-				      </ul>
-				      
-				      
+				      <?php include("opcMenu.php") ?>
 				    </div><!-- /.navbar-collapse -->
 				  </div><!-- /.container-fluid -->
 			</nav>
