@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Mar Adentro</title>
+		<title>Mar Adentro - Home</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta charset=utf-8>
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,400italic,500italic,700,700italic,900italic,900&subset=latin,greek,vietnamese,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
@@ -46,7 +46,7 @@
 				        <li class=""><a href="<?php echo _DOMINIO?>marAdentro">MAR ADENTRO</a></li>
 				        <li class="dropdown">
 					         <a href="#" class="dropdown-toggle" data-toggle="dropdown"	>
-					          	PROYECTOS <b class="caret"></b>
+					          	LÍNEA ORO <b class="caret"></b>
 					          	<ul class="dropdown-menu">
 							        <li><a href="<?php echo _DOMINIO?>proyectos/neiva">NEIVA</a></li>
 							        <li><a href="<?php echo _DOMINIO?>proyectos/flandes">FLANDES PRÓXIMOS LANZAMIENTOS</a></li>
@@ -54,6 +54,24 @@
 	        					</ul>
 					        </a>
 				        </li>
+				        <li class="dropdown">
+					         <a href="#" class="dropdown-toggle" data-toggle="dropdown"	>
+					          	LÍNEA PLATINO <b class="caret"></b>
+					          	<ul class="dropdown-menu">
+							        <li><a href="<?php echo _DOMINIO?>">PRONTO</a></li>
+	        					</ul>
+					        </a>
+				        </li>
+				        <li class="dropdown">
+					         <a href="#" class="dropdown-toggle" data-toggle="dropdown"	>
+					          	LÍNEA DIAMANTE <b class="caret"></b>
+					          	<ul class="dropdown-menu">
+							        <li><a href="<?php echo _DOMINIO?>">PRONTO</a></li>
+	        					</ul>
+					        </a>
+				        </li>
+				        <li><a href="<?php echo _DOMINIO?>">LOTES</a></li>
+<!--
 				        <li><a href="<?php echo _DOMINIO?>ubicacion">UBICACIÓN</a></li>
 				        <li class="dropdown">
 					        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -66,8 +84,9 @@
 					        </a>
 				        </li>
 				        <li><a href="<?php echo _DOMINIO?>galeria">GALERÍA</a></li>
+				        -->
 				        <li><a href="<?php echo _DOMINIO?>crystalLagoons">CRYSTAL LAGOONS</a></li>
-				        <li><a href="http://www.constructoranio.com/" target="_blank">NIO</a></li>
+				        <li><a href="http://www.constructoranio.com/" target="_blank">CONSTRUCTORA NIO</a></li>
 				        <li><a href="<?php echo _DOMINIO?>contacto">CONTACTO</a></li>
 				      </ul>
 				      

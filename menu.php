@@ -16,7 +16,7 @@
 				        <span class="icon-bar"></span>
 				      </button>
 				      <a class="navbar-brand visible-lg visible-md margin" href="<?php echo _DOMINIO?>home">
-				      	<img src="<?php echo _DOMINIO?>img/logo2.png"/>
+				      	<img src="<?php echo _DOMINIO?>img/logo2.png" width="90%"/>
 				      </a>
 				      <a class="navbar-brand visible-xs visible-sm" href="<?php echo _DOMINIO?>home" style="margin-top:-10%">
 				      	<img src="<?php echo _DOMINIO?>img/logo2.png"/>
@@ -29,7 +29,7 @@
 				        <li><a href="<?php echo _DOMINIO?>marAdentro">MAR ADENTRO</a></li>
 				        <li class="dropdown">
 					         <a href="#" class="dropdown-toggle" data-toggle="dropdown"	>
-					          	PROYECTOS <b class="caret"></b>
+					          	LÍNEA ORO <b class="caret"></b>
 					          	<ul class="dropdown-menu">
 							        <li><a href="<?php echo _DOMINIO?>proyectos/neiva">NEIVA</a></li>
 							        <li><a href="<?php echo _DOMINIO?>proyectos/flandes">FLANDES PRÓXIMOS LANZAMIENTOS</a></li>
@@ -37,20 +37,40 @@
 	        					</ul>
 					        </a>
 				        </li>
+				        <li class="dropdown">
+					         <a href="#" class="dropdown-toggle" data-toggle="dropdown"	>
+					          	LÍNEA PLATINO <b class="caret"></b>
+					          	<ul class="dropdown-menu">
+							        <li><a href="<?php echo _DOMINIO?>">PRONTO</a></li>
+	        					</ul>
+					        </a>
+				        </li>
+				        <li class="dropdown">
+					         <a href="#" class="dropdown-toggle" data-toggle="dropdown"	>
+					          	LÍNEA DIAMANTE <b class="caret"></b>
+					          	<ul class="dropdown-menu">
+							        <li><a href="<?php echo _DOMINIO?>">PRONTO</a></li>
+	        					</ul>
+					        </a>
+				        </li>
+				        <li><a href="<?php echo _DOMINIO?>">LOTES</a></li>
+
+				        <!--
 				        <li><a href="<?php echo _DOMINIO?>ubicacion">UBICACIÓN</a></li>
 				        <li class="dropdown">
 					        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 					          	AMENITIES <b class="caret"></b>
 					          	<ul class="dropdown-menu">
 							        <li><a href="<?php echo _DOMINIO?>amenities/neiva">NEIVA</a></li>
-							        <li><a href="#">FLANDES</a></li>
-							        <li><a href="#">CARTAGENA</a></li>
+							        <li><a href="#">FLANDES </a></li>
+							        <li><a href="#">CARTAGENA </a></li>
 	        					</ul>
 					        </a>
 				        </li>
 				        <li><a href="<?php echo _DOMINIO?>galeria">GALERÍA</a></li>
+				        -->
 				        <li><a href="<?php echo _DOMINIO?>crystalLagoons">CRYSTAL LAGOONS</a></li>
-				        <li><a href="http://www.constructoranio.com/" target="_blank">NIO</a></li>
+				        <li><a href="http://www.constructoranio.com/" target="_blank">CONSTRUCTORA NIO</a></li>
 				        <li><a href="<?php echo _DOMINIO?>contacto">CONTACTO</a></li>
 				      </ul>
 				      

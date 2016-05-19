@@ -15,6 +15,7 @@ nav.navbar ul.nav li a{
     border-right:1px solid #e7ebed;
     padding-top: 0;
     padding-bottom: 0;
+    font-size: 0.85em
 }
 nav.navbar ul.nav .active a{
   color:#fff;
@@ -34,7 +35,7 @@ h1 {font-size: 4.0em;font-family: 'Fira Sans', sans-serif;text-shadow: 0px 0px 5
 .tituloSeccion{font-family: 'Varela Round', sans-serif !important;}
 
 nav.navbar ul{
-	margin: 4% 0 2% 0
+	margin: 1% 0 2% 0
 }
 .wallCabezaHome{background: url(../img/fondo.jpg)no-repeat center center fixed; 
   -webkit-background-size: cover;
