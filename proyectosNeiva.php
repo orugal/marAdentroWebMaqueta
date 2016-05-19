@@ -83,7 +83,6 @@ $curacao[2]['img'] = "3.png";
 	<div class="container-fluid bgGaleria">
 		<div class="container text-center colorMsgCenter">
 			<!--<h1>La Nueva Era de la vivienda en Colombia</h1>-->
-			<h1>NEIVA</h1>
 		</div>
 	</div>
 
@@ -92,7 +91,7 @@ $curacao[2]['img'] = "3.png";
 			<div class="row">
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
 				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
-					<!--<h1>NEIVA</h1>-->
+					<h1>NEIVA</h1>
 					<img src="<?php echo _DOMINIO ?>img/big_img13.jpg" class="img-thumbnail"><br><br>
 					<p class="pInternas">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -114,7 +113,7 @@ $curacao[2]['img'] = "3.png";
 	</div>
 
 
-	<div class="container-fluid" style="padding: 3%;">
+	<div class="container-fluid" style="padding: 3%;background:#f1f1f1">
 		<div class="container text-center">
 
 			<div class="row saltoGaleria">

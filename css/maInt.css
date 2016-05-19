@@ -365,3 +365,5 @@ nav.navbar {
     -moz-border-radius: 6px 0 6px 6px;
     border-radius: 6px 0 6px 6px;
 }
+
+.tab-content>.active{background: #fff;padding: 2%;border-radius:0 5px 5px 5px;border-left:1px solid #DDDDDD;border-right:1px solid #DDDDDD;border-bottom:1px solid #DDDDDD;}
