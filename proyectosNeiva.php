@@ -80,7 +80,7 @@ $curacao[2]['img'] = "3.png";
 
 	<?php include("menu.php") ?>
 
-	<div class="container-fluid bgGaleria">
+	<div class="container-fluid bgNeiva">
 		<div class="container text-center colorMsgCenter">
 			<h1>&nbsp;<!--La Nueva Era de la vivienda en Colombia--></h1>
 		</div>
@@ -214,12 +214,96 @@ $curacao[2]['img'] = "3.png";
 					        <!-- Fin Tab 2-->
 					        <div class="tab-pane" id="yellow">
 					            <h2 class="tituloSeccion text-left">AMENITIES</h2>
-					            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					           <!-- Inicio galería aennities-->
+					           	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+							  <ol class="carousel-indicators">
+							    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							    <li data-target="#myCarousel" data-slide-to="1"></li>
+							    <li data-target="#myCarousel" data-slide-to="2"></li>
+							    <li data-target="#myCarousel" data-slide-to="3"></li>
+							    <li data-target="#myCarousel" data-slide-to="4"></li>
+							    <li data-target="#myCarousel" data-slide-to="5"></li>
+							    <li data-target="#myCarousel" data-slide-to="6"></li>
+							    <li data-target="#myCarousel" data-slide-to="7"></li>
+							    <li data-target="#myCarousel" data-slide-to="8"></li>
+							    <!--<li data-target="#myCarousel" data-slide-to="9"></li>
+							    <li data-target="#myCarousel" data-slide-to="10"></li>
+							    <li data-target="#myCarousel" data-slide-to="11"></li>
+							    <li data-target="#myCarousel" data-slide-to="12"></li>
+							    <li data-target="#myCarousel" data-slide-to="13"></li>-->
+							  </ol>
+
+							  <!-- Wrapper for slides -->
+							  <div class="carousel-inner" role="listbox">
+
+							  	<!--<div class="item active">
+							      <a href="img/big_img0.jpg" data-gallery><img src="img/big_img0.jpg" alt=""></a>
+							    </div>-->
+
+							    <!--<div class="item active">
+							      <a href="img/big_img13.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img13.jpg" alt=""></a>
+							    </div>
+
+							    <div class="item">
+							      <a href="img/big_img10.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img10.jpg" alt=""></a>
+							    </div>-->
+
+							    <div class="item active">
+							      <a href="img/big_img8.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img8.jpg" alt=""></a>
+							    </div>
+
+							    <div class="item ">
+							      <a href="img/big_img11.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img11.jpg" alt=""></a>
+							    </div>
+
+							    <!--<div class="item">
+							      <a href="img/big_img12.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img12.jpg" alt=""></a>
+							    </div>-->
+
+							    <div class="item">
+							      <a href="img/big_img9.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img9.jpg" alt=""></a>
+							    </div>
+
+							    <!--<div class="item">
+							      <a href="img/big_img5.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img5.jpg" alt=""></a>
+							    </div>-->
+
+							    <div class="item">
+							      <a href="img/big_img6.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img6.jpg" alt=""></a>
+							    </div>
+
+							    <div class="item">
+							      <a href="img/big_img7.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img7.jpg" alt=""></a>
+							    </div>
+
+							    <div class="item ">
+							      <a href="img/big_img1.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img1.jpg" alt=""></a>
+							    </div>
+
+							    <div class="item">
+							      <a href="img/big_img2.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img2.jpg" alt=""></a>
+							    </div>
+
+							    <div class="item">
+							      <a href="img/big_img3.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img3.jpg" alt=""></a>
+							    </div>
+
+							    <!--<div class="item">
+							      <a href="img/big_img4.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img4.jpg" alt=""></a>
+							    </div>-->
+							  </div>
+
+							  <!-- Left and right controls -->
+							  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							    <span class="sr-only">Previous</span>
+							  </a>
+							  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							    <span class="sr-only">Next</span>
+							  </a>
+							</div>
+					           <!--Fin galerí menities-->
 					        </div>
 					        <div class="tab-pane" id="green">
 					            <h2 class="tituloSeccion text-left">UBICACIÓN</h2>

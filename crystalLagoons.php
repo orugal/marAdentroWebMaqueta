@@ -61,6 +61,10 @@ químicos que los sistemas convencionales de piscina y consume solo un 2% de la
 
 energía utilizada por los sistemas tradicionales de filtración.
 <br><br>
+
+					<center>
+						<iframe width="100%" height="400" src="https://www.youtube.com/embed/6tff6t0FKA8" frameborder="0" allowfullscreen></iframe>
+					</center><br><br>
 					<center><a class="btn btn-danger" href="http://www.crystal-lagoons.com/" style="padding:2%;border:none" target="_blank" title="CRYSTAL LAGOONS">Visitar Sitio Oficial</a></center>
 					</p>
 				</div>

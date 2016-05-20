@@ -7,22 +7,6 @@
 
    Desarrollado por  @orugal
 -->
-<?php 
-
-$aruba[0]['img'] = "1.png";
-$aruba[1]['img'] = "2.png";
-$aruba[2]['img'] = "3.png";
-$aruba[3]['img'] = "4.png";
-$aruba[4]['img'] = "5.png";
-$aruba[5]['img'] = "6.png";
-$aruba[6]['img'] = "7.png";
-
-
-$curacao[0]['img'] = "1.png";
-$curacao[1]['img'] = "2.png";
-$curacao[2]['img'] = "3.png";
-
-?>
 
 <?php require("config/configuracion.php"); ?>
 <!DOCTYPE html>
@@ -80,57 +64,22 @@ $curacao[2]['img'] = "3.png";
 
 	<?php include("menu.php") ?>
 
-	<div class="container-fluid bgAme">
+	<div class="container-fluid bgGaleria">
 		<div class="container text-center colorMsgCenter">
-			<h1>&nbsp;<!--La Nueva Era de la vivienda en Colombia--></h1>
-		</div>
-	</div>
-
-	<div class="container-fluid" style="padding: 3%">
-		<div class="container text-center">
-			<div class="row">
-				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
-				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
-					<h1>CARTAGENA</h1>
-					<!--<img src="<?php echo _DOMINIO ?>img/big_img13.jpg" class="img-thumbnail"><br><br>
-					<p class="pInternas">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<br>
-					<center><a href="<?php echo _DOMINIO?>files/Brochure.pdf" target="_blank" type="button" class="btn btn-danger fa fa-file-pdf-o" style="padding:2%;border:none">
-					    <i class="fa fa-file-pdf-o">
-					    	<img src="<?php echo _DOMINIO?>img/bajar.png" />
-					    </i> Descargar Brochure
-					  </a></center>-->
-				</div>
-				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
-			</div>
-			
+			<!--<h1>Lorem ipsum dolor sit amet</h1>-->
 		</div>
 	</div>
 
 
-	<div class="container-fluid" style="padding: 3%;background:#f1f1f1">
-		<div class="container text-center">
 
+	<div class="container-fluid" style="padding: 3%;">
+		<div class="container text-center">
 			<div class="row saltoGaleria">
-				<div class="col-lg-1 col-md-1 visible-lg visible-md"></div>
-				<div class="col-lg-10 col-md-10 col-xs-12 col-sm-12">
-					<div id="content">
-					    <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
-					       <!-- <li class="active"><a href="#red" data-toggle="tab">CURACAO</a></li>
-					        <li><a href="#orange" data-toggle="tab">ARUBA</a></li>-->
-					        <li class="active"><a href="#yellow" data-toggle="tab">AMENITIES</a></li>
-					        <li><a href="#green" data-toggle="tab">UBICACIÓN</a></li>
-					    </ul>
-					    <div id="my-tab-content" class="tab-content">
+				<h2 class="tituloSeccion text-left">CARTAGENA</h2><br>
+				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 text-left pInternas"></div>
+				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
 
-					        <div class="tab-pane active" id="yellow">
-					            <h2 class="tituloSeccion text-left">AMENITIES</h2>
-					           	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
 							  <ol class="carousel-indicators">
 							    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 							    <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -204,49 +153,15 @@ $curacao[2]['img'] = "3.png";
 							    <span class="sr-only">Next</span>
 							  </a>
 							</div>
-					           
-					        </div>
-					        <div class="tab-pane" id="green">
-					            <h2 class="tituloSeccion text-left">UBICACIÓN</h2>
-					            <div class="row">
-									<!--<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-
-										<p class="text-left">
-											
-										</p>
-										<h2 style="text-align: left;margin:1% 0 0 0 !important;padding:0;font-size: 1.8em;font-weight: 400;text-transform:uppercase">Neiva</h2>
-										<p class="text-left">Sala de ventas: Ciudadela NIO, AV. 26 No. 41-66<br>
-										Cel.: (+57) 315 707 6127<br>
-										Tel.: (8) 8677190<br>
-										info@constructoranio.com</p><br>
-										<h2 style="text-align: left;margin:1% 0 0 0 !important;padding:0;font-size: 1.8em;font-weight: 400;text-transform:uppercase">Bogotá</h2>
-										<p class="text-left">Constructora NIO S.A.<br>
-										Calle 79 No. 8 - 38<br>
-										Cel.: (+57) 350 860 1628<br>
-										Lunes a Viernes - 8:00 a.m. - 5:30 p.m.</p>
-										<br>
-										<h2 style="text-align: left;margin:1% 0 0 0 !important;padding:0;font-size: 1.8em;font-weight: 400">UBICACIÓN LOTE</h2>
-										<p  class="text-left">
-					Ubicado en el sur de la ciudad, zona de gran desarrollo, sobre la avenida al  Caguán<br><br>
-										<a href="https://www.google.it/maps/@2.8881221,-75.269591,14z" target="_blank">Ver en Google Maps</a>
-					</p>
-									</div>-->
-									<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
-										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35858.61345027936!2d-75.50363976608452!3d10.4401745109381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef625e7ae9d1351%3A0xb161392e033f26ca!2sCartagena%2C+Bol%C3%ADvar!5e1!3m2!1ses!2sco!4v1463745167895" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-									
-									</div>
-								</div>
-					        </div>
-					        <!--<div class="tab-pane" id="blue">
-					            <h2 class="tituloSeccion text-left">Blue</h2>
-					            <p>blue blue blue blue blue</p>
-					        </div>-->
-					    </div>
-					</div>
 				</div>
-				<div class="col-lg-1 col-md-1 visible-lg visible-md"></div>
+				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 text-left pInternas">
+					<!--<h4 class="tituloSeccion">COCINA</h4>-->
+					<!--<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>-->
+					<!--<a href="<?php echo _DOMINIO?>img/cartagena/1.jpg" data-gallery alt="Cocina" title="Cocina">Ver imágenes</a>-->
+				</div>
 			</div>
-
 		</div>
 	</div>
 
@@ -261,5 +176,12 @@ $curacao[2]['img'] = "3.png";
 	<script type="text/javascript" src="<?php echo _DOMINIO?>js/jquery.blueimp-gallery.min.js"></script>
 	<script type="text/javascript" src="<?php echo _DOMINIO?>js/bootstrap-image-gallery.min.js"></script>
 	<script type="text/javascript" src="<?php echo _DOMINIO?>js/ma.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function{
+			$('.carousel').carousel({
+			  interval: 2000
+			})
+		});
+	</script>
 	</body>
 </html>
