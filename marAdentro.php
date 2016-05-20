@@ -91,27 +91,50 @@ $curacao[2]['img'] = "3.png";
 			<div class="row">
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
 				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
-					<h2 class="tituloSeccion">MAR ADENTRO</h2>
+					<h1 class="tituloSeccion">MAR ADENTRO</h1>
 					<p class="pInternas2">
-					<strong>Mar Adentro</strong> es la nueva era de la vivienda en Colombia al introducir en las soluciones de vivienda el mar y la arena blanca, elementos que llevará a las principales ciudades como Neiva, Ibagué, Montería, Valledupar, Cartagena y Flandes.<br><br>
-
-					<strong>Mar Adentro</strong> es una iniciativa privada que trae la única tecnología capaz de crear
-					una experiencia Caribe. Así <strong>Constructora NIO</strong> mediante alianzas internacionales,
-					cambia por completo el estilo de vida de los colombianos comenzando por Neiva
-					en el Huila en el mes de mayo.<br><br>
-
+					<strong>Mar Adentro</strong> es la nueva era de la vivienda en Colombia al introducir en las
+					soluciones de vivienda el mar y la arena blanca, elementos que llevará a las
+					principales ciudades como Neiva, Ibagué, Montería, Valledupar, Cartagena y
+					Flandes, entre otras.<br><br>
+					<strong>Mar Adentro</strong> es una iniciativa privada que trae la única tecnología capaz de
+					crear una experiencia Caribe. Así <strong>Constructora NIO</strong> mediante alianzas
+					internacionales, cambia por completo el estilo de vida de los colombianos.
 					Se trata de una laguna cristalina de gran formato y una playa con las múltiples
-					sensaciones que esta despierta al fundirse el azul de la laguna con el del cielo en
-					un efecto espejo único, relajante, divertido y refrescante.<br><br>
-
-					En <strong>Mar Adentro</strong> las viviendas están alrededor de la gran laguna, lo que se hace
-					posible en equipo con su aliada líder mundial <strong>Crystal Lagoons</strong>, creadora de
-					lagunas cristalinas y mares interiores que han revolucionado el mercado mundial
-					de vivienda, el amenity top del momento, al convertir un lugar tradicional en un
-					paraíso idílico.<br><br>
-
-					<strong>Mar Adentro</strong> eleva así la calidad y estilo de vida del colombiano durante los 12
-					meses del año.
+					sensaciones que esta despierta al fundirse el azul de la laguna con el del cielo
+					en un efecto espejo único, relajante, divertido y refrescante.
+					En <strong>Mar Adentro</strong> las viviendas están alrededor de la gran laguna, lo que se
+					hace posible en equipo con su aliada líder mundial Crystal Lagoons, creadora
+					de lagunas cristalinas y mares interiores que han revolucionado el mercado
+					mundial de vivienda, el amenity top del momento, al convertir un lugar
+					tradicional en un paraíso idílico.<br><br>
+					<strong>Mar Adentro</strong> eleva así la calidad y estilo de vida de los colombianos.
+					Los proyectos van a estar en categorías Gold, Platino y Diamante de acuerdo
+					con las características de diversos tipos de apartamentos.<br><br>
+					<strong>Mar Adentro Gold:</strong> conjuntos residenciales con viviendas de $40 a $ 200
+					Millones, acabados básicos e índices de ocupación de lote de más del 40%.
+					Tiene mesón de la cocina, mueble inferior de la cocina, piso en porcelanato,
+					paredes pintadas y terminadas; carpintería en madera básica, clósets y mueble
+					inferior del baño. Todo el apartamento se entrega terminado con carpintería en las
+					alcobas, todas las puertas y los clósets.<br><br>
+					<strong>Mar Adentro Platino:</strong> viviendas entre $ 200 y $ 500 Millones, acabados
+					intermedios e índices de ocupación de lote entre 30% y 40%.
+					Los acabados intermedios tienen mesón de la cocina, mueble inferior de la cocina,
+					piso en porcelanato, paredes pintadas y terminadas; carpintería en madera básica,
+					clósets y mueble inferior del baño. Todo el apartamento se entrega terminado con
+					carpintería en las alcobas, todas las puertas y los clósets.
+					Los clósets vienen con varios cajones, las puertas de los clósets son de una
+					madera de alta calidad con un diseño de vanguardia; el apartamento tiene
+					acabados finos, como el mesón del baño en mármol y trae accesorios como tomas
+					y enchufes básicos.<br><br>
+					<strong>Mar Adentro Diamante:</strong> viviendas de más de $ 500 Millones, acabados de lujo e
+					índices de ocupación de lote menores al 30%.
+					Con acabados de lujo en materiales y mármoles importados, iluminaciones de
+					vanguardia, con domótica, controlado desde el ipad la persiana de la cocina, el
+					aire acondicionado, con elevados estándares de calidad.
+					El porcentaje de ocupación es inferior, lo cual le da mayor espacio para zonas
+					verdes, parqueaderos, parques para los niños, mayor espacio entre torres, y otros
+					beneficios exclusivos de este formato.
 					</p>
 					<!--<br>
 					<center><a href="files/Brochure.pdf" target="_blank" type="button" class="btn btn-danger fa fa-file-pdf-o" style="padding:2%;border:none">

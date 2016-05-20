@@ -93,12 +93,13 @@ $curacao[2]['img'] = "3.png";
 				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
 					<h1>NEIVA</h1>
 					<img src="<?php echo _DOMINIO ?>img/big_img13.jpg" class="img-thumbnail"><br><br>
-					<p class="pInternas">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p class="pInternas">La primera ciudad privilegiada con esta novedosa solución de vivienda que cambia
+						por completo el estilo de vida de sus habitantes y visitantes, será Neiva, en la
+						capital del Huila, a 38 grados centígrados, en la Hacienda la Cecilia Kilómetro 3
+						vía al corregimiento el Caguán.
+						En Neiva lanzamos el primer proyecto Mar Adentro Gold, con dos manzanas
+						independientes llamadas Aruba y Curacao.
+					</p>
 					<br>
 					<center><a href="<?php echo _DOMINIO?>files/Brochure.pdf" target="_blank" type="button" class="btn btn-danger fa fa-file-pdf-o" style="padding:2%;border:none">
 					    <i class="fa fa-file-pdf-o">
@@ -165,8 +166,13 @@ $curacao[2]['img'] = "3.png";
 
 											<h4 class="tituloSeccion"> CURACAO</h4>
 											<p class="">
-												 Curacao 352 Viviendas: 29 meses. Aptos de 62 m2<br><br>
-												Todos los apartamentos tendrán un Valor de 135 SMLV + un paquete de acabados + Fee de Laguna + Parqueaderos.
+												está conformado por 352 apartamentos de tipo vacacional de 61 M2 de
+												dos alcobas principales autónomas e independientes, enfocado a la recreación,
+												cada una con clósets y baños.
+												Entre las dos alcobas está la sala comedor y la cocina en un estilo de vanguardia.
+												Tendrá acceso a la laguna con una zona privada con un espejo de agua para
+												que, sin la necesidad de bañarse, puedan gozar de un espacio social exclusivo
+												del conjunto.
 											</p>
 											<!--<a href="img/big_img1.jpg" data-gallery alt="Cocina" title="Cocina">Ver imágenes</a>-->
 										</div>
@@ -205,8 +211,16 @@ $curacao[2]['img'] = "3.png";
 									</div>
 									<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 text-left pInternas">
 										<h4 class="tituloSeccion"> ARUBA</h4>
-										<p class=""> Aruba 528 Viviendas: 17.6 Meses. Aptos de 51, 56 y 65 m2<br><br>
-											Todos los apartamentos tendrán un Valor de 135 SMLV + un paquete de acabados + Fee de Laguna + Parqueaderos.</p>
+										<p class=""> 
+											Está conformada por 440 apartamentos de 51 M2, 56 M2 y 65 M2 con
+											programas entre 2 y 3 alcobas.
+											Son apartamentos tradicionales que tienen varios tipos: uno de dos alcobas, otro
+											con media alcoba adicional con la versatilidad para crear allí una habitación de
+											una cama, aumentar el espacio de la sala comedor, crear un estudio, armar sala
+											de televisión, costurero o ampliar la zona social.
+											Otro de 65m2 de 3 alcobas con un estudio en un formato más familiar tradicional.
+											La manzana Aruba tiene su salón comunal, portería con salida a la laguna.
+										</p>
 										<!--<a href="img/big_img2.jpg" data-gallery alt="Alcoba" title="Alcoba">Ver imágenes</a>-->
 									</div>
 								</div>
