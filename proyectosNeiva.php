@@ -82,7 +82,7 @@ $curacao[2]['img'] = "3.png";
 
 	<div class="container-fluid bgGaleria">
 		<div class="container text-center colorMsgCenter">
-			<!--<h1>La Nueva Era de la vivienda en Colombia</h1>-->
+			<h1>&nbsp;<!--La Nueva Era de la vivienda en Colombia--></h1>
 		</div>
 	</div>
 

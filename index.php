@@ -20,6 +20,7 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
 		<link rel="stylesheet" type="text/css" href="css/ma.css" />
 		<link rel="stylesheet" type="text/css" href="css/full-slider.css" />
+		<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
 		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
 	</head>
 	<body>
@@ -63,29 +64,33 @@
                 <div class="fill" style="background-image:url('img/1.jpg');"></div>
                 <div class="carousel-caption" style="text-align: left;">
                     <!--<h2>Caption 1</h2>-->
-                    <h2>La sensación del caribe al interior de Colombia.</h2>
+                    <h2 class="text-center">
+                    <!--<i class="fa fa-leaf" aria-hidden="true"></i> -->
+                    La sensación del caribe al interior de Colombia.</h2>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the first background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('img/2.jpg');"></div>
                 <div class="carousel-caption" style="text-align: left;">
-                    <!--<h2>Caption 1</h2>-->
-                    <h2>Nuestra meta es brindarle la mejor Calidad de Vida.</h2>
+                    <!--<h2 class="text-center">Caption 1</h2>-->
+                    <h2 class="text-center">
+                    <!--<i class="fa fa-heart" aria-hidden="true"></i>-->
+Nuestra meta es brindarle la mejor Calidad de Vida.</h2>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the second background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('img/3.jpg');"></div>
                 <div class="carousel-caption" style="text-align: left;">
-                    <h2>Deportes náuticos, vela, kayak, club de bote, y piscina al alcance de todos.</h2>
+                    <h2 class="text-center">Deportes náuticos, vela, kayak, club de bote, y piscina al alcance de todos.</h2>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the third background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('img/4.jpg');"></div>
                 <div class="carousel-caption" style="text-align: left;">
-                    <h2>Transformamos Su Estilo de Vida.</h2>
+                    <h2 class="text-center">Transformamos Su Estilo de Vida.</h2>
                 </div>
             </div>
         </div>
@@ -97,23 +102,6 @@
         <a class="right carousel-control" href="#myCarousel" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
-		<!--<div class="container-fluid visible-lg visible-md" style="margin-top:-5%">
-			<div class="container text-center redes">
-				<div class="row">
-					<div class="col-sm-12 col-xs-12 col-md-3 col-lg-3 text-right visible-lg"></div>
-					<div class="col-sm-12 col-xs-12 col-md-3 col-lg-3 text-right">
-						<a href="https://www.facebook.com/ConstructoraNIO/" target="_blank"><img src="img/face.png" width="15%" /></a>
-						<a href="https://www.instagram.com/constructora_nio/" target="_blank"><img src="img/insta.png" width="15%" /></a>
-						<a href="https://twitter.com/ConstructoraNIO" target="_blank"><img src="img/twitter.png" width="15%" />	</a>
-					</div>
-					<div class="col-sm-12 col-xs-12 col-md-3 col-lg-3 text-left" style="padding: 1% 0 0 0">
-						<i class="glyphicon glyphicon-phone"></i>
-						+ 57 315 707 6127
-					</div>
-					<div class="col-sm-12 col-xs-12 col-md-3 col-lg-3 text-right visible-lg"></div>
-				</div>
-			</div>
-		</div>-->
     </header>
 
 	<div class="container-fluid" style="margin:1% 0 0 0 ">

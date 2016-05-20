@@ -91,12 +91,17 @@
 							    <li data-target="#myCarousel" data-slide-to="7"></li>
 							    <li data-target="#myCarousel" data-slide-to="8"></li>
 							    <li data-target="#myCarousel" data-slide-to="9"></li>
+							    <li data-target="#myCarousel" data-slide-to="10"></li>
 							  </ol>
 
 							  <!-- Wrapper for slides -->
 							  <div class="carousel-inner" role="listbox">
 
-							  	<div class="item active">
+							    <div class="item active	">
+							      <a href="<?php echo _DOMINIO?>img/cartagena/10.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/10.jpg" alt=""></a>
+							    </div>
+
+							  	<div class="item">
 							      <a href="<?php echo _DOMINIO?>img/cartagena/0.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/0.jpg" alt=""></a>
 							    </div>
 
