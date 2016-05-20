@@ -19,6 +19,7 @@ $aruba[6]['img'] = "7.png";
 $aruba[7]['img'] = "../img1.jpg";
 $aruba[8]['img'] = "../img2.jpg";
 $aruba[9]['img'] = "../img3.jpg";
+$aruba[10]['img'] = "../big_img7.jpg";
 
 
 $curacao[0]['img'] = "1.png";
@@ -27,6 +28,7 @@ $curacao[2]['img'] = "3.png";
 $curacao[3]['img'] = "../img1.jpg";
 $curacao[4]['img'] = "../img2.jpg";
 $curacao[5]['img'] = "../img3.jpg";
+$curacao[6]['img'] = "../big_img7.jpg";
 
 ?>
 
@@ -237,8 +239,7 @@ $curacao[5]['img'] = "../img3.jpg";
 					           <!-- Inicio galería aennities-->
 					           	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 							  <ol class="carousel-indicators">
-							    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-							    <li data-target="#myCarousel" data-slide-to="1"></li>
+							    <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
 							    <li data-target="#myCarousel" data-slide-to="2"></li>
 							    <li data-target="#myCarousel" data-slide-to="3"></li>
 							    <li data-target="#myCarousel" data-slide-to="4"></li>
@@ -265,9 +266,7 @@ $curacao[5]['img'] = "../img3.jpg";
 							      <a href="img/big_img10.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img10.jpg" alt=""></a>
 							    </div>-->
 
-							    <div class="item active">
-							      <a href="img/big_img8.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img8.jpg" alt=""></a>
-							    </div>
+							    
 
 							    <div class="item ">
 							      <a href="img/big_img11.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img11.jpg" alt=""></a>
@@ -290,7 +289,7 @@ $curacao[5]['img'] = "../img3.jpg";
 							    </div>
 
 							    <div class="item">
-							      <a href="img/big_img7.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img7.jpg" alt=""></a>
+							      <a href="img/big_img8.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img8.jpg" alt=""></a>
 							    </div>
 
 							    
