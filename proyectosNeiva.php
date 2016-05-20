@@ -223,9 +223,6 @@ $curacao[2]['img'] = "3.png";
 							    <li data-target="#myCarousel" data-slide-to="3"></li>
 							    <li data-target="#myCarousel" data-slide-to="4"></li>
 							    <li data-target="#myCarousel" data-slide-to="5"></li>
-							    <li data-target="#myCarousel" data-slide-to="6"></li>
-							    <li data-target="#myCarousel" data-slide-to="7"></li>
-							    <li data-target="#myCarousel" data-slide-to="8"></li>
 							    <!--<li data-target="#myCarousel" data-slide-to="9"></li>
 							    <li data-target="#myCarousel" data-slide-to="10"></li>
 							    <li data-target="#myCarousel" data-slide-to="11"></li>
@@ -276,17 +273,7 @@ $curacao[2]['img'] = "3.png";
 							      <a href="img/big_img7.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img7.jpg" alt=""></a>
 							    </div>
 
-							    <div class="item ">
-							      <a href="img/big_img1.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img1.jpg" alt=""></a>
-							    </div>
-
-							    <div class="item">
-							      <a href="img/big_img2.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img2.jpg" alt=""></a>
-							    </div>
-
-							    <div class="item">
-							      <a href="img/big_img3.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img3.jpg" alt=""></a>
-							    </div>
+							    
 
 							    <!--<div class="item">
 							      <a href="img/big_img4.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img4.jpg" alt=""></a>
