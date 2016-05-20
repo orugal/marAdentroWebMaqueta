@@ -91,7 +91,7 @@ $curacao[2]['img'] = "3.png";
 			<div class="row">
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
 				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
-					<h1 class="tituloSeccion">MAR ADENTRO</h1>
+					<h2 class="tituloSeccion text-center">MAR ADENTRO</h2>
 					<p class="pInternas2">
 					<strong>Mar Adentro</strong> es la nueva era de la vivienda en Colombia al introducir en las
 					soluciones de vivienda el mar y la arena blanca, elementos que llevará a las

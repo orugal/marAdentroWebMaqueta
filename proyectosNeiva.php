@@ -16,11 +16,17 @@ $aruba[3]['img'] = "4.png";
 $aruba[4]['img'] = "5.png";
 $aruba[5]['img'] = "6.png";
 $aruba[6]['img'] = "7.png";
+$aruba[7]['img'] = "../img1.jpg";
+$aruba[8]['img'] = "../img2.jpg";
+$aruba[9]['img'] = "../img3.jpg";
 
 
 $curacao[0]['img'] = "1.png";
 $curacao[1]['img'] = "2.png";
 $curacao[2]['img'] = "3.png";
+$curacao[3]['img'] = "../img1.jpg";
+$curacao[4]['img'] = "../img2.jpg";
+$curacao[5]['img'] = "../img3.jpg";
 
 ?>
 
@@ -186,7 +192,7 @@ $curacao[2]['img'] = "3.png";
 									<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
 										<div id="myCarousel3" class="carousel slide" data-ride="carousel">
 										  <ol class="carousel-indicators">
-										    <?php $cont4=1;foreach($curacao as $cu2){ ?>
+										    <?php $cont4=1;foreach($aruba as $cu2){ ?>
 											    <li data-target="#myCarousel3" data-slide-to="0" class="<?php if($cont4==1){ echo 'active';}?>"></li>
 											  <?php $cont4++;}?>
 										  </ol>
