@@ -174,7 +174,7 @@ $curacao[6]['img'] = "../big_img7.jpg";
 
 											<h4 class="tituloSeccion"> CURACAO</h4>
 											<p class="">
-												está conformado por 352 apartamentos de tipo vacacional de 61 M2 de
+												Está conformado por 352 apartamentos de tipo vacacional de 61 M2 de
 												dos alcobas principales autónomas e independientes, enfocado a la recreación,
 												cada una con clósets y baños.
 												Entre las dos alcobas está la sala comedor y la cocina en un estilo de vanguardia.
