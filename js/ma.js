@@ -113,5 +113,31 @@ var ma =
 	    	return true;
 	    }
 
+	},
+	verVideo:function(v,titulo)
+	{
+		var video = "";
+
+		if(v == 0)
+		{
+			video = '<iframe width="100%" height="315" src="https://www.youtube.com/embed/Q-eTV0dXTAU" frameborder="0" allowfullscreen></iframe>';
+		}
+		else if(v == 1)
+		{
+			video = '<iframe width="100%" height="315" src="https://www.youtube.com/embed/ikWExJcwkSU" frameborder="0" allowfullscreen></iframe>';
+		}
+		else if(v == 2)
+		{
+			video = '<iframe width="100%" height="315" src="https://www.youtube.com/embed/p9lqydm-jaw" frameborder="0" allowfullscreen></iframe>';
+		}
+		else if(v == 3)
+		{
+			video = '<iframe width="100%" height="315" src="https://www.youtube.com/embed/D9bEWD39NiY" frameborder="0" allowfullscreen></iframe>';
+		}
+
+		swal({title:titulo,
+			 	html:true,
+			 	text: video,
+			 	confirmButtonText: "Cerrar" });
 	}
 }

@@ -268,7 +268,7 @@ $curacao[6]['img'] = "../big_img7.jpg";
 
 							    
 
-							    <div class="item ">
+							    <div class="item active">
 							      <a href="img/big_img11.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img11.jpg" alt=""></a>
 							    </div>
 
