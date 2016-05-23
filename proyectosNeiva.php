@@ -25,10 +25,10 @@ $aruba[10]['img'] = "../big_img7.jpg";
 $curacao[0]['img'] = "1.png";
 $curacao[1]['img'] = "2.png";
 $curacao[2]['img'] = "3.png";
-$curacao[3]['img'] = "../img1.jpg";
-$curacao[4]['img'] = "../img2.jpg";
-$curacao[5]['img'] = "../img3.jpg";
-$curacao[6]['img'] = "../big_img7.jpg";
+/*$curacao[3]['img'] = "../img1.jpg";
+$curacao[4]['img'] = "../img2.jpg";*/
+$curacao[3]['img'] = "../img3.jpg";
+$curacao[4]['img'] = "../big_img7.jpg";
 
 ?>
 
@@ -220,7 +220,7 @@ $curacao[6]['img'] = "../big_img7.jpg";
 									<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 text-left pInternas">
 										<h4 class="tituloSeccion"> ARUBA</h4>
 										<p class=""> 
-											Está conformada por 440 apartamentos de 51 M2, 56 M2 y 65 M2 con
+											Está conformada por 440 apartamentos de 50 M2, 56 M2 y 65 M2 con
 											programas entre 2 y 3 alcobas.
 											Son apartamentos tradicionales que tienen varios tipos: uno de dos alcobas, otro
 											con media alcoba adicional con la versatilidad para crear allí una habitación de
