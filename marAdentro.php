@@ -108,9 +108,10 @@ $curacao[2]['img'] = "3.png";
 					de lagunas cristalinas y mares interiores que han revolucionado el mercado
 					mundial de vivienda, el amenity top del momento, al convertir un lugar
 					tradicional en un paraíso idílico.<br><br>
-					<strong>Mar Adentro</strong> eleva así la calidad y estilo de vida de los colombianos.
+					<!--<strong>Mar Adentro</strong> eleva así la calidad y estilo de vida de los colombianos.
 					Los proyectos van a estar en categorías Gold, Platino y Diamante de acuerdo
 					con las características de diversos tipos de apartamentos.<br><br>
+
 					<strong>Mar Adentro Gold:</strong> conjuntos residenciales con viviendas de $40 a $ 200
 					Millones, acabados básicos e índices de ocupación de lote de más del 40%.
 					Tiene mesón de la cocina, mueble inferior de la cocina, piso en porcelanato,
@@ -135,7 +136,8 @@ $curacao[2]['img'] = "3.png";
 					El porcentaje de ocupación es inferior, lo cual le da mayor espacio para zonas
 					verdes, parqueaderos, parques para los niños, mayor espacio entre torres, y otros
 					beneficios exclusivos de este formato.
-					</p>
+					</p>-->
+
 					<!--<br>
 					<center><a href="files/Brochure.pdf" target="_blank" type="button" class="btn btn-danger fa fa-file-pdf-o" style="padding:2%;border:none">
 					    <i class="fa fa-file-pdf-o">
