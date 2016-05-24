@@ -45,7 +45,7 @@
 					<h2 class="tituloSeccion text-center">LOTES MAR ADENTRO</h2>
 					<p class="pInternas2">
 					Mar Adentro es un producto que permite su desarrollo en nuevos sitios por lo cual el
-					proyecto contempla la posibilidad de desarrollar el concepto en lotes mínimo de 5
+					proyecto contempla la posibilidad de desarrollar el concepto en lotes mínimo de 20
 					hectáreas en adelante, de tal manera que quien desee que se lleve a su región y tenga el
 					espacio disponible se contacte con Constructora NIO.
 <br><br>
@@ -72,6 +72,16 @@
 					  <fieldset class="form-group">
 					    <label for="exampleInputEmail1">Area el lote</label>
 					    <input type="text" class="form-control" id="area" name="area" placeholder="Escriba el area del lote en metros cuadrados.">
+					  </fieldset>
+
+					  <fieldset class="form-group">
+					    <label for="exampleInputEmail1">Ubicación</label>
+					    <input type="text" class="form-control" id="ubicacion" name="ubicacion" placeholder="Escriba la ubicación del lote.">
+					  </fieldset>
+
+					  <fieldset class="form-group">
+					    <label for="exampleInputEmail1">Usos</label>
+					    <input type="text" class="form-control" id="usos" name="usos" placeholder="Escriba lo usos que puede tener el lote.">
 					  </fieldset>
 
 					  <fieldset class="form-group">

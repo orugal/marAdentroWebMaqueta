@@ -9,26 +9,27 @@
 -->
 <?php 
 
-$aruba[0]['img'] = "1.png";
-$aruba[1]['img'] = "2.png";
-$aruba[2]['img'] = "3.png";
-$aruba[3]['img'] = "4.png";
-$aruba[4]['img'] = "5.png";
-$aruba[5]['img'] = "6.png";
-$aruba[6]['img'] = "7.png";
-$aruba[7]['img'] = "../img1.jpg";
-$aruba[8]['img'] = "../img2.jpg";
-$aruba[9]['img'] = "../img3.jpg";
-$aruba[10]['img'] = "../big_img7.jpg";
+//$aruba[0]['img'] = "1.png";
+$aruba[0]['img'] = "../big_img7.jpg";
+$aruba[1]['img'] = "../img3.jpg";
+$aruba[2]['img'] = "../img1.jpg";
+$aruba[3]['img'] = "../img2.jpg";
+$aruba[4]['img'] = "2.png";
+$aruba[5]['img'] = "5.png";
+$aruba[6]['img'] = "3.png";
+$aruba[7]['img'] = "4.png";
+//$aruba[5]['img'] = "6.png";
+$aruba[8]['img'] = "7.png";
 
 
-$curacao[0]['img'] = "1.png";
-$curacao[1]['img'] = "2.png";
-$curacao[2]['img'] = "3.png";
+
+//$curacao[0]['img'] = "1.png";
+$curacao[1]['img'] = "../big_img7.jpg";
+$curacao[2]['img'] = "../img3.jpg";
+$curacao[3]['img'] = "2.png";
+$curacao[4]['img'] = "3.png";
 /*$curacao[3]['img'] = "../img1.jpg";
 $curacao[4]['img'] = "../img2.jpg";*/
-$curacao[3]['img'] = "../img3.jpg";
-$curacao[4]['img'] = "../big_img7.jpg";
 
 ?>
 
@@ -100,7 +101,7 @@ $curacao[4]['img'] = "../big_img7.jpg";
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
 				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
 					<h1>NEIVA</h1>
-					<img src="<?php echo _DOMINIO ?>img/big_img13.jpg" class="img-thumbnail"><br><br>
+					<img src="<?php echo _DOMINIO ?>img/master.jpg" class="img-thumbnail"><br><br>
 					<p class="pInternas">La primera ciudad privilegiada con esta novedosa solución de vivienda que cambia
 						por completo el estilo de vida de sus habitantes y visitantes, será Neiva, en la
 						capital del Huila, a 38 grados centígrados, en la Hacienda la Cecilia Kilómetro 3
