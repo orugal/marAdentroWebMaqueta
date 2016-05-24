@@ -6,7 +6,7 @@
 */
 
 define("_NOMBRE_EMPRESA"                                ,"Mar Adentro");//configurar
-define("_DOMINIO"                 		               ,"http://192.168.0.14/marAdentro/");//configurar
+define("_DOMINIO"                 		               ,"http://192.168.0.12:8080/marAdentroWebMaqueta/");//configurar
 
 //DATOS DE ENVIO DE CORREOS
 define('_DIR_PLUGIN'									,'core/phpmailer/');
@@ -23,9 +23,9 @@ define('_MAIL_ADMIN'									,'ncastronio@gmail.com,jforero@constructoranio.com,
 //Nombre del hosting
 define('_HOST'											,'localhost');
 //Usuario base de datos
-define('_USER'											,'vivemara_user');
+define('_USER'											,'root');
 //Contraseña del usuario
-define('_PASS'											,'Jg$E3D+u');
+define('_PASS'											,'');
 //base de datos
 define('_DB'											,'vivemara_contacto');
 ?>

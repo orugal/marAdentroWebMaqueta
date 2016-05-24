@@ -60,7 +60,7 @@
 					  </fieldset>
 
 					  <fieldset class="form-group">
-					    <label for="exampleInputEmail1">Correo Electrónico</label>
+					    <label for="exampleInputEmail1">Correo electrónico</label>
 					    <input type="email" class="form-control" id="email" name="email" placeholder="Ejemplo: correo@dominio.com">
 					  </fieldset>
 
@@ -70,8 +70,8 @@
 					  </fieldset>
 
 					  <fieldset class="form-group">
-					    <label for="exampleInputEmail1">Area el lote</label>
-					    <input type="text" class="form-control" id="area" name="area" placeholder="Escriba el area del lote en metros cuadrados.">
+					    <label for="exampleInputEmail1">Área del lote</label>
+					    <input type="text" class="form-control" id="area" name="area" placeholder="Escriba el área del lote en metros cuadrados.">
 					  </fieldset>
 
 					  <fieldset class="form-group">
@@ -95,7 +95,7 @@
 						      Conozco y acepto las políticas de datos personales y autorizo el manejo de éstos.
 						    </label>
 					   </fieldset>
-					  <button type="button" class="btn btn-danger"  style="padding:2%;border:none" onclick="ma.sendContacto()">Enviar comentario</button>
+					  <button type="button" class="btn btn-danger"  style="padding:2%;border:none" onclick="ma.sendLotes()">Enviar comentario</button>
 					</form>
 				</div>
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
@@ -116,12 +116,6 @@
 	<script type="text/javascript" src="js/jquery.blueimp-gallery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap-image-gallery.min.js"></script>
 	<script type="text/javascript" src="js/ma.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function{
-			$('.carousel').carousel({
-			  interval: 2000
-			})
-		});
-	</script>
+
 	</body>
 </html>

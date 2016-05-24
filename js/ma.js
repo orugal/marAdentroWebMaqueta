@@ -74,29 +74,134 @@ var ma =
 		}
 		else
 		{
-			var formulario = $("#contacto").serialize();
-			 $.ajax({
-		          type: "POST",
-		          url: "envio.php",
-		          data: formulario,
-		          dataType:"json",
-		          beforeSend: function(objeto){
-		          },
-		          success: function(respuesta)
-		          {
-		            if(respuesta.continuar)
-		            {
-		            	document.location="gracias";
-		            }
-		            else
-		            {
-		              swal({   title: "Mensaje no enviado!",   text: "El mensaje no pudo ser enviado, intente de nuevo más tarde!.",   type: "error",   confirmButtonText: "Aceptar",   showLoaderOnConfirm: true, });
-		            }
-	            },
-	            error: function (var1,var2,var3){
-	                
-	            }
-		     });
+			swal({   
+				title: "Confirmación",   
+				text: "Está a punto de enviar este formulario, desea continuar?",   
+				type: "warning",   
+				showCancelButton: true,   
+				confirmButtonColor: "#DD6B55",   
+				confirmButtonText: "Continuar",   
+				closeOnConfirm: false,
+				showLoaderOnConfirm: true
+			}, 
+				function(){
+					 var formulario = $("#contacto").serialize();
+					 $.ajax({
+				          type: "POST",
+				          url: "envio.php",
+				          data: formulario+"&envio=1",
+				          dataType:"json",
+				          beforeSend: function(objeto){
+				          },
+				          success: function(respuesta)
+				          {
+				            if(respuesta.continuar)
+				            {
+				            	document.location="gracias";
+				            }
+				            else
+				            {
+				              swal({   title: "Mensaje no enviado!",   text: "El mensaje no pudo ser enviado, intente de nuevo más tarde!.",   type: "error",   confirmButtonText: "Aceptar",   showLoaderOnConfirm: true, });
+				            }
+			            },
+			            error: function (var1,var2,var3){
+			                
+			            }
+				     });
+			});
+		}
+
+	},
+	sendLotes:function()
+	{
+		var nombre		=	$("#nombre").val();
+		var email		=	$("#email").val();
+		var telefono	=	$("#telefono").val();
+		var comentario	=	$("#comentario").val();
+		var area		=	$("#area").val();
+		var ubicacion	=	$("#ubicacion").val();
+		var usos		=	$("#usos").val();
+
+		//valido campos
+		if(nombre == "")
+		{
+			swal({   title: "Error!",   text: "El campo nombre es un campo requerido!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else if(email == "")
+		{
+			swal({   title: "Error!",   text: "El campo del correo electrónico es un campo requerido!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else if(email != "" && !ma.validarEmail(email))
+		{
+			swal({   title: "Error!",   text: "El campo del correo electrónico no es valido!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else if(telefono == "")
+		{
+			swal({   title: "Error!",   text: "El campo celular es un campo requerido!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else if(telefono!="" && isNaN(telefono))
+		{
+			swal({   title: "Error!",   text: "El campo celular sólo puede contener números!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else if(area == "")
+		{
+			swal({   title: "Error!",   text: "El campo área es un campo requerido!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else if(ubicacion == "")
+		{
+			swal({   title: "Error!",   text: "El campo ubicación es un campo requerido!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else if(usos == "")
+		{
+			swal({   title: "Error!",   text: "El campo usos es un campo requerido!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else if(comentario == "")
+		{
+			swal({   title: "Error!",   text: "El campo comentario es un campo requerido!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else if(!$('#terminos').is(':checked'))
+		{
+			swal({   title: "Error!",   text: "Debe aceptar las políticas de manejo de sus datos personales!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else
+		{
+
+			swal({   
+				title: "Confirmación",   
+				text: "Está a punto de enviar este formulario, desea continuar?",   
+				type: "warning",   
+				showCancelButton: true,   
+				confirmButtonColor: "#DD6B55",   
+				confirmButtonText: "Continuar",   
+				closeOnConfirm: false,
+				showLoaderOnConfirm: true
+			}, 
+				function(){   
+					 var formulario = $("#contacto").serialize();
+					 $.ajax({
+				          type: "POST",
+				          url: "envio.php",
+				          data: formulario+"&envio=2",
+				          dataType:"json",
+				          beforeSend: function(objeto){
+				          },
+				          success: function(respuesta)
+				          {
+				            if(respuesta.continuar)
+				            {
+				            	document.location="gracias";
+				            }
+				            else
+				            {
+				              swal({   title: "Mensaje no enviado!",   text: "El mensaje no pudo ser enviado, intente de nuevo más tarde!.",   type: "error",   confirmButtonText: "Aceptar",   showLoaderOnConfirm: true, });
+				            }
+			            },
+			            error: function (var1,var2,var3){
+			                
+			            }
+				     });
+			});
+			
 		}
 
 	},
