@@ -104,8 +104,7 @@ $curacao[4]['img'] = "../img2.jpg";*/
 					<img src="<?php echo _DOMINIO ?>img/master.jpg" class="img-thumbnail"><br><br>
 					<p class="pInternas">La primera ciudad privilegiada con esta novedosa solución de vivienda que cambia
 						por completo el estilo de vida de sus habitantes y visitantes, será Neiva, en la
-						capital del Huila, a 38 grados centígrados, en la Hacienda la Cecilia Kilómetro 3
-						vía al corregimiento el Caguán.
+						capital del Huila, a 38 grados centígrados, Avenida Max Duque contiguo a la base militar.
 						En Neiva lanzamos el primer proyecto Mar Adentro Gold, con dos manzanas
 						independientes llamadas Aruba y Curacao.
 					</p>
