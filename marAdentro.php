@@ -157,7 +157,7 @@ $dia[3]['img'] = "dia/4.jpg";
 		<div class="container">
 
 			<div class="row" >
-				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 visible-lg visible-md">
+				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
 					<div id="myCarousel1" class="carousel slide" data-ride="carousel">
 					  <ol class="carousel-indicators">
 					  	  <?php $cont2=1;foreach($gold as $cu2){ ?>
@@ -186,7 +186,7 @@ $dia[3]['img'] = "dia/4.jpg";
 					  </a>
 					</div>
 				</div>
-				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 visible-lg visible-md">
+				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
 					<h2 class="text-left">Mar Adentro Gold</h2>
 					<p class="pInternas2">
 						Como el metal dorado Gold quiere llevar a sus residentes y visitantes a hacer posible su sueño de vivir bien, con hermosos espacios alrededor de los apartamentos, dotados con el equipamiento necesario para compartir  momentos únicos en familia, en pareja o entre amigos.
@@ -200,7 +200,36 @@ $dia[3]['img'] = "dia/4.jpg";
 		<div class="container">		
 
 			<div class="row">
-				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 visible-lg visible-md">
+				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 visible-sm visible-xs">
+					<div id="myCarousel2" class="carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+					  	  <?php $cont2=1;foreach($plat as $cu2){ ?>
+						    <li data-target="#myCarousel2" data-slide-to="0" class="<?php if($cont2==1){ echo 'active';}?>"></li>
+						  <?php $cont2++;}?>
+					    
+					  </ol>
+
+					  
+					  <div class="carousel-inner" role="listbox">
+						  <?php $cont=1;foreach($plat as $cu1){ ?>
+						    <div class="item <?php if($cont==1){ echo 'active';}?>">
+						      <a href="img/<?php echo $cu1['img']?>" data-gallery ><img  src="img/<?php echo $cu1['img']?>" width="100%"/></a>
+						    </div>
+						  <?php $cont++;}?>  
+					  </div>
+
+					  
+					  <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					    <span class="sr-only">Anterior</span>
+					  </a>
+					  <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					    <span class="sr-only">Siguiente</span>
+					  </a>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
 					<h2 class="text-left">Mar Adentro Platino</h2>
 					<p class="pInternas2">
 						La experiencia Platino se destaca por un estilo vanguardista, con bellas y muy completas soluciones de vivienda, que satisfacen los deseos de sus habitantes, quienes gozarán de mayores espacios para compartir con amigos y seres queridos.<br><br>
@@ -208,7 +237,7 @@ $dia[3]['img'] = "dia/4.jpg";
 						Al interior de estos apartamentos se disfrutará mayor amplitud, con materiales de calidad que facilitan la creación de ambientes cómodos, independientes y armónicos.
 					</p>
 				</div>
-				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 visible-lg visible-md">
+				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 visible-md visible-lg">
 					<div id="myCarousel2" class="carousel slide" data-ride="carousel">
 					  <ol class="carousel-indicators">
 					  	  <?php $cont2=1;foreach($plat as $cu2){ ?>
@@ -245,7 +274,7 @@ $dia[3]['img'] = "dia/4.jpg";
 
 			<div class="row" >
 				
-				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 visible-lg visible-md">
+				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
 					<div id="myCarousel3" class="carousel slide" data-ride="carousel">
 					  <ol class="carousel-indicators">
 					  	  <?php $cont2=1;foreach($dia as $cu2){ ?>
@@ -274,7 +303,7 @@ $dia[3]['img'] = "dia/4.jpg";
 					  </a>
 					</div>
 				</div>
-				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 visible-lg visible-md">
+				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
 					<h2 class="text-left">Mar Adentro Diamante</h2>
 					<hr>
 					<p class="pInternas2">
