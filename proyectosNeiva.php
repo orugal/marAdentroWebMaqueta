@@ -101,7 +101,7 @@ $curacao[4]['img'] = "../img2.jpg";*/
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
 				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
 					<h1>NEIVA</h1>
-					<img src="<?php echo _DOMINIO ?>img/master.jpg" class="img-thumbnail"><br><br>
+					<img src="<?php echo _DOMINIO ?>img/master.png" class="img-thumbnail"><br><br>
 					<p class="pInternas">La primera ciudad privilegiada con esta novedosa solución de vivienda que cambia
 						por completo el estilo de vida de sus habitantes y visitantes, será Neiva, en la
 						capital del Huila, a 38 grados centígrados, Avenida Max Duque contiguo a la base militar.
