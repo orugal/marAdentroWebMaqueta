@@ -201,10 +201,10 @@ $dia[3]['img'] = "dia/4.jpg";
 
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 visible-sm visible-xs">
-					<div id="myCarousel2" class="carousel slide" data-ride="carousel">
+					<div id="myCarousel4" class="carousel slide" data-ride="carousel">
 					  <ol class="carousel-indicators">
 					  	  <?php $cont2=1;foreach($plat as $cu2){ ?>
-						    <li data-target="#myCarousel2" data-slide-to="0" class="<?php if($cont2==1){ echo 'active';}?>"></li>
+						    <li data-target="#myCarousel4" data-slide-to="0" class="<?php if($cont2==1){ echo 'active';}?>"></li>
 						  <?php $cont2++;}?>
 					    
 					  </ol>
@@ -219,11 +219,11 @@ $dia[3]['img'] = "dia/4.jpg";
 					  </div>
 
 					  
-					  <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+					  <a class="left carousel-control" href="#myCarousel4" role="button" data-slide="prev">
 					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 					    <span class="sr-only">Anterior</span>
 					  </a>
-					  <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+					  <a class="right carousel-control" href="#myCarousel4" role="button" data-slide="next">
 					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 					    <span class="sr-only">Siguiente</span>
 					  </a>
