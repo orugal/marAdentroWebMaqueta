@@ -158,6 +158,8 @@ $dia[3]['img'] = "dia/4.jpg";
 
 			<div class="row" >
 				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+					<h2 class="text-left visible-xs visible-sm">Mar Adentro Gold</h2>
+					<hr class="visible-sm visible-xs">
 					<div id="myCarousel1" class="carousel slide" data-ride="carousel">
 					  <ol class="carousel-indicators">
 					  	  <?php $cont2=1;foreach($gold as $cu2){ ?>
@@ -187,7 +189,8 @@ $dia[3]['img'] = "dia/4.jpg";
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
-					<h2 class="text-left">Mar Adentro Gold</h2>
+					<h2 class="text-left visible-md visible-lg">Mar Adentro Gold</h2>
+					<hr>
 					<p class="pInternas2">
 						Como el metal dorado Gold quiere llevar a sus residentes y visitantes a hacer posible su sueño de vivir bien, con hermosos espacios alrededor de los apartamentos, dotados con el equipamiento necesario para compartir  momentos únicos en familia, en pareja o entre amigos.
 						Para la <strong>Constructora NIO</strong> la categoría Gold significa darle la mejor calidad a quienes apreciarán esta solución de vivienda.
@@ -201,6 +204,8 @@ $dia[3]['img'] = "dia/4.jpg";
 
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 visible-sm visible-xs">
+					<h2 class="text-left  visible-sm visible-xs">Mar Adentro Platino</h2>
+					<hr>
 					<div id="myCarousel4" class="carousel slide" data-ride="carousel">
 					  <ol class="carousel-indicators">
 					  	  <?php $cont2=1;foreach($plat as $cu2){ ?>
@@ -230,7 +235,8 @@ $dia[3]['img'] = "dia/4.jpg";
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
-					<h2 class="text-left">Mar Adentro Platino</h2>
+					<h2 class="text-left  visible-md visible-lg">Mar Adentro Platino</h2>
+					<hr>
 					<p class="pInternas2">
 						La experiencia Platino se destaca por un estilo vanguardista, con bellas y muy completas soluciones de vivienda, que satisfacen los deseos de sus habitantes, quienes gozarán de mayores espacios para compartir con amigos y seres queridos.<br><br>
 						La categoría Platino evoca lo moderno que permitirá diversos usos a estas viviendas cuya característica es la originalidad, lo liviano y la luz.<br><br>
@@ -275,6 +281,8 @@ $dia[3]['img'] = "dia/4.jpg";
 			<div class="row" >
 				
 				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+					<h2 class="text-left visible-sm visible-xs">Mar Adentro Diamante</h2>
+					<hr class="visible-sm visible-xs">
 					<div id="myCarousel3" class="carousel slide" data-ride="carousel">
 					  <ol class="carousel-indicators">
 					  	  <?php $cont2=1;foreach($dia as $cu2){ ?>
@@ -304,7 +312,7 @@ $dia[3]['img'] = "dia/4.jpg";
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
-					<h2 class="text-left">Mar Adentro Diamante</h2>
+					<h2 class="text-left visible-lg visible-md">Mar Adentro Diamante</h2>
 					<hr>
 					<p class="pInternas2">
 						Esta es la joya de <strong>Mar Adentro</strong>. Aquí la sofisticación, la comodidad y la exquisitez de esta piedra preciosa garantizan el bienestar, claves de una experiencia Diamante.<br><br>
