@@ -12,15 +12,15 @@
 $gold[0]['img'] = "gold/1.jpg";
 $gold[1]['img'] = "gold/2.jpg";
 $gold[2]['img'] = "gold/3.jpg";
-$gold[3]['img'] = "gold/4.jpg";
-$gold[4]['img'] = "gold/5.jpg";
+//$gold[3]['img'] = "gold/4.jpg";
+$gold[3]['img'] = "gold/5.jpg";
 
 
 $plat[0]['img'] = "plat/1.jpg";
 $plat[1]['img'] = "plat/2.jpg";
 $plat[2]['img'] = "plat/3.jpg";
-$plat[3]['img'] = "plat/4.jpg";
-$plat[4]['img'] = "plat/5.jpg";
+//$plat[3]['img'] = "plat/4.jpg";
+$plat[3]['img'] = "plat/5.jpg";
 
 $dia[0]['img'] = "dia/1.jpg";
 $dia[1]['img'] = "dia/2.jpg";
