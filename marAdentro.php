@@ -155,295 +155,144 @@ $dia[3]['img'] = "dia/4.jpg";
 			</div>
 		</div>
 	</div>
+
+
 	<div class="container-fluid" style="padding: 3%;background: #f7f7f7">
 		<div class="container">
-
-			<div class="row" >
-				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
-					<h2 class="text-left visible-xs visible-sm">Mar Adentro Gold</h2>
-					<hr class="visible-sm visible-xs">
-					<div id="myCarousel1" class="carousel slide" data-ride="carousel">
-					  <ol class="carousel-indicators">
-					  	  <?php $cont2=1;foreach($gold as $cu2){ ?>
-						    <li data-target="#myCarousel1" data-slide-to="0" class="<?php if($cont2==1){ echo 'active';}?>"></li>
-						  <?php $cont2++;}?>
-					    
-					  </ol>
-
-					  
-					  <div class="carousel-inner" role="listbox">
-						  <?php $cont=1;foreach($gold as $cu1){ ?>
-						    <div class="item <?php if($cont==1){ echo 'active';}?>">
-						      <a href="img/<?php echo $cu1['img']?>" data-gallery><img  src="img/<?php echo $cu1['img']?>" width="100%"/></a>
-						    </div>
-						  <?php $cont++;}?>  
-					  </div>
-
-					  
-					  <a class="left carousel-control" href="#myCarousel1" role="button" data-slide="prev">
-					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					    <span class="sr-only">Anterior</span>
-					  </a>
-					  <a class="right carousel-control" href="#myCarousel1" role="button" data-slide="next">
-					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					    <span class="sr-only">Siguiente</span>
-					  </a>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
-					<h2 class="text-left visible-md visible-lg">Mar Adentro Gold</h2>
-					<hr>
-					<p class="pInternas2">
-						Como el metal dorado Gold quiere llevar a sus residentes y visitantes a hacer posible su sueño de vivir bien, con hermosos espacios alrededor de los apartamentos, dotados con el equipamiento necesario para compartir  momentos únicos en familia, en pareja o entre amigos.
-						Para la <strong>Constructora NIO</strong> la categoría Gold significa darle la mejor calidad a quienes apreciarán esta solución de vivienda.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container-fluid" style="padding: 3%;">
-		<div class="container">		
-
 			<div class="row">
-				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 visible-sm visible-xs">
-					<h2 class="text-left  visible-sm visible-xs">Mar Adentro Platino</h2>
-					<hr>
-					<div id="myCarousel4" class="carousel slide" data-ride="carousel">
-					  <ol class="carousel-indicators">
-					  	  <?php $cont2=1;foreach($plat as $cu2){ ?>
-						    <li data-target="#myCarousel4" data-slide-to="0" class="<?php if($cont2==1){ echo 'active';}?>"></li>
-						  <?php $cont2++;}?>
-					    
-					  </ol>
+				<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-lg visible-md"></div>
+				<div class="col-lg-10 col-md-10 col-xs-12 col-sm-12">
+					<div id="content" >
+					    <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+					        <li class="active"><a href="#gold" data-toggle="tab">MAR ADENTRO GOLD</a></li>
+					        <li><a href="#platino" data-toggle="tab">MAR ADENTRO PLATINO</a></li>
+					        <li><a href="#diamante" data-toggle="tab">MAR ADENTRO DIAMANTE</a></li>
+					    </ul>
+					    <div id="my-tab-content" class="tab-content">
 
-					  
-					  <div class="carousel-inner" role="listbox">
-						  <?php $cont=1;foreach($plat as $cu1){ ?>
-						    <div class="item <?php if($cont==1){ echo 'active';}?>">
-						      <a href="img/<?php echo $cu1['img']?>" data-gallery ><img  src="img/<?php echo $cu1['img']?>" width="100%"/></a>
-						    </div>
-						  <?php $cont++;}?>  
-					  </div>
+					    	<!-- Tab 1-->
+					        <div class="tab-pane active" id="gold">
+					            <h2 class="tituloSeccion text-left">MAR ADENTRO GOLD</h2>
+					            <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+								  <ol class="carousel-indicators">
+								  	  <?php $cont2=1;foreach($gold as $cu2){ ?>
+									    <li data-target="#myCarousel1" data-slide-to="0" class="<?php if($cont2==1){ echo 'active';}?>"></li>
+									  <?php $cont2++;}?>
+								    
+								  </ol>
 
-					  
-					  <a class="left carousel-control" href="#myCarousel4" role="button" data-slide="prev">
-					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					    <span class="sr-only">Anterior</span>
-					  </a>
-					  <a class="right carousel-control" href="#myCarousel4" role="button" data-slide="next">
-					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					    <span class="sr-only">Siguiente</span>
-					  </a>
+								  
+								  <div class="carousel-inner" role="listbox">
+									  <?php $cont=1;foreach($gold as $cu1){ ?>
+									    <div class="item <?php if($cont==1){ echo 'active';}?>">
+									      <a href="img/<?php echo $cu1['img']?>" data-gallery><img  src="img/<?php echo $cu1['img']?>" width="100%"/></a>
+									    </div>
+									  <?php $cont++;}?>  
+								  </div>
+
+								  
+								  <a class="left carousel-control" href="#myCarousel1" role="button" data-slide="prev">
+								    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								    <span class="sr-only">Anterior</span>
+								  </a>
+								  <a class="right carousel-control" href="#myCarousel1" role="button" data-slide="next">
+								    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								    <span class="sr-only">Siguiente</span>
+								  </a>
+								</div>
+								<p class="pInternas2"><br>
+									Como el metal dorado Gold quiere llevar a sus residentes y visitantes a hacer posible su sueño de vivir bien, con hermosos espacios alrededor de los apartamentos, dotados con el equipamiento necesario para compartir  momentos únicos en familia, en pareja o entre amigos.
+									Para la <strong>Constructora NIO</strong> la categoría Gold significa darle la mejor calidad a quienes apreciarán esta solución de vivienda.
+								</p>
+					            
+					        </div>
+					        <!-- Fin Tab 1-->
+
+					        <!-- Tab 2-->
+					        <div class="tab-pane" id="platino">
+					           <h2 class="tituloSeccion text-left">MAR ADENTRO PLATINO</h2>
+					           <div id="myCarousel4" class="carousel slide" data-ride="carousel">
+								  <ol class="carousel-indicators">
+								  	  <?php $cont2=1;foreach($plat as $cu2){ ?>
+									    <li data-target="#myCarousel4" data-slide-to="0" class="<?php if($cont2==1){ echo 'active';}?>"></li>
+									  <?php $cont2++;}?>
+								    
+								  </ol>
+
+								  
+								  <div class="carousel-inner" role="listbox">
+									  <?php $cont=1;foreach($plat as $cu1){ ?>
+									    <div class="item <?php if($cont==1){ echo 'active';}?>">
+									      <a href="img/<?php echo $cu1['img']?>" data-gallery ><img  src="img/<?php echo $cu1['img']?>" width="100%"/></a>
+									    </div>
+									  <?php $cont++;}?>  
+								  </div>
+
+								  
+								  <a class="left carousel-control" href="#myCarousel4" role="button" data-slide="prev">
+								    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								    <span class="sr-only">Anterior</span>
+								  </a>
+								  <a class="right carousel-control" href="#myCarousel4" role="button" data-slide="next">
+								    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								    <span class="sr-only">Siguiente</span>
+								  </a>
+								</div>
+								<p class="pInternas2"><br>
+									La experiencia Platino se destaca por un estilo vanguardista, con bellas y muy completas soluciones de vivienda, que satisfacen los deseos de sus habitantes, quienes gozarán de mayores espacios para compartir con amigos y seres queridos.<br><br>
+									La categoría Platino evoca lo moderno que permitirá diversos usos a estas viviendas cuya característica es la originalidad, lo liviano y la luz.<br><br>
+									Al interior de estos apartamentos se disfrutará mayor amplitud, con materiales de calidad que facilitan la creación de ambientes cómodos, independientes y armónicos.
+								</p>
+
+					        </div>
+					        <!-- Fin Tab 2-->
+
+					        <!-- Tab 3-->
+					        <div class="tab-pane" id="diamante">
+					            <h2 class="tituloSeccion text-left">MAR ADENTRO DIAMANTE</h2>
+					            <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+								  <ol class="carousel-indicators">
+								  	  <?php $cont2=1;foreach($dia as $cu2){ ?>
+									    <li data-target="#myCarousel3" data-slide-to="0" class="<?php if($cont2==1){ echo 'active';}?>"></li>
+									  <?php $cont2++;}?>
+								    
+								  </ol>
+
+								  
+								  <div class="carousel-inner" role="listbox">
+									  <?php $cont=1;foreach($dia as $cu1){ ?>
+									    <div class="item <?php if($cont==1){ echo 'active';}?>">
+									      <a href="img/<?php echo $cu1['img']?>" data-gallery ><img  src="img/<?php echo $cu1['img']?>" width="100%"/></a>
+									    </div>
+									  <?php $cont++;}?>  
+								  </div>
+
+								  
+								  <a class="left carousel-control" href="#myCarousel3" role="button" data-slide="prev">
+								    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								    <span class="sr-only">Anterior</span>
+								  </a>
+								  <a class="right carousel-control" href="#myCarousel3" role="button" data-slide="next">
+								    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								    <span class="sr-only">Siguiente</span>
+								  </a>
+								</div>
+								<p class="pInternas2"><br>
+									Esta es la joya de <strong>Mar Adentro</strong>. Aquí la sofisticación, la comodidad y la exquisitez de esta piedra preciosa garantizan el bienestar, claves de una experiencia Diamante.<br><br>
+									El Diamante es pureza, único por excelencia, y así es su categoría en MarAdentro.
+									Nuestra meta con Diamante es brindar la mejor sensación a quien disfrute de estos lugares, dotados con soluciones de última tecnología, en apartamentos inteligentes, acabados de lujo, vistas hacia bellos paisajes y extensos espacios que ayudarán a soñar, convirtiéndolo en el sitio ideal para ser feliz.
+								</p>
+
+					        </div>
+					        <!-- Fin tab 3-->
+					    </div>
 					</div>
 				</div>
-				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
-					<h2 class="text-left  visible-md visible-lg">Mar Adentro Platino</h2>
-					<hr>
-					<p class="pInternas2">
-						La experiencia Platino se destaca por un estilo vanguardista, con bellas y muy completas soluciones de vivienda, que satisfacen los deseos de sus habitantes, quienes gozarán de mayores espacios para compartir con amigos y seres queridos.<br><br>
-						La categoría Platino evoca lo moderno que permitirá diversos usos a estas viviendas cuya característica es la originalidad, lo liviano y la luz.<br><br>
-						Al interior de estos apartamentos se disfrutará mayor amplitud, con materiales de calidad que facilitan la creación de ambientes cómodos, independientes y armónicos.
-					</p>
-				</div>
-				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 visible-md visible-lg">
-					<div id="myCarousel2" class="carousel slide" data-ride="carousel">
-					  <ol class="carousel-indicators">
-					  	  <?php $cont2=1;foreach($plat as $cu2){ ?>
-						    <li data-target="#myCarousel2" data-slide-to="0" class="<?php if($cont2==1){ echo 'active';}?>"></li>
-						  <?php $cont2++;}?>
-					    
-					  </ol>
-
-					  
-					  <div class="carousel-inner" role="listbox">
-						  <?php $cont=1;foreach($plat as $cu1){ ?>
-						    <div class="item <?php if($cont==1){ echo 'active';}?>">
-						      <a href="img/<?php echo $cu1['img']?>" data-gallery ><img  src="img/<?php echo $cu1['img']?>" width="100%"/></a>
-						    </div>
-						  <?php $cont++;}?>  
-					  </div>
-
-					  
-					  <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
-					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					    <span class="sr-only">Anterior</span>
-					  </a>
-					  <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
-					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					    <span class="sr-only">Siguiente</span>
-					  </a>
-					</div>
-				</div>
+				<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-lg visible-md"></div>
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid" style="padding: 3%;background: #f7f7f7">
-		<div class="container">
 
-			<div class="row" >
-				
-				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
-					<h2 class="text-left visible-sm visible-xs">Mar Adentro Diamante</h2>
-					<hr class="visible-sm visible-xs">
-					<div id="myCarousel3" class="carousel slide" data-ride="carousel">
-					  <ol class="carousel-indicators">
-					  	  <?php $cont2=1;foreach($dia as $cu2){ ?>
-						    <li data-target="#myCarousel3" data-slide-to="0" class="<?php if($cont2==1){ echo 'active';}?>"></li>
-						  <?php $cont2++;}?>
-					    
-					  </ol>
-
-					  
-					  <div class="carousel-inner" role="listbox">
-						  <?php $cont=1;foreach($dia as $cu1){ ?>
-						    <div class="item <?php if($cont==1){ echo 'active';}?>">
-						      <a href="img/<?php echo $cu1['img']?>" data-gallery ><img  src="img/<?php echo $cu1['img']?>" width="100%"/></a>
-						    </div>
-						  <?php $cont++;}?>  
-					  </div>
-
-					  
-					  <a class="left carousel-control" href="#myCarousel3" role="button" data-slide="prev">
-					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					    <span class="sr-only">Anterior</span>
-					  </a>
-					  <a class="right carousel-control" href="#myCarousel3" role="button" data-slide="next">
-					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					    <span class="sr-only">Siguiente</span>
-					  </a>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
-					<h2 class="text-left visible-lg visible-md">Mar Adentro Diamante</h2>
-					<hr>
-					<p class="pInternas2">
-						Esta es la joya de <strong>Mar Adentro</strong>. Aquí la sofisticación, la comodidad y la exquisitez de esta piedra preciosa garantizan el bienestar, claves de una experiencia Diamante.<br><br>
-						El Diamante es pureza, único por excelencia, y así es su categoría en MarAdentro.
-						Nuestra meta con Diamante es brindar la mejor sensación a quien disfrute de estos lugares, dotados con soluciones de última tecnología, en apartamentos inteligentes, acabados de lujo, vistas hacia bellos paisajes y extensos espacios que ayudarán a soñar, convirtiéndolo en el sitio ideal para ser feliz.
-					</p>
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-
-<!--
-	<div class="container-fluid" style="padding: 3%;background: #f7f7f7">
-		<div class="container text-center">
-			<div class="row saltoGaleria">
-				
-				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
-					<div id="myCarousel1" class="carousel slide" data-ride="carousel">
-					  <ol class="carousel-indicators">
-					  	  <?php $cont2=1;foreach($gold as $cu2){ ?>
-						    <li data-target="#myCarousel1" data-slide-to="0" class="<?php if($cont2==1){ echo 'active';}?>"></li>
-						  <?php $cont2++;}?>
-					    
-					  </ol>
-
-					  
-					  <div class="carousel-inner" role="listbox">
-						  <?php $cont=1;foreach($gold as $cu1){ ?>
-						    <div class="item <?php if($cont==1){ echo 'active';}?>">
-						      <a href="img/curacao/<?php echo $cu1['img']?>" data-gallery><img  src="img/curacao/<?php echo $cu1['img']?>" /></a>
-						    </div>
-						  <?php $cont++;}?>  
-					  </div>
-
-					  
-					  <a class="left carousel-control" href="#myCarousel1" role="button" data-slide="prev">
-					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					    <span class="sr-only">Anterior</span>
-					  </a>
-					  <a class="right carousel-control" href="#myCarousel1" role="button" data-slide="next">
-					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					    <span class="sr-only">Siguiente</span>
-					  </a>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 text-left pInternas">
-					<h4 class="tituloSeccion"> CURACAO</h4>
-					<p class="">
-						 Curacao 352 Viviendas: 29 meses. Aptos de 62 m2<br><br>
-						Todos los apartamentos tendrán un Valor de 135 SMLV + un paquete de acabados + Fee de Laguna + Parqueaderos.
-					</p>
-					
-				</div>
-				
-			</div>
-
-
-			<div class="row saltoGaleria">
-				
-				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 visible-sm visible-xs">
-					<div id="myCarousel3" class="carousel slide" data-ride="carousel">
-					  <ol class="carousel-indicators">
-					    <?php $cont4=1;foreach($gold as $cu2){ ?>
-						    <li data-target="#myCarousel3" data-slide-to="0" class="<?php if($cont4==1){ echo 'active';}?>"></li>
-						  <?php $cont4++;}?>
-					  </ol>
-
-					  
-					  <div class="carousel-inner" role="listbox">
-					     <?php $cont3=1;foreach($aruba as $cu3){ ?>
-						    <div class="item <?php if($cont3==1){ echo 'active';}?>">
-						      <a href="img/aruba/<?php echo $cu3['img']?>" data-gallery><img src="img/aruba/<?php echo $cu3['img']?>" /></a>
-						    </div>
-						  <?php $cont3++;}?> 
-					  </div>
-
-					  
-					  <a class="left carousel-control" href="#myCarousel3" role="button" data-slide="prev">
-					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					    <span class="sr-only">Previous</span>
-					  </a>
-					  <a class="right carousel-control" href="#myCarousel3" role="button" data-slide="next">
-					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					    <span class="sr-only">Next</span>
-					  </a>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 text-left pInternas">
-					<h4 class="tituloSeccion"> ARUBA</h4>
-					<p class=""> Aruba 528 Viviendas: 17.6 Meses. Aptos de 51, 56 y 65 m2<br><br>
-						Todos los apartamentos tendrán un Valor de 135 SMLV + un paquete de acabados + Fee de Laguna + Parqueaderos.</p>
-					
-				</div>
-				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 visible-lg visible-md">
-					<div id="myCarousel2" class="carousel slide" data-ride="carousel">
-					  <ol class="carousel-indicators">
-					     <?php $cont6=1;foreach($gold as $cu5){ ?>
-						    <li data-target="#myCarousel2" data-slide-to="0" class="<?php if($cont6==1){ echo 'active';}?>"></li>
-						  <?php $cont6++;}?>
-					  </ol>
-
-					  
-					  <div class="carousel-inner" role="listbox">
-					    <?php $cont5=1;foreach($aruba as $cu4){ ?>
-						    <div class="item <?php if($cont5==1){ echo 'active';}?>">
-						      <a href="img/aruba/<?php echo $cu4['img']?>" data-gallery><img src="img/aruba/<?php echo $cu4['img']?>" /></a>
-						    </div>
-						  <?php $cont5++;}?> 
-					  </div>
-
-					  
-					  <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
-					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					    <span class="sr-only">Previous</span>
-					  </a>
-					  <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
-					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					    <span class="sr-only">Next</span>
-					  </a>
-					</div>
-				</div>
-				
-			</div>
-
-
-		</div>
-	</div>-->
 
 	<?php include("pie.php") ?>
 

@@ -108,12 +108,6 @@ $curacao[4]['img'] = "../img2.jpg";*/
 						En Neiva lanzamos el primer proyecto Mar Adentro Gold, con dos manzanas
 						independientes llamadas Aruba y Curacao.
 					</p>
-					<br>
-					<center><a href="<?php echo _DOMINIO?>files/Brochure.pdf" target="_blank" type="button" class="btn btn-danger fa fa-file-pdf-o" style="padding:2%;border:none">
-					    <i class="fa fa-file-pdf-o">
-					    	<img src="<?php echo _DOMINIO?>img/bajar.png" />
-					    </i> Descargar Brochure
-					  </a></center>
 				</div>
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
 			</div>
@@ -130,19 +124,37 @@ $curacao[4]['img'] = "../img2.jpg";*/
 				<div class="col-lg-10 col-md-10 col-xs-12 col-sm-12">
 					<div id="content">
 					    <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
-					        <li class="active"><a href="#red" data-toggle="tab">CURACAO</a></li>
+					    	<li class="active"><a href="#master" data-toggle="tab">MASTER PLAN</a></li>
+					        <li><a href="#red" data-toggle="tab">CURACAO</a></li>
 					        <li><a href="#orange" data-toggle="tab">ARUBA</a></li>
-					        <li><a href="#yellow" data-toggle="tab">AMENITIES</a></li>
+<!--					        <li><a href="#yellow" data-toggle="tab">AMENITIES</a></li>-->
 					        <li><a href="#green" data-toggle="tab">UBICACIÓN</a></li>
-					        <li><a href="#blue" data-toggle="tab"></a></li>
+					        <li><a href="#blue" data-toggle="tab">BROCHURE</a></li>
 					    </ul>
 					    <div id="my-tab-content" class="tab-content">
 
+					    <!-- Tab 0-->
+					        <div class="tab-pane active" id="master">
+					            <h2 class="tituloSeccion text-left">MASTER PLAN</h2>
+					            <div class="row saltoGaleria">
+									<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+										<p class="pInternas2">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+										proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+										</p>
+									</div>
+								</div>
+					        </div>
+					        <!-- Fin Tab 0 -->
 					    	<!-- Tab 1-->
-					        <div class="tab-pane active" id="red">
+					        <div class="tab-pane" id="red">
 					            <h2 class="tituloSeccion text-left">CURACAO</h2>
 					            <div class="row saltoGaleria">
-										<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+										<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
 											<div id="myCarousel1" class="carousel slide" data-ride="carousel">
 											  <ol class="carousel-indicators">
 											  	  <?php $cont2=1;foreach($curacao as $cu2){ ?>
@@ -168,12 +180,11 @@ $curacao[4]['img'] = "../img2.jpg";*/
 											    <span class="sr-only">Siguiente</span>
 											  </a>
 											</div>
-										</div>
-										<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 text-left pInternas">
 
 
-											<h4 class="tituloSeccion"> CURACAO</h4>
-											<p class="">
+
+											<!--<h4 class="tituloSeccion"> CURACAO</h4>-->
+											<p class="pInternas2"><br>
 												Está conformado por 352 apartamentos de tipo vacacional de 61 M2 de
 												dos alcobas principales autónomas e independientes, enfocado a la recreación,
 												cada una con clósets y baños.
@@ -191,7 +202,8 @@ $curacao[4]['img'] = "../img2.jpg";*/
 					        <div class="tab-pane" id="orange">
 					            <h2 class="tituloSeccion text-left">ARUBA</h2>
 					            <div class="row saltoGaleria">
-									<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+									<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+										<!--<h4 class="tituloSeccion"> ARUBA</h4>-->
 										<div id="myCarousel3" class="carousel slide" data-ride="carousel">
 										  <ol class="carousel-indicators">
 										    <?php $cont4=1;foreach($aruba as $cu2){ ?>
@@ -216,10 +228,9 @@ $curacao[4]['img'] = "../img2.jpg";*/
 										    <span class="sr-only">Next</span>
 										  </a>
 										</div>
-									</div>
-									<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 text-left pInternas">
-										<h4 class="tituloSeccion"> ARUBA</h4>
-										<p class=""> 
+
+										
+										<p class="pInternas2"> <br>
 											Está conformada por 440 apartamentos de 50 M2, 56 M2 y 65 M2 con
 											programas entre 2 y 3 alcobas.
 											Son apartamentos tradicionales que tienen varios tipos: uno de dos alcobas, otro
@@ -229,14 +240,15 @@ $curacao[4]['img'] = "../img2.jpg";*/
 											Otro de 65m2 de 3 alcobas con un estudio en un formato más familiar tradicional.
 											La manzana Aruba tiene su salón comunal, portería con salida a la laguna.
 										</p>
-										<!--<a href="img/big_img2.jpg" data-gallery alt="Alcoba" title="Alcoba">Ver imágenes</a>-->
+										
 									</div>
 								</div>
 					        </div>
 					        <!-- Fin Tab 2-->
-					        <div class="tab-pane" id="yellow">
+
+					        <!--<div class="tab-pane" id="yellow">
 					            <h2 class="tituloSeccion text-left">AMENITIES</h2>
-					           <!-- Inicio galería aennities-->
+					          
 					           	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 							  <ol class="carousel-indicators">
 							    <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
@@ -247,45 +259,18 @@ $curacao[4]['img'] = "../img2.jpg";*/
 							    <li data-target="#myCarousel" data-slide-to="6"></li>
 							    <li data-target="#myCarousel" data-slide-to="7"></li>
 							    <li data-target="#myCarousel" data-slide-to="8"></li>
-							    <!--<li data-target="#myCarousel" data-slide-to="9"></li>
-							    <li data-target="#myCarousel" data-slide-to="10"></li>
-							    <li data-target="#myCarousel" data-slide-to="11"></li>
-							    <li data-target="#myCarousel" data-slide-to="12"></li>
-							    <li data-target="#myCarousel" data-slide-to="13"></li>-->
 							  </ol>
 
-							  <!-- Wrapper for slides -->
 							  <div class="carousel-inner" role="listbox">
-
-							  	<!--<div class="item active">
-							      <a href="img/big_img0.jpg" data-gallery><img src="img/big_img0.jpg" alt=""></a>
-							    </div>-->
-
-							    <!--<div class="item active">
-							      <a href="img/big_img13.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img13.jpg" alt=""></a>
-							    </div>
-
-							    <div class="item">
-							      <a href="img/big_img10.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img10.jpg" alt=""></a>
-							    </div>-->
-
 							    
 
 							    <div class="item active">
 							      <a href="img/big_img11.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img11.jpg" alt=""></a>
 							    </div>
 
-							    <!--<div class="item">
-							      <a href="img/big_img12.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img12.jpg" alt=""></a>
-							    </div>-->
-
 							    <div class="item">
 							      <a href="img/big_img9.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img9.jpg" alt=""></a>
 							    </div>
-
-							    <!--<div class="item">
-							      <a href="img/big_img5.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img5.jpg" alt=""></a>
-							    </div>-->
 
 							    <div class="item">
 							      <a href="img/big_img6.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img6.jpg" alt=""></a>
@@ -310,15 +295,8 @@ $curacao[4]['img'] = "../img2.jpg";*/
 							    <div class="item">
 							      <a href="img/ame/4.jpg" data-gallery><img src="<? echo _DOMINIO?>img/ame/4.jpg" alt=""></a>
 							    </div>
-
-							    
-
-							    <!--<div class="item">
-							      <a href="img/big_img4.jpg" data-gallery><img src="<? echo _DOMINIO?>img/big_img4.jpg" alt=""></a>
-							    </div>-->
 							  </div>
 
-							  <!-- Left and right controls -->
 							  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 							    <span class="sr-only">Previous</span>
@@ -328,15 +306,14 @@ $curacao[4]['img'] = "../img2.jpg";*/
 							    <span class="sr-only">Next</span>
 							  </a>
 							</div>
-					           <!--Fin galerí menities-->
-					        </div>
+					          
+					        </div>-->
+
 					        <div class="tab-pane" id="green">
 					            <h2 class="tituloSeccion text-left">UBICACIÓN</h2>
 					            <div class="row">
 									<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-										<!--<h2 style="text-align: left;margin:1% 0 0 0 !important;padding:0;font-size: 1.8em;font-weight: 300">Ciudadela NIO, Av. 26 No 41 - 66</h2>
-										<h3 style="text-align: left;margin:1% 0 0 0 !important;padding:0;font-size: 1.3em;font-weight: 300">info@vivemaradentro.com.co</h3>
-										<h4 style="text-align: left;margin:1% 0 0 0 !important;padding:0;font-size: 1.3em;font-weight: 300">(571) 315 707 6127 </h4>-->
+										
 										<p class="text-left">
 											
 										</p>
@@ -364,8 +341,13 @@ $curacao[4]['img'] = "../img2.jpg";*/
 								</div>
 					        </div>
 					        <div class="tab-pane" id="blue">
-					            <h2 class="tituloSeccion text-left">Blue</h2>
-					            <p>blue blue blue blue blue</p>
+					            <h2 class="tituloSeccion text-left">BROCHURE</h2>
+								<br>
+								<center><a href="<?php echo _DOMINIO?>files/Brochure.pdf" target="_blank" type="button" class="btn btn-danger fa fa-file-pdf-o" style="padding:2%;border:none">
+								    <i class="fa fa-file-pdf-o">
+								    	<img src="<?php echo _DOMINIO?>img/bajar.png" />
+								    </i> Descargar Brochure
+								  </a></center>
 					        </div>
 					    </div>
 					</div>
