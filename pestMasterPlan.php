@@ -2,20 +2,22 @@
 $parque[0]['img'] = "img/parque/1.jpg";
 $parque[1]['img'] = "img/parque/2.jpg";
 $parque[2]['img'] = "img/parque/3.jpg";
-$parque[3]['img'] = "img/parque/4.jpg";
-$parque[4]['img'] = "img/parque/5.png";
-$parque[5]['img'] = "img/parque/6.jpg";
-$parque[6]['img'] = "img/parque/7.jpg";
+$parque[3]['img'] = "img/parque/4.png";
+$parque[4]['img'] = "img/parque/5.jpg";
 
-$ch[0]['img'] = "img/clubHouse/1.jpg";
-$ch[1]['img'] = "img/clubHouse/2.jpg";
-$ch[2]['img'] = "img/clubHouse/3.jpg";
+$ch[0]['img'] = "img/club/1.jpg";
+$ch[1]['img'] = "img/club/2.jpg";
+$ch[2]['img'] = "img/club/3.jpg";
+$ch[3]['img'] = "img/club/4.jpg";
+$ch[4]['img'] = "img/club/5.png";
+$ch[5]['img'] = "img/club/6.jpg";
 
-$cp[0]['img'] = "img/clubPlaya/1.jpg";
-$cp[1]['img'] = "img/clubPlaya/2.jpg";
-$cp[2]['img'] = "img/clubPlaya/3.jpg";
-$cp[3]['img'] = "img/clubPlaya/4.jpg";
-$cp[4]['img'] = "img/clubPlaya/5.jpg";
+$cp[0]['img'] = "img/ameSer/1.jpg";
+$cp[1]['img'] = "img/ameSer/2.jpg";
+$cp[2]['img'] = "img/ameSer/3.jpg";
+$cp[3]['img'] = "img/ameSer/4.jpg";
+$cp[4]['img'] = "img/ameSer/5.jpg";
+$cp[5]['img'] = "img/ameSer/6.jpg";
 ?>
 
 <div id="my-tab-content" class="tab-content">
@@ -56,7 +58,7 @@ $cp[4]['img'] = "img/clubPlaya/5.jpg";
     </div>
     <!-- Tab 2-->
     <div class="tab-pane" id="clubH">
-        <h2 class="tituloSeccion text-left">CLUB HOUSE</h2>
+        <h2 class="tituloSeccion text-left">CLUB</h2>
         <div id="CarouselCH" class="carousel slide" data-ride="carousel">
 		  <ol class="carousel-indicators">
 		  	  <?php $cont2=1;foreach($ch as $cu2){ ?>
@@ -91,7 +93,7 @@ $cp[4]['img'] = "img/clubPlaya/5.jpg";
     </div>
     <!-- Tab 3-->
     <div class="tab-pane" id="clubP">
-        <h2 class="tituloSeccion text-left">CLUB PLAYA</h2>
+        <h2 class="tituloSeccion text-left">AMENITIES y SERVICIOS</h2>
         <div id="CarouselCP" class="carousel slide" data-ride="carousel">
 		  <ol class="carousel-indicators">
 		  	  <?php $cont2=1;foreach($cp as $cu2){ ?>

@@ -10,7 +10,7 @@
 <?php 
 
 //$aruba[0]['img'] = "1.png";
-$aruba[0]['img'] = "../big_img7.jpg";
+$aruba[0]['img'] = "../bgNeivaN.jpg";
 $aruba[1]['img'] = "../img3.jpg";
 $aruba[2]['img'] = "../img1.jpg";
 $aruba[3]['img'] = "../img2.jpg";
@@ -24,7 +24,7 @@ $aruba[8]['img'] = "7.jpg";
 
 
 //$curacao[0]['img'] = "1.png";
-$curacao[1]['img'] = "../big_img7.jpg";
+$curacao[1]['img'] = "../bgNeivaN.jpg";
 $curacao[2]['img'] = "../img3.jpg";
 $curacao[3]['img'] = "2.jpg";
 $curacao[4]['img'] = "3.jpg";
@@ -163,9 +163,9 @@ $curacao[4]['img'] = "../img2.jpg";*/
 									<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-md visible-lg"></div>
 									<div class="col-lg-10 col-md-10 col-xs-12 col-sm-12">
 									    <ul id="tabs" class="nav nav-pills nav-justified">
+									        <li><a class="pestIntMP" href="#clubH" data-toggle="tab"><strong>CLUB</strong></a></li>
+									        <li><a class="pestIntMP" href="#clubP" data-toggle="tab"><strong>AMENITIES Y SERVICIOS</strong></a></li>
 									    	<li class=""><a class="pestIntMP" href="#parque" data-toggle="tab"><strong>PARQUE</strong></a></li>
-									        <li><a class="pestIntMP" href="#clubH" data-toggle="tab"><strong>CLUB HOUSE</strong></a></li>
-									        <li><a class="pestIntMP" href="#clubP" data-toggle="tab"><strong>CLUB PLAYA</strong></a></li>
 									    </ul>
 								    </div>
 									<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-md visible-lg"></div>
@@ -194,7 +194,7 @@ $curacao[4]['img'] = "../img2.jpg";*/
 											  <div class="carousel-inner" role="listbox">
 												  <?php $cont=1;foreach($curacao as $cu1){ ?>
 												    <div class="item <?php if($cont==1){ echo 'active';}?>">
-												      <a href="<?php echo _DOMINIO?>img/curacao/<?php echo $cu1['img']?>" data-gallery><img  src="<?php echo _DOMINIO?>img/curacao/<?php echo $cu1['img']?>" /></a>
+												      <a href="<?php echo _DOMINIO?>img/curacao/<?php echo $cu1['img']?>" data-gallery><img width="100%"  src="<?php echo _DOMINIO?>img/curacao/<?php echo $cu1['img']?>" /></a>
 												    </div>
 												  <?php $cont++;}?>  
 											  </div>
@@ -242,7 +242,7 @@ $curacao[4]['img'] = "../img2.jpg";*/
 										  <div class="carousel-inner" role="listbox">
 										     <?php $cont3=1;foreach($aruba as $cu3){ ?>
 											    <div class="item <?php if($cont3==1){ echo 'active';}?>">
-											      <a href="<?php echo _DOMINIO?>img/aruba/<?php echo $cu3['img']?>" data-gallery><img src="<?php echo _DOMINIO?>img/aruba/<?php echo $cu3['img']?>" /></a>
+											      <a href="<?php echo _DOMINIO?>img/aruba/<?php echo $cu3['img']?>" data-gallery><img  width="100%"  src="<?php echo _DOMINIO?>img/aruba/<?php echo $cu3['img']?>" /></a>
 											    </div>
 											  <?php $cont3++;}?> 
 										  </div>
