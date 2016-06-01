@@ -157,21 +157,33 @@ $dia[3]['img'] = "dia/4.jpg";
 	</div>
 
 
+	<div class="container-fluid" style="padding: 3%;">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-md visible-lg"></div>
+				<div class="col-lg-10 col-md-10 col-xs-12 col-sm-12">
+					    <ul id="tabs" class="nav nav-pills nav-justified">
+					        <li class=""><a href="#gold" data-toggle="tab"><strong>MAR ADENTRO GOLD</strong></a></li>
+					        <li><a href="#platino" data-toggle="tab"><strong>MAR ADENTRO PLATINO</strong></a></li>
+					        <li><a href="#diamante" data-toggle="tab"><strong>MAR ADENTRO DIAMANTE</strong></a></li>
+					    </ul>
+			    </div>
+			    <div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-md visible-lg"></div>
+		    </div>
+		</div>
+	</div>
 	<div class="container-fluid" style="padding: 3%;background: #f7f7f7">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-lg visible-md"></div>
 				<div class="col-lg-10 col-md-10 col-xs-12 col-sm-12">
 					<div id="content" >
-					    <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
-					        <li class="active"><a href="#gold" data-toggle="tab">MAR ADENTRO GOLD</a></li>
-					        <li><a href="#platino" data-toggle="tab">MAR ADENTRO PLATINO</a></li>
-					        <li><a href="#diamante" data-toggle="tab">MAR ADENTRO DIAMANTE</a></li>
-					    </ul>
+						
+					
 					    <div id="my-tab-content" class="tab-content">
 
 					    	<!-- Tab 1-->
-					        <div class="tab-pane active" id="gold">
+					        <div class="tab-pane" id="gold">
 					            <h2 class="tituloSeccion text-left">MAR ADENTRO GOLD</h2>
 					            <div id="myCarousel1" class="carousel slide" data-ride="carousel">
 								  <ol class="carousel-indicators">

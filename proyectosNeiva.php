@@ -101,7 +101,7 @@ $curacao[4]['img'] = "../img2.jpg";*/
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
 				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
 					<h1>NEIVA</h1>
-					<img src="<?php echo _DOMINIO ?>img/master.png" class="img-thumbnail"><br><br>
+					<!--<img src="<?php echo _DOMINIO ?>img/master.png" class="img-thumbnail"><br><br>-->
 					<p class="pInternas">La primera ciudad privilegiada con esta novedosa solución de vivienda que cambia
 						por completo el estilo de vida de sus habitantes y visitantes, será Neiva, en la
 						capital del Huila, a 38 grados centígrados, Avenida Max Duque contiguo a la base militar.
@@ -114,7 +114,25 @@ $curacao[4]['img'] = "../img2.jpg";*/
 			
 		</div>
 	</div>
+	<div class="container-fluid" style="padding: 3%;">
+		<div class="container">
 
+			<div class="row">
+				<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-md visible-lg"></div>
+				<div class="col-lg-10 col-md-10 col-xs-12 col-sm-12">
+					    <ul id="tabs" class="nav nav-pills nav-justified">
+					    	<li class=""><a href="#master" data-toggle="tab"><strong>MASTER PLAN</strong></a></li>
+					        <li><a href="#red" data-toggle="tab"><strong>CURACAO</strong></a></li>
+					        <li><a href="#orange" data-toggle="tab"><strong>ARUBA</strong></a></li>
+<!--					        <li><a href="#yellow" data-toggle="tab"><strong>AMENITIES</strong></a></li>-->
+					        <li><a href="#green" data-toggle="tab"><strong>UBICACIÓN</strong></a></li>
+					        <li><a href="#blue" data-toggle="tab"><strong>BROCHURE</strong></a></li>
+					    </ul>
+			    </div>
+				<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-md visible-lg"></div>
+		    </div>
+		</div>
+	</div>
 
 	<div class="container-fluid" style="padding: 3%;background:#f1f1f1">
 		<div class="container text-center">
@@ -123,22 +141,15 @@ $curacao[4]['img'] = "../img2.jpg";*/
 				<div class="col-lg-1 col-md-1 visible-lg visible-md"></div>
 				<div class="col-lg-10 col-md-10 col-xs-12 col-sm-12">
 					<div id="content">
-					    <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
-					    	<li class="active"><a href="#master" data-toggle="tab">MASTER PLAN</a></li>
-					        <li><a href="#red" data-toggle="tab">CURACAO</a></li>
-					        <li><a href="#orange" data-toggle="tab">ARUBA</a></li>
-<!--					        <li><a href="#yellow" data-toggle="tab">AMENITIES</a></li>-->
-					        <li><a href="#green" data-toggle="tab">UBICACIÓN</a></li>
-					        <li><a href="#blue" data-toggle="tab">BROCHURE</a></li>
-					    </ul>
 					    <div id="my-tab-content" class="tab-content">
 
 					    <!-- Tab 0-->
-					        <div class="tab-pane active" id="master">
+					        <div class="tab-pane" id="master">
 					            <h2 class="tituloSeccion text-left">MASTER PLAN</h2>
 					            <div class="row saltoGaleria">
 									<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
 										<p class="pInternas2">
+										<img src="<?php echo _DOMINIO ?>img/master.png" class="img-thumbnail"><br><br>
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

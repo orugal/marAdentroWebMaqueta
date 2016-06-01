@@ -111,7 +111,23 @@ $curacao[2]['img'] = "3.png";
 			
 		</div>
 	</div>
+	<div class="container-fluid" style="padding: 3%;">
+		<div class="container">
 
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 visible-md visible-lg"></div>
+				<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+					<center>
+					    <ul id="tabs" class="nav nav-pills nav-justified">
+					        <li><a href="#yellow" data-toggle="tab">AMENITIES</a></li>
+					        <li><a href="#green" data-toggle="tab">UBICACIÓN</a></li>
+					    </ul>
+				    </center>
+			    </div>
+			    <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 visible-md visible-lg"></div>
+		    </div>
+		</div>
+	</div>
 
 	<div class="container-fluid" style="padding: 3%;background:#f1f1f1">
 		<div class="container text-center">
@@ -120,15 +136,9 @@ $curacao[2]['img'] = "3.png";
 				<div class="col-lg-1 col-md-1 visible-lg visible-md"></div>
 				<div class="col-lg-10 col-md-10 col-xs-12 col-sm-12">
 					<div id="content">
-					    <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
-					       <!-- <li class="active"><a href="#red" data-toggle="tab">CURACAO</a></li>
-					        <li><a href="#orange" data-toggle="tab">ARUBA</a></li>-->
-					        <li class="active"><a href="#yellow" data-toggle="tab">AMENITIES</a></li>
-					        <li><a href="#green" data-toggle="tab">UBICACIÓN</a></li>
-					    </ul>
 					    <div id="my-tab-content" class="tab-content">
 
-					        <div class="tab-pane active" id="yellow">
+					        <div class="tab-pane" id="yellow">
 					            <h2 class="tituloSeccion text-left">AMENITIES</h2>
 					           	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 							  <ol class="carousel-indicators">
