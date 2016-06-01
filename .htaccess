@@ -12,6 +12,10 @@ RewriteRule ^gracias$ contacto.php?gracias
 RewriteRule ^crystalLagoons$ crystalLagoons.php
 RewriteRule ^lotesMarAdentro$ lotes.php
 
+RewriteRule ^reportes$ reportes.php
+RewriteRule ^reporteContacto$ reportes.php?r=1
+RewriteRule ^reporteLotes$ reportes.php?r=2
+
 RewriteRule ^proyectos/neiva$ proyectosNeiva.php
 RewriteRule ^proyectos/cartagena$ proyectosCartagena.php
 RewriteRule ^proyectos/flandes$ proyectosFlandes.php

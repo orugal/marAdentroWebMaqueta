@@ -159,13 +159,13 @@ $dia[3]['img'] = "dia/4.jpg";
 
 	<div class="container-fluid" style="padding: 3%;">
 		<div class="container">
-			<div class="row">
+			<div class="row" >
 				<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-md visible-lg"></div>
 				<div class="col-lg-10 col-md-10 col-xs-12 col-sm-12">
 					    <ul id="tabs" class="nav nav-pills nav-justified">
-					        <li class=""><a href="#gold" data-toggle="tab"><strong>MAR ADENTRO GOLD</strong></a></li>
-					        <li><a href="#platino" data-toggle="tab"><strong>MAR ADENTRO PLATINO</strong></a></li>
-					        <li><a href="#diamante" data-toggle="tab"><strong>MAR ADENTRO DIAMANTE</strong></a></li>
+					        <li class=""><a class="pestMarA" href="#gold" data-toggle="tab"><strong>MAR ADENTRO GOLD</strong></a></li>
+					        <li><a class="pestMarA" href="#platino" data-toggle="tab"><strong>MAR ADENTRO PLATINO</strong></a></li>
+					        <li><a class="pestMarA" href="#diamante" data-toggle="tab"><strong>MAR ADENTRO DIAMANTE</strong></a></li>
 					    </ul>
 			    </div>
 			    <div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-md visible-lg"></div>
