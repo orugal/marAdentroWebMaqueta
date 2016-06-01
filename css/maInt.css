@@ -413,3 +413,15 @@ nav.navbar {
     overflow-x: hidden;
   }
 }
+
+.nav-justified>li>.pestNeiva{color:#fff;}
+.nav-justified>li>.pestNeiva:hover{color:#004169;border-radius: 0}
+
+.nav-pills>li.active>.pestNeiva, .nav-pills>li.active>.pestNeiva:focus, .nav-pills>li.active{color:#004169;background: #fff}
+
+
+
+.nav-justified>li>.pestIntMP{color:#333;}
+.nav-justified>li>.pestIntMP:hover{color:#004169;border-radius: 0}
+
+.nav-pills>li.active>.pestIntMP, .nav-pills>li.active>.pestIntMP:focus, .nav-pills>li.active{color:#004169;background: #E4E4E4}

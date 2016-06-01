@@ -114,19 +114,18 @@ $curacao[4]['img'] = "../img2.jpg";*/
 			
 		</div>
 	</div>
-	<div class="container-fluid" style="padding: 3%;">
+	<div class="container-fluid" style="padding: 3%;background:#004169">
 		<div class="container">
-
 			<div class="row">
 				<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-md visible-lg"></div>
 				<div class="col-lg-10 col-md-10 col-xs-12 col-sm-12">
 					    <ul id="tabs" class="nav nav-pills nav-justified">
-					    	<li class=""><a href="#master" data-toggle="tab"><strong>MASTER PLAN</strong></a></li>
-					        <li><a href="#red" data-toggle="tab"><strong>CURACAO</strong></a></li>
-					        <li><a href="#orange" data-toggle="tab"><strong>ARUBA</strong></a></li>
+					    	<li class=""><a class="pestNeiva" href="#master" data-toggle="tab"><strong>MASTER PLAN</strong></a></li>
+					        <li><a class="pestNeiva" href="#red" data-toggle="tab"><strong>CURACAO</strong></a></li>
+					        <li><a class="pestNeiva" href="#orange" data-toggle="tab"><strong>ARUBA</strong></a></li>
 <!--					        <li><a href="#yellow" data-toggle="tab"><strong>AMENITIES</strong></a></li>-->
-					        <li><a href="#green" data-toggle="tab"><strong>UBICACIÓN</strong></a></li>
-					        <li><a href="#blue" data-toggle="tab"><strong>BROCHURE</strong></a></li>
+					        <li><a class="pestNeiva" href="#green" data-toggle="tab"><strong>UBICACIÓN</strong></a></li>
+					        <li><a class="pestNeiva" href="#blue" data-toggle="tab"><strong>BROCHURE</strong></a></li>
 					    </ul>
 			    </div>
 				<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-md visible-lg"></div>
@@ -160,13 +159,13 @@ $curacao[4]['img'] = "../img2.jpg";*/
 									</div>
 								</div>
 
-								<div class="row" style="">
+								<div class="row" style="background:#eee">
 									<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-md visible-lg"></div>
 									<div class="col-lg-10 col-md-10 col-xs-12 col-sm-12">
 									    <ul id="tabs" class="nav nav-pills nav-justified">
-									    	<li class=""><a href="#parque" data-toggle="tab"><strong>PARQUE</strong></a></li>
-									        <li><a href="#clubH" data-toggle="tab"><strong>CLUB HOUSE</strong></a></li>
-									        <li><a href="#clubP" data-toggle="tab"><strong>CLUB PLAYA</strong></a></li>
+									    	<li class=""><a class="pestIntMP" href="#parque" data-toggle="tab"><strong>PARQUE</strong></a></li>
+									        <li><a class="pestIntMP" href="#clubH" data-toggle="tab"><strong>CLUB HOUSE</strong></a></li>
+									        <li><a class="pestIntMP" href="#clubP" data-toggle="tab"><strong>CLUB PLAYA</strong></a></li>
 									    </ul>
 								    </div>
 									<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-md visible-lg"></div>
