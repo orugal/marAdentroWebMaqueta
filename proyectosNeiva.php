@@ -149,7 +149,7 @@ $curacao[4]['img'] = "../img2.jpg";*/
 					            <div class="row saltoGaleria">
 									<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
 										<p class="pInternas2">
-										<img src="<?php echo _DOMINIO ?>img/master.png" class="img-thumbnail"><br><br>
+										<img src="<?php echo _DOMINIO ?>img/masterOLD.png" class="img-thumbnail"><br><br>
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -159,6 +159,24 @@ $curacao[4]['img'] = "../img2.jpg";*/
 										</p>
 									</div>
 								</div>
+
+								<div class="row" style="">
+									<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-md visible-lg"></div>
+									<div class="col-lg-10 col-md-10 col-xs-12 col-sm-12">
+									    <ul id="tabs" class="nav nav-pills nav-justified">
+									    	<li class=""><a href="#parque" data-toggle="tab"><strong>PARQUE</strong></a></li>
+									        <li><a href="#clubH" data-toggle="tab"><strong>CLUB HOUSE</strong></a></li>
+									        <li><a href="#clubP" data-toggle="tab"><strong>CLUB PLAYA</strong></a></li>
+									    </ul>
+								    </div>
+									<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-md visible-lg"></div>
+							    </div>
+							    <div class="row" style="padding:3%">
+									<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+									   <?php include("pestMasterPlan.php") ?>
+								    </div>
+							    </div>
+
 					        </div>
 					        <!-- Fin Tab 0 -->
 					    	<!-- Tab 1-->
