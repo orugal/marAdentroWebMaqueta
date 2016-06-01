@@ -96,53 +96,17 @@ $dia[3]['img'] = "dia/4.jpg";
 			<div class="row">
 				<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-lg visible-md"></div>
 				<div class="col-lg-10 col-md-10 col-xs-12 col-sm-12">
-					<h2 class="tituloSeccion text-center">MAR ADENTRO</h2>
+					<h2 class="tituloSeccion text-center" style="text-transform:uppercase">La Nueva Era de la Vivienda en Colombia</h2>
 					<p class="pInternas2">
-					<strong>Mar Adentro</strong> es la nueva era de la vivienda en Colombia al introducir en las
-					soluciones de vivienda el mar y la arena blanca, elementos que llevará a las
-					principales ciudades como Neiva, Ibagué, Montería, Valledupar, Cartagena y
-					Flandes, entre otras.<br><br>
-					<strong>Mar Adentro</strong> es una iniciativa privada que trae la única tecnología capaz de
-					crear una experiencia Caribe. Así <strong>Constructora NIO</strong> mediante alianzas
-					internacionales, cambia por completo el estilo de vida de los colombianos.
-					Se trata de una laguna cristalina de gran formato y una playa con las múltiples
-					sensaciones que esta despierta al fundirse el azul de la laguna con el del cielo
-					en un efecto espejo único, relajante, divertido y refrescante.
-					En <strong>Mar Adentro</strong> las viviendas están alrededor de la gran laguna, lo que se
-					hace posible en equipo con su aliada líder mundial Crystal Lagoons, creadora
-					de lagunas cristalinas y mares interiores que han revolucionado el mercado
-					mundial de vivienda, el amenity top del momento, al convertir un lugar
-					tradicional en un paraíso idílico.<br><br>
+ 
+					El azul turquesa del mar cristalino, la arena blanca, el movimiento de las palmeras, la brisa suave que golpea nuestro rostro, son vivencias que disfrutamos cuando estamos frente al mar.
+ 					<br><br>	
+					<strong>Mar Adentro</strong> es una forma de vida, donde la arquitectura se compagina con su contexto natural y se genera un hábitat único y especial.
+ 					<br><br>
+					<strong>Mar Adentro</strong> es una iniciativa privada que trae la única tecnología capaz de crear una experiencia Caribe. Así Constructora NIO, en alianza con  Crystal Lagoons, creadora de lagunas cristalinas y mares interiores que han revolucionado el mercado mundial de vivienda, el amenity top del momento,  convierten un lugar tradicional en un paraíso idílico.
+ 					<br><br>
+					Sus espacios son diseñados para ser altamente eficientes, con precios asequibles acordes con las necesidades de sus habitantes, haciéndolo un proyecto integral en tres categorías: <i>Gold, Platino y Diamante</i>.
 
-					<strong>Mar Adentro</strong> eleva así la calidad y estilo de vida de los colombianos.
-					Los proyectos van a estar en categorías Gold, Platino y Diamante de acuerdo
-					con las características de diversos tipos de apartamentos.<br><br>
-<!--
-					<strong>Mar Adentro Gold:</strong> conjuntos residenciales con viviendas de $40 a $ 200
-					Millones, acabados básicos e índices de ocupación de lote de más del 40%.
-					Tiene mesón de la cocina, mueble inferior de la cocina, piso en porcelanato,
-					paredes pintadas y terminadas; carpintería en madera básica, clósets y mueble
-					inferior del baño. Todo el apartamento se entrega terminado con carpintería en las
-					alcobas, todas las puertas y los clósets.<br><br>
-					<strong>Mar Adentro Platino:</strong> viviendas entre $ 200 y $ 500 Millones, acabados
-					intermedios e índices de ocupación de lote entre 30% y 40%.
-					Los acabados intermedios tienen mesón de la cocina, mueble inferior de la cocina,
-					piso en porcelanato, paredes pintadas y terminadas; carpintería en madera básica,
-					clósets y mueble inferior del baño. Todo el apartamento se entrega terminado con
-					carpintería en las alcobas, todas las puertas y los clósets.
-					Los clósets vienen con varios cajones, las puertas de los clósets son de una
-					madera de alta calidad con un diseño de vanguardia; el apartamento tiene
-					acabados finos, como el mesón del baño en mármol y trae accesorios como tomas
-					y enchufes básicos.<br><br>
-					<strong>Mar Adentro Diamante:</strong> viviendas de más de $ 500 Millones, acabados de lujo e
-					índices de ocupación de lote menores al 30%.
-					Con acabados de lujo en materiales y mármoles importados, iluminaciones de
-					vanguardia, con domótica, controlado desde el ipad la persiana de la cocina, el
-					aire acondicionado, con elevados estándares de calidad.
-					El porcentaje de ocupación es inferior, lo cual le da mayor espacio para zonas
-					verdes, parqueaderos, parques para los niños, mayor espacio entre torres, y otros
-					beneficios exclusivos de este formato.
-					</p>-->
 
 					<!--<br>
 					<center><a href="files/Brochure.pdf" target="_blank" type="button" class="btn btn-danger fa fa-file-pdf-o" style="padding:2%;border:none">
@@ -213,8 +177,12 @@ $dia[3]['img'] = "dia/4.jpg";
 								  </a>
 								</div>
 								<p class="pInternas2"><br>
-									Como el metal dorado Gold quiere llevar a sus residentes y visitantes a hacer posible su sueño de vivir bien, con hermosos espacios alrededor de los apartamentos, dotados con el equipamiento necesario para compartir  momentos únicos en familia, en pareja o entre amigos.
-									Para la <strong>Constructora NIO</strong> la categoría Gold significa darle la mejor calidad a quienes apreciarán esta solución de vivienda.
+									El oro se asocia con felicidad, lujo y exclusividad. Entre sus mayores propiedades está su calidad pues después de muchos años mantiene intacto el brillo del primer día. Y es con esas cualidades que <strong>Constructora NIO</strong> creó esta categoría Gold.<br><br>
+ 
+									Como el metal dorado Gold quiere llevar a sus residentes y visitantes a hacer posible su sueño de vivir cómodamente, con hermosos espacios dotados con el equipamiento necesario para vivir en familia, en pareja o entre amigos disfrutando de momentos únicos por siempre.<br><br>
+									 
+									Para la <strong>Constructora NIO</strong> la categoría Gold significa darle la mejor calidad a quienes apreciarán esta alternativa de vivienda.
+ 
 								</p>
 					            
 					        </div>
@@ -251,9 +219,11 @@ $dia[3]['img'] = "dia/4.jpg";
 								  </a>
 								</div>
 								<p class="pInternas2"><br>
-									La experiencia Platino se destaca por un estilo vanguardista, con bellas y muy completas soluciones de vivienda, que satisfacen los deseos de sus habitantes, quienes gozarán de mayores espacios para compartir con amigos y seres queridos.<br><br>
-									La categoría Platino evoca lo moderno que permitirá diversos usos a estas viviendas cuya característica es la originalidad, lo liviano y la luz.<br><br>
-									Al interior de estos apartamentos se disfrutará mayor amplitud, con materiales de calidad que facilitan la creación de ambientes cómodos, independientes y armónicos.
+									La experiencia Platino evoca ese metal noble que se destaca como el símbolo de un estilo vanguardista, con bellas y muy completas posibilidades que satisfacen los deseos de sus habitantes, quienes gozarán de mayores espacios para compartir con amigos y seres queridos.<br><br>
+									 
+									El de Platino es el color moderno que permitirá diversos usos a estas viviendas cuya característica es la originalidad, lo liviano y la luz.<br><br>
+									 
+									Al interior de estos proyectos se disfrutará de amplitud, con materiales de muy buen nivel que facilitan la creación de ambientes cómodos, contemporáneos y armónicos con la naturaleza.<br><br>
 								</p>
 
 					        </div>
@@ -290,9 +260,13 @@ $dia[3]['img'] = "dia/4.jpg";
 								  </a>
 								</div>
 								<p class="pInternas2"><br>
-									Esta es la joya de <strong>Mar Adentro</strong>. Aquí la sofisticación, la comodidad y la exquisitez de esta piedra preciosa garantizan el bienestar, claves de una experiencia Diamante.<br><br>
-									El Diamante es pureza, único por excelencia, y así es su categoría en MarAdentro.
-									Nuestra meta con Diamante es brindar la mejor sensación a quien disfrute de estos lugares, dotados con soluciones de última tecnología, en apartamentos inteligentes, acabados de lujo, vistas hacia bellos paisajes y extensos espacios que ayudarán a soñar, convirtiéndolo en el sitio ideal para ser feliz.
+									<strong>Mar Adentro</strong>  Diamante es perfección, pureza, triunfo, firmeza, dureza, brillo y luminosidad, las características de esta categoría de NIO en su proyecto <strong>Mar Adentro</strong>.<br><br>
+ 
+									Aquí la sofisticación, la comodidad y la exquisitez de esta piedra preciosa garantizan el bienestar, claves de una experiencia Diamante.<br><br>
+									 
+									El Diamante es único por excelencia, y así es su categoría en <strong>Mar Adentro</strong>.<br><br>
+									 
+									Nuestra meta con Diamante es brindar la mejor sensación a quien disfrute de estos lugares, dotados con soluciones de última tecnología, en proyectos que plantean viviendas  inteligentes, acabados de lujo, conexión con la naturaleza, arquitectura personalizada dirigida a necesidades especificas, extensos espacios que ayudarán a soñar, convirtiéndolo en el sitio ideal para ser feliz.
 								</p>
 
 					        </div>

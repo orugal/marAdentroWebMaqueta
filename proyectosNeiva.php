@@ -102,11 +102,10 @@ $curacao[4]['img'] = "../img2.jpg";*/
 				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
 					<h1>NEIVA</h1>
 					<!--<img src="<?php echo _DOMINIO ?>img/master.png" class="img-thumbnail"><br><br>-->
-					<p class="pInternas">La primera ciudad privilegiada con esta novedosa solución de vivienda que cambia
-						por completo el estilo de vida de sus habitantes y visitantes, será Neiva, en la
-						capital del Huila, a 38 grados centígrados, Avenida Max Duque contiguo a la base militar.
-						En Neiva lanzamos el primer proyecto Mar Adentro Gold, con dos manzanas
-						independientes llamadas Aruba y Curacao.
+					<p class="pInternas">
+						La primera ciudad privilegiada con esta novedosa alternativa de vivienda que cambia por completo el estilo de vida de sus habitantes y visitantes, será Neiva, en la capital del Huila, a 38 grados centígrados, Avenida Max Duque contiguo a la base militar.<br><br>
+						 
+						Será un proyecto integral pues traerá comercio, urbanismo natural, sostenibilidad, alamedas, kilómetros de ciclo rutas,  dos sedes sociales, club playa, parques, biblioteca y una inmensa laguna cristalina semejante al mar, entre otras novedades. Es un nuevo estilo de vida, de confort. En Neiva lanzamos el primer proyecto Mar Adentro Gold, con dos conjuntos residenciales independientes llamados Aruba y Curacao.
 					</p>
 				</div>
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
@@ -133,7 +132,7 @@ $curacao[4]['img'] = "../img2.jpg";*/
 		</div>
 	</div>
 
-	<div class="container-fluid" style="padding: 3%;background:#f1f1f1">
+	<div class="container-fluid" style="padding: 3%;background:#004169"><!-- f1f1f1-->
 		<div class="container text-center">
 
 			<div class="row saltoGaleria">

@@ -92,14 +92,12 @@ $curacao[2]['img'] = "3.png";
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
 				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
 					<h1>CARTAGENA</h1>
-					<!--<img src="<?php echo _DOMINIO ?>img/big_img13.jpg" class="img-thumbnail"><br><br>
-					<p class="pInternas">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					
+					<p class="pInternas">
+						La heroica, monumento histórico de la humanidad, brillante, internacional y cálida Cartagena tendrá en sus playas el proyecto de <strong>Mar Adentro</strong> en su categoría Diamante con toda la exclusividad, el lujo y la última tendencia en viviendas inteligencias que <strong>Constructora NIO</strong> desarrolla en Colombia.
+					</p>
 					<br>
+					<!--
 					<center><a href="<?php echo _DOMINIO?>files/Brochure.pdf" target="_blank" type="button" class="btn btn-danger fa fa-file-pdf-o" style="padding:2%;border:none">
 					    <i class="fa fa-file-pdf-o">
 					    	<img src="<?php echo _DOMINIO?>img/bajar.png" />
