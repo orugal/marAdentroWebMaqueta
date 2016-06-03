@@ -103,9 +103,12 @@ $curacao[4]['img'] = "../img2.jpg";*/
 					<h1>NEIVA</h1>
 					<!--<img src="<?php echo _DOMINIO ?>img/master.png" class="img-thumbnail"><br><br>-->
 					<p class="pInternas">
-						La primera ciudad privilegiada con esta novedosa alternativa de vivienda que cambia por completo el estilo de vida de sus habitantes y visitantes, será Neiva, en la capital del Huila, a 38 grados centígrados, Avenida Max Duque contiguo a la base militar.<br><br>
-						 
-						Será un proyecto integral pues traerá comercio, urbanismo natural, sostenibilidad, alamedas, kilómetros de ciclo rutas,  dos sedes sociales, club playa, parques, biblioteca y una inmensa laguna cristalina semejante al mar, entre otras novedades. Es un nuevo estilo de vida, de confort. En Neiva lanzamos el primer proyecto Mar Adentro Gold, con dos conjuntos residenciales independientes llamados Aruba y Curacao.
+						La primera privilegiada con esta novedosa alternativa de vivienda que cambia por completo el estilo de vida de sus habitantes y visitantes, es Neiva, en la capital del Huila, a 38 grados centígrados.<br><br>
+
+   
+						Proponemos una ciudad dentro de la ciudad, en donde se integra el comercio, el urbanismo natural, sostenibilidad, comercio, alamedas, kilómetros de ciclo rutas, dos sedes sociales, club playa, parques, biblioteca y una experiencia única que recrea la vivencia del mar.<br><br>
+
+						 Es un nuevo estilo de vida, de confort. En Neiva lanzamos el primer proyecto Mar Adentro Gold, con dos conjuntos residenciales independientes llamados Aruba y Curacao.
 					</p>
 				</div>
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
@@ -148,12 +151,11 @@ $curacao[4]['img'] = "../img2.jpg";*/
 									<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
 										<p class="pInternas2">
 										<img src="<?php echo _DOMINIO ?>img/masterOLD.png" class="img-thumbnail"><br><br>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-										proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+										Será un auténtico Club Residencial que se desarrollará en 14 etapas las cuales sumarán 81 torres de 11 pisos cada una, 8 apartamentos por piso, dos ascensores por torre, parqueadero cerrado, grandes zonas verdes, 14 piscinas una frente a cada manzana y 5 hectáreas de mar.<br><br>
+ 
+										Al estar en el sur de Neiva se crea un nuevo polo de desarrollo socioeconómico, turístico y comercial. El proyecto tiene club social, club playa, senderos, canchas de fútbol, múltiples, de tenis, islas de ejercicio externas y plazas de descanso, ciclo rutas entre otros atractivos.<br><br>
+										 
+										Mar Adentro le cede a la ciudad un parque y una biblioteca públicos con la misma arquitectura del proyecto. 
 										</p>
 									</div>
 								</div>

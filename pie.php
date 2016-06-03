@@ -17,21 +17,22 @@
 					            <li style="background:#eee"><a href="#"><strong>LÍNEA GOLD</strong></a></li>
 					            <li class="divider"></li>
 					            <li><a style="color:#fff" href="<?php echo _DOMINIO?>proyectos/neiva">NEIVA</a></li>
+					            <li><a style="color:#fff" href="<?php echo _DOMINIO?>proyectos/flandes">GIRARDOT/FLANDES</a></li>
 				            </ul>
 			            </div>
 			            <div class="col-sm-4">
 				            <ul class="multi-column-dropdown">
 					            <li style="background:#eee"><a href="#"><strong>LÍNEA PLATINO</strong></a></li>
 					            <li class="divider"></li>
-					            <li><a style="color:#fff" href="<?php echo _DOMINIO?>proyectos/flandes">FLANDES PRÓXIMOS LANZAMIENTOS</a></li>
-				        		<li><a style="color:#fff" href="<?php echo _DOMINIO?>proyectos/cartagena">CARTAGENA PRÓXIMOS LANZAMIENTOS</a></li>
+					            <li><a style="color:#fff" href="<?php echo _DOMINIO?>proyectos/flandes">GIRARDOT/FLANDES</a></li>
 				            </ul>
 			            </div>
 			            <div class="col-sm-4">
 				            <ul class="multi-column-dropdown">
 					            <li style="background:#eee"><a href="#"><strong>LÍNEA DIAMANTE</strong></a></li>
 					            <li class="divider"></li>
-				        		<li><a style="color:#fff" href="<?php echo _DOMINIO?>proyectos/cartagena">CARTAGENA PRÓXIMOS LANZAMIENTOS</a></li>
+					            <li><a style="color:#fff" href="<?php echo _DOMINIO?>proyectos/flandes">GIRARDOT/FLANDES</a></li>
+				        		<li><a style="color:#fff" href="<?php echo _DOMINIO?>proyectos/cartagena">CARTAGENA</a></li>
 				            </ul>
 			            </div>
 		            </div>
@@ -49,20 +50,21 @@
 							        	<a style="color:#005b84" href="#" tabindex="-1">LÍNEA GOLD <b class="glyphicon glyphicon-triangle-right mini"></b></a>
 							        	<ul class="dropdown-menu">
 									        <li><a style="color:#005b84" href="<?php echo _DOMINIO?>proyectos/neiva">NEIVA</a></li>
+					            			<li><a style="color:#005b84" href="<?php echo _DOMINIO?>proyectos/flandes">GIRARDOT/FLANDES</a></li>
 										</ul>
 							        </li>
 							        <li  class="dropdown-submenu">
 							        	<a style="color:#005b84" href="#" tabindex="-1">LÍNEA PLATINO <b class="glyphicon glyphicon-triangle-right mini"></b></a>
 							        	<ul class="dropdown-menu">
-									        <li><a style="color:#005b84" href="<?php echo _DOMINIO?>proyectos/flandes">FLANDES PRÓXIMOS LANZAMIENTOS</a></li>
-									        <li><a style="color:#005b84" href="<?php echo _DOMINIO?>proyectos/cartagena">CARTAGENA PRÓXIMOS LANZAMIENTOS</a></li>
+					            			<li><a style="color:#005b84" href="<?php echo _DOMINIO?>proyectos/flandes">GIRARDOT/FLANDES</a></li>
 										</ul>
 
 							        </li>
 							        <li  class="dropdown-submenu">
 							        	<a style="color:#005b84" href="#" tabindex="-1">LÍNEA DIAMANTE <b class="glyphicon glyphicon-triangle-right mini"></b></a>
 							        	<ul class="dropdown-menu">
-									        <li><a style="color:#005b84" href="<?php echo _DOMINIO?>proyectos/cartagena">CARTAGENA PRÓXIMOS LANZAMIENTOS</a></li>
+					            			<li><a style="color:#005b84" href="<?php echo _DOMINIO?>proyectos/flandes">GIRARDOT/FLANDES</a></li>
+									        <li><a style="color:#005b84" href="<?php echo _DOMINIO?>proyectos/cartagena">CARTAGENA</a></li>
 										</ul>
 
 							        </li>

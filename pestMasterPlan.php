@@ -9,15 +9,15 @@ $ch[0]['img'] = "img/club/1.jpg";
 $ch[1]['img'] = "img/club/2.jpg";
 $ch[2]['img'] = "img/club/3.jpg";
 $ch[3]['img'] = "img/club/4.jpg";
-$ch[4]['img'] = "img/club/5.png";
+$ch[4]['img'] = "img/club/5.jpg";
 $ch[5]['img'] = "img/club/6.jpg";
 
 $cp[0]['img'] = "img/ameSer/1.jpg";
-$cp[1]['img'] = "img/ameSer/2.jpg";
-$cp[2]['img'] = "img/ameSer/3.jpg";
-$cp[3]['img'] = "img/ameSer/4.jpg";
-$cp[4]['img'] = "img/ameSer/5.jpg";
-$cp[5]['img'] = "img/ameSer/6.jpg";
+//$cp[1]['img'] = "img/ameSer/2.jpg";
+$cp[1]['img'] = "img/ameSer/3.jpg";
+$cp[2]['img'] = "img/ameSer/4.jpg";
+$cp[3]['img'] = "img/ameSer/5.jpg";
+$cp[4]['img'] = "img/ameSer/6.jpg";
 ?>
 
 <div id="my-tab-content" class="tab-content">
@@ -93,7 +93,7 @@ $cp[5]['img'] = "img/ameSer/6.jpg";
     </div>
     <!-- Tab 3-->
     <div class="tab-pane" id="clubP">
-        <h2 class="tituloSeccion text-left">AMENITIES y SERVICIOS</h2>
+        <h2 class="tituloSeccion text-left">AMENITIES Y SERVICIOS</h2>
         <div id="CarouselCP" class="carousel slide" data-ride="carousel">
 		  <ol class="carousel-indicators">
 		  	  <?php $cont2=1;foreach($cp as $cu2){ ?>

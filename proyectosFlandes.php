@@ -117,7 +117,7 @@ $curacao[2]['img'] = "3.png";
 				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
 					<center>
 					    <ul id="tabs" class="nav nav-pills nav-justified">
-					        <li><a href="#yellow" data-toggle="tab">AMENITIES</a></li>
+					        <li><a href="#yellow" data-toggle="tab">MASTER PLAN</a></li>
 					        <li><a href="#green" data-toggle="tab">UBICACIÓN</a></li>
 					    </ul>
 				    </center>
@@ -137,7 +137,7 @@ $curacao[2]['img'] = "3.png";
 					    <div id="my-tab-content" class="tab-content">
 
 					        <div class="tab-pane" id="yellow">
-					            <h2 class="tituloSeccion text-left">AMENITIES</h2>
+					            <h2 class="tituloSeccion text-left">MASTER PLAN</h2>
 					           	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 								  <ol class="carousel-indicators">
 								    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>

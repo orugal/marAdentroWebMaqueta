@@ -80,7 +80,7 @@ energía utilizada por los sistemas tradicionales de filtración.
 	<div class="container-fluid" style="padding: 3%;background:#f1f1f1"	>
 		<div class="container text-center">
 
-					<h2 class="tituloSeccion text-center">CASOS DE ÉXITO</h2><br><br>
+					<h2 class="tituloSeccion text-center">DESARROLLOS EN EL MUNDO</h2><br><br>
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
 					<div class="card">
