@@ -10,20 +10,22 @@
 <?php 
 
 //$aruba[0]['img'] = "1.png";
-$aruba[0]['img'] = "../bgNeivaN.jpg";
-$aruba[1]['img'] = "../img3.jpg";
-$aruba[2]['img'] = "../img1.jpg";
-$aruba[3]['img'] = "../img2.jpg";
-$aruba[4]['img'] = "2.jpg";
-$aruba[5]['img'] = "5.jpg";
-$aruba[6]['img'] = "3.jpg";
-$aruba[7]['img'] = "4.jpg";
+$aruba[0]['img'] = "../ubiAruba.png";
+$aruba[1]['img'] = "../bgNeivaN.jpg";
+$aruba[2]['img'] = "../img3.jpg";
+$aruba[3]['img'] = "../img1.jpg";
+$aruba[4]['img'] = "../img2.jpg";
+$aruba[5]['img'] = "2.jpg";
+$aruba[6]['img'] = "5.jpg";
+$aruba[7]['img'] = "3.jpg";
+$aruba[8]['img'] = "4.jpg";
 //$aruba[5]['img'] = "6.png";
-$aruba[8]['img'] = "7.jpg";
+$aruba[9]['img'] = "7.jpg";
 
 
 
 //$curacao[0]['img'] = "1.png";
+$curacao[0]['img'] = "../ubiCura.png";
 $curacao[1]['img'] = "../bgNeivaN.jpg";
 $curacao[2]['img'] = "../img3.jpg";
 $curacao[3]['img'] = "2.jpg";
