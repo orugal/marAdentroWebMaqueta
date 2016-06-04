@@ -91,7 +91,7 @@ $curacao[2]['img'] = "3.png";
 			<div class="row">
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
 				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
-					<h1>CARTAGENA</h1>
+					<h2 class="tituloSeccion text-center">CARTAGENA</h2>
 					
 					<p class="pInternas">
 						La heroica, monumento histórico de la humanidad, brillante, internacional y cálida Cartagena tendrá en sus playas el proyecto de <strong>Mar Adentro</strong> en su categoría Diamante con toda la exclusividad, el lujo y la última tendencia en viviendas inteligencias que <strong>Constructora NIO</strong> desarrolla en Colombia.

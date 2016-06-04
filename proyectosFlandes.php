@@ -91,9 +91,12 @@ $curacao[2]['img'] = "3.png";
 			<div class="row">
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
 				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
-					<h1>FLANDES</h1>
+					<h2 class="tituloSeccion text-center">RIVERA DEL MAGDALENA
+</h2>
 					<p class="pInternas">
-						La privilegiada y caliente ciudad  de Flandes, en el Tolima, bañada por el río Magdalena, será el siguiente punto de llegada del proyecto <strong>Mar Adentro</strong> en sus categorías Platino y Diamante dándole así a este lugar el toque que atraerá turistas de muy diversos sitios y lo convertirá en el paraíso perfecto para pasar momentos inolvidables.
+						En el eje estratégico lleva del centro del país al sur, en los alrededores de Flandes, en cercanías a Girardot, en la vía al Espinal, e Ibagué, a orillas del río Magdalena, se levanta el proyecto <strong>Mar Adentro</strong> en las categorías Gold, Platino y Diamante, proyectando una mega ciudad que cambiará por completo el aspecto de esta zona y creará un nuevo polo turístico sin precedentes en América Latina.
+ 						<br><br>
+						Este mega proyecto contempla zonas de campos de golf, equitación, lagunas, piscinas, naturaleza radiante, interconexión, hoteles, clubes, vivienda, colegios, puestos de salud, bahía, parque temático, entre muchas otras atracciones. 
 					</p>
 					<br>
 					<!--
