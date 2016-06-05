@@ -103,7 +103,7 @@ $dia[3]['img'] = "dia/4.jpg";
  <br><br>
 					<strong>Mar Adentro</strong> es una forma de vida, donde la arquitectura se compagina con su contexto natural y se genera un hábitat único y especial.
 					 <br><br>
-					<strong>Mar Adentro</strong> es una iniciativa privada que trae la única tecnología capaz de crear una experiencia Caribe. Así Constructora NIO, en alianza con  Crystal Lagoons, creadora de lagunas cristalinas y mares interiores que han revolucionado el mercado mundial de vivienda, el amenity top del momento,  convierten un lugar tradicional en un paraíso idílico.
+					<strong>Mar Adentro</strong> es una iniciativa privada que trae la única tecnología capaz de crear una experiencia Caribe. Así <strong>Constructora NIO</strong>, en alianza con  Crystal Lagoons, creadora de lagunas cristalinas y mares interiores que han revolucionado el mercado mundial de vivienda, el amenity top del momento,  convierten un lugar tradicional en un paraíso idílico.
 					 <br><br>
 					Sus espacios son diseñados para ser altamente eficientes, con precios acordes a las necesidades de sus habitantes, haciéndolo un proyecto integral en tres categorías: <i>Gold, Platino y Diamante.</i>
 					</p>

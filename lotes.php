@@ -44,12 +44,29 @@
 				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
 					<h2 class="tituloSeccion text-center">LOTES MAR ADENTRO</h2>
 					<p class="pInternas2">
-					Mar Adentro es un producto que permite su desarrollo en nuevos sitios por lo cual el
-					proyecto contempla la posibilidad de desarrollar el concepto en lotes mínimo de 20
-					hectáreas en adelante, de tal manera que quien desee que se lleve a su región y tenga el
-					espacio disponible se contacte con Constructora NIO.
+					Tienes un lote donde quieras desarrollar el concepto de Mar Adentro, Constructora  NIO esta buscando lotes mínimo de 20 hectáreas en adelante para llevar el concepto a las siguientes ciudades: <br><r
 <br><br>
 					</p>
+					<div class="row" style="margin:0 0 5% 0">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<ul>
+								<li style="text-align:left">Armenia </li>
+								<li style="text-align:left">Barranquilla</li>
+								<li style="text-align:left">Bucaramanga / Área metropolitana</li>
+								<li style="text-align:left">Cali</li>
+								<li style="text-align:left">Medellín / Valle de Aburrá</li>
+							</ul>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<ul>
+								<li style="text-align:left">Montería</li>
+								<li style="text-align:left">Pereira</li>
+								<li style="text-align:left">Santa Marta</li>
+								<li style="text-align:left">Valledupar</li>
+								<li style="text-align:left">Villavicencio </li>
+							</ul>
+						</div>
+					</div>
 
 					<p class="text-left">Complete el siguiente formulario y nos pondremos en contacto con usted.</p>
 					<form id="contacto" method="post" action="" class="text-left">

@@ -153,11 +153,7 @@ $curacao[4]['img'] = "../img2.jpg";*/
 									<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
 										<p class="pInternas2">
 										<img src="<?php echo _DOMINIO ?>img/masterOLD.png" class="img-thumbnail"><br><br>
-										Será un auténtico Club Residencial que se desarrollará en 14 etapas las cuales sumarán 81 torres de 11 pisos cada una, 8 apartamentos por piso, dos ascensores por torre, parqueadero cerrado, grandes zonas verdes, 14 piscinas una frente a cada manzana y 5 hectáreas de mar.<br><br>
- 
-										Al estar en el sur de Neiva se crea un nuevo polo de desarrollo socioeconómico, turístico y comercial. El proyecto tiene club social, club playa, senderos, canchas de fútbol, múltiples, de tenis, islas de ejercicio externas y plazas de descanso, ciclo rutas entre otros atractivos.<br><br>
-										 
-										Mar Adentro le cede a la ciudad un parque y una biblioteca públicos con la misma arquitectura del proyecto. 
+										Será un auténtico club residencial que se desarrollará en catorce etapas. Una ciudad dentro de la ciudad. Disfruta de los espacios diseñados especialmente para ti. 
 										</p>
 									</div>
 								</div>

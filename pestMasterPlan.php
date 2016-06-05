@@ -47,12 +47,16 @@ $cp[4]['img'] = "img/ameSer/6.jpg";
 		  </a>
 		</div>
 		<p class="pInternas2"><br>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			<ul>
+				<li style="text-align:left">400 metros de senderos de trote</li>
+				<li style="text-align:left">Islas de ejercicio </li>
+				<li style="text-align:left">Plazas de eventos</li>
+				<li style="text-align:left">Parque infantil</li>
+				<li style="text-align:left">1 Cancha de fútbol </li>
+				<li style="text-align:left">2 Canchas múltiples </li>
+				<li style="text-align:left">Biblioteca</li>
+				<li style="text-align:left">Skateboard </li>
+			</ul>
 		</p>
         
     </div>
@@ -82,12 +86,26 @@ $cp[4]['img'] = "img/ameSer/6.jpg";
 		  </a>
 		</div>
 		<p class="pInternas2"><br>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			<ul>
+				<li style="text-align:left">800 metros de senderos de trote</li>
+				<li style="text-align:left">Plaza de descanso</li>
+				<li style="text-align:left">Islas de ejercicio</li>
+				<li style="text-align:left">Juegos Infantiles</li>
+				<li style="text-align:left">3 Canchas de fútbol cinco</li>
+				<li style="text-align:left">4 Canchas de tennis</li>
+				<li style="text-align:left">Pista de skateboard</li>
+				<li style="text-align:left">2.2 Km de ciclovía  </li>
+				<li style="text-align:left">Juegos de agua</li>
+			</ul>
+			<strong>CLUB SOCIAL:</strong>
+			<ul>	
+				<li style="text-align:left">Salones de reuniones flexibles</li>
+				<li style="text-align:left">Cafetería </li>
+				<li style="text-align:left">Spa</li>
+				<li style="text-align:left">Salones de Juego</li>
+				<li style="text-align:left">Squash</li>
+				<li style="text-align:left">Salones de estudio y guardería </li>
+			</ul>
 		</p>
         
     </div>
@@ -117,12 +135,24 @@ $cp[4]['img'] = "img/ameSer/6.jpg";
 		  </a>
 		</div>
 		<p class="pInternas2"><br>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			<ul>
+				<li style="text-align:left">5 hectáreas de laguna y playa</li>
+				<li style="text-align:left">14 piscinas</li>
+				<li style="text-align:left">Vóley playa</li>
+				<li style="text-align:left">Vela</li>
+				<li style="text-align:left">Kayak </li>
+				<li style="text-align:left">Club bote</li>
+				<li style="text-align:left">Espejos de agua</li>
+				<li style="text-align:left">Espacios para gimnasio </li>
+			</ul>
+			<strong>ZONA COMERCIAL</strong>
+			<ul>	
+				<li style="text-align:left">5000 metros cuadrados</li>
+			</ul>
+			<strong>PORTERIA </strong>
+			<ul>	
+				<li style="text-align:left">Accesos de seguridad</li>
+			</ul>
 		</p>
         
     </div>
