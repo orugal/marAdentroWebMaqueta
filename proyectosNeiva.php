@@ -15,8 +15,8 @@ $aruba[1]['img'] = "../bgNeivaN.jpg";
 $aruba[2]['img'] = "../img3.jpg";
 $aruba[3]['img'] = "../img1.jpg";
 $aruba[4]['img'] = "../img2.jpg";
-$aruba[5]['img'] = "2.jpg";
-$aruba[6]['img'] = "5.jpg";
+$aruba[5]['img'] = "2.png";
+$aruba[6]['img'] = "5.png";
 $aruba[7]['img'] = "3.jpg";
 $aruba[8]['img'] = "4.jpg";
 //$aruba[5]['img'] = "6.png";
@@ -28,7 +28,7 @@ $aruba[9]['img'] = "7.jpg";
 $curacao[0]['img'] = "../ubiCura.png";
 $curacao[1]['img'] = "../bgNeivaN.jpg";
 $curacao[2]['img'] = "../img3.jpg";
-$curacao[3]['img'] = "2.jpg";
+$curacao[3]['img'] = "2.png";
 $curacao[4]['img'] = "3.jpg";
 /*$curacao[3]['img'] = "../img1.jpg";
 $curacao[4]['img'] = "../img2.jpg";*/
@@ -152,7 +152,7 @@ $curacao[4]['img'] = "../img2.jpg";*/
 					            <div class="row saltoGaleria">
 									<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
 										<p class="pInternas2">
-										<img src="<?php echo _DOMINIO ?>img/masterOLD.png" class="img-thumbnail"><br><br>
+										<img src="<?php echo _DOMINIO ?>img/master.png" class="img-thumbnail"><br><br>
 										Será un auténtico club residencial que se desarrollará en catorce etapas. Una ciudad dentro de la ciudad. Disfruta de los espacios diseñados especialmente para ti. 
 										</p>
 									</div>
@@ -362,7 +362,8 @@ $curacao[4]['img'] = "../img2.jpg";*/
 					</p>
 									</div>
 									<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
-										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1407.2215014177818!2d-75.28948233962612!3d2.950528464997472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b7456dbf7af5d%3A0x73d583be25e0dd5b!2sCra.+26+%2341-66%2C+Neiva%2C+Huila!5e0!3m2!1ses!2sco!4v1463068359578" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+										<img src="<?php echo _DOMINIO?>img/mapaUbi.png" width="100%" />
+										<!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1407.2215014177818!2d-75.28948233962612!3d2.950528464997472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b7456dbf7af5d%3A0x73d583be25e0dd5b!2sCra.+26+%2341-66%2C+Neiva%2C+Huila!5e0!3m2!1ses!2sco!4v1463068359578" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
 									
 									</div>
 								</div>
