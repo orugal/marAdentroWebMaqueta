@@ -81,44 +81,57 @@ energía utilizada por los sistemas tradicionales de filtración.
 		<div class="container text-center">
 
 					<h2 class="tituloSeccion text-center">DESARROLLOS EN EL MUNDO</h2><br><br>
-			<div class="row">
-				<div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
+			<div class="row" style="margin:0 0 2% 0">
+				<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
 					<div class="card">
-					  <img class="img-thumbnail card-img-top" width="100%" src="img/vid/1.png" alt="Card image cap">
+					  <img class="img-thumbnail card-img-top" width="100%" src="img/vid/1.png" alt="BOLIVIA">
 					  <div class="card-block">
 					    <h4 class="card-title">BOLIVIA</h4>
 					    <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
 					    <a onclick="ma.verVideo(0,'BOLIVIA')" class="btn btn-primary" style="padding:2%;border:none">Ver Video</a>
 					  </div>
 					</div>	
-									</div>
-									<div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
+				</div>
+				<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
 										<div class="card">
-					  <img class="img-thumbnail card-img-top" width="100%" src="img/vid/2.png" alt="Card image cap">
+					  <img class="img-thumbnail card-img-top" width="100%" src="img/vid/2.png" alt="CABO SAN LUCAS">
 					  <div class="card-block">
 					    <h4 class="card-title">CABO SAN LUCAS</h4>
 					    <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
 					    <a onclick="ma.verVideo(1,'CABO SAN LUCAS')" class="btn btn-primary" style="padding:2%;border:none">Ver Video</a>
 					  </div>
 					</div>	
-									</div>
-									<div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
+				</div>
+				<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
 										<div class="card">
-					  <img class="img-thumbnail card-img-top" width="100%" src="img/vid/3.png" alt="Card image cap">
+					  <img class="img-thumbnail card-img-top" width="100%" src="img/vid/3.png" alt="MÉXICO VOXEL">
 					  <div class="card-block">
 					    <h4 class="card-title">MÉXICO VOXEL</h4>
 					    <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
 					    <a onclick="ma.verVideo(2,'MÉXICO VOXEL')" class="btn btn-primary" style="padding:2%;border:none">Ver Video</a>
 					  </div>
 					</div>	
-									</div>
-									<div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
+				</div>
+			</div>
+			<div class="row" style="margin:0 0 2% 0">
+				
+				<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
 										<div class="card">
-					  <img class="img-thumbnail card-img-top" width="100%" src="img/vid/4.png" alt="Card image cap">
+					  <img class="img-thumbnail card-img-top" width="100%" src="img/vid/4.png" alt="VERACRUZ">
 					  <div class="card-block">
 					    <h4 class="card-title">VERACRUZ	</h4>
 					    <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
 					    <a onclick="ma.verVideo(3,'VERACRUZ')" class="btn btn-primary" style="padding:2%;border:none">Ver Video</a>
+					  </div>
+					</div>	
+				</div>
+				<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+										<div class="card">
+					  <img class="img-thumbnail card-img-top" width="100%" src="img/vid/5.png" alt="DUBAI">
+					  <div class="card-block">
+					    <h4 class="card-title">DUBAI</h4>
+					    <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+					    <a onclick="ma.verVideo(4,'DUBAI')" class="btn btn-primary" style="padding:2%;border:none">Ver Video</a>
 					  </div>
 					</div>	
 				</div>
