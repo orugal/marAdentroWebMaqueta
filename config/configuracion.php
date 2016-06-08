@@ -6,11 +6,8 @@
 */
 
 define("_NOMBRE_EMPRESA"                                ,"Mar Adentro");//configurar
-<<<<<<< HEAD
 define("_DOMINIO"                 		               ,"http://192.168.0.10/marAdentro/");//configurar
-=======
-define("_DOMINIO"                 		               ,"http://192.168.0.12/marAdentroWebMaqueta/");//configurar
->>>>>>> origin/develop
+
 
 //DATOS DE ENVIO DE CORREOS
 define('_DIR_PLUGIN'									,'core/phpmailer/');
