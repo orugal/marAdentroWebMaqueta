@@ -152,7 +152,23 @@ $curacao[4]['img'] = "../img2.jpg";*/
 					            <div class="row saltoGaleria">
 									<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
 										<p class="pInternas2">
-										<img src="<?php echo _DOMINIO ?>img/master.png" class="img-thumbnail"><br><br>
+										<!--<img src="<?php echo _DOMINIO ?>img/master.png" class="img-thumbnail"><br><br>-->
+										<div class="row">
+											<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+												<img src="<?php echo _DOMINIO ?>img/master/img0.png" width="100%" id="masterImg"/>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+												<center><a class="btn btn-link" onclick="ma.cambioImagen(1,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn1.png" width="80%"></a></center>
+											</div>
+											<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+												<center><a class="btn btn-link" onclick="ma.cambioImagen(2,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn2.png" width="80%"></a></center>
+											</div>
+											<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+												<center><a class="btn btn-link" onclick="ma.cambioImagen(3,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn3.png" width="80%"></a></center>
+											</div>
+										</div>
 										Será un auténtico club residencial que se desarrollará en catorce etapas. Una ciudad dentro de la ciudad. Disfruta de los espacios diseñados especialmente para ti. 
 										</p>
 									</div>

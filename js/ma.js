@@ -248,5 +248,9 @@ var ma =
 			 	html:true,
 			 	text: video,
 			 	confirmButtonText: "Cerrar" });
+	},
+	cambioImagen:function(btn,dominio)
+	{
+		$("#masterImg").attr("src",dominio+"img/master/img"+btn+".png");
 	}
 }
