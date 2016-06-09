@@ -387,7 +387,9 @@ $curacao[4]['img'] = "../img2.jpg";*/
 					        <div class="tab-pane" id="blue">
 					            <h2 class="tituloSeccion text-left">BROCHURE</h2>
 								<br>
-								<center><a href="<?php echo _DOMINIO?>files/Brochure.pdf" target="_blank" type="button" class="btn btn-danger fa fa-file-pdf-o" style="padding:2%;border:none">
+								<center>
+								<a href="http://www.youblisher.com/p/1433607-Brochure-Mar-Adentro/" target="_blank"><img src="http://www.youblisher.com/files/publications/239/1433607/200x300.jpg" alt="Brochure Mar Adentro"></a><br>
+								<a href="<?php echo _DOMINIO?>files/Brochure.pdf" target="_blank" type="button" class="btn btn-danger fa fa-file-pdf-o" style="padding:2%;border:none">
 								    <i class="fa fa-file-pdf-o">
 								    	<img src="<?php echo _DOMINIO?>img/bajar.png" />
 								    </i> Descargar Brochure
