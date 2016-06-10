@@ -73,7 +73,7 @@
 					    </li>
 
 
-					    <li><a href="<?php echo _DOMINIO?>lotesMarAdentro">LOTES MAR ADENTRO</a></li>
+					    <li><a href="<?php echo _DOMINIO?>gestionDeTierras">GESTIÓN DE TIERRAS</a></li>
 					    <li><a href="<?php echo _DOMINIO?>crystalLagoons">CRYSTAL LAGOONS</a></li>
 					    <li><a href="http://www.constructoranio.com/" target="_blank">CONSTRUCTORA NIO</a></li>
 					    <li><a href="<?php echo _DOMINIO?>contacto">CONTACTO</a></li>

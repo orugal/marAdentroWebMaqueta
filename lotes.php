@@ -12,7 +12,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Mar Adentro - Lotes Mar Adentro</title>
+		<title>Mar Adentro - Gestión de tierras</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta charset=utf-8>
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,400italic,500italic,700,700italic,900italic,900&subset=latin,greek,vietnamese,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
@@ -42,7 +42,7 @@
 			<div class="row">
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
 				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
-					<h2 class="tituloSeccion text-center">LOTES MAR ADENTRO</h2>
+					<h2 class="tituloSeccion text-center">GESTIÓN DE TIERRAS</h2>
 					<p class="pInternas2">
 					<strong>Constructora NIO</strong> está buscando lotes de mínimo 20 hectáreas para
 					desarrollar el concepto Mar Adentro y seguir llevando innovación y

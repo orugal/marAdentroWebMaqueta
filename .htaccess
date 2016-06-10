@@ -11,6 +11,7 @@ RewriteRule ^ubicacion$ ubicacion.php
 RewriteRule ^gracias$ contacto.php?gracias
 RewriteRule ^crystalLagoons$ crystalLagoons.php
 RewriteRule ^lotesMarAdentro$ lotes.php
+RewriteRule ^gestionDeTierras$ lotes.php
 
 RewriteRule ^reportes$ reportes.php
 RewriteRule ^reporteContacto$ reportes.php?r=1
