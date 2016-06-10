@@ -143,6 +143,15 @@ nav.navbar {
       padding: 8%;
 }
 
+.bgFlandes{background: url(../img/bgFlandes.jpg) no-repeat center center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 8%;
+}
+
+
 
 .bgAmenities1{background: url(../img/ame1.png)no-repeat center center fixed; 
       -webkit-background-size: cover;

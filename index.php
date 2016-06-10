@@ -76,7 +76,7 @@
                     <!--<h2 class="text-center">Caption 1</h2>-->
                     <h2 class="text-center">
                     <!--<i class="fa fa-heart" aria-hidden="true"></i>-->
-Nuestra meta es brindarle la mejor calidad de vida.</h2>
+Nuestra meta es brindarte la mejor calidad de vida .</h2>
                 </div>
             </div>
             <div class="item">
@@ -90,7 +90,7 @@ Nuestra meta es brindarle la mejor calidad de vida.</h2>
                 <!-- Set the third background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('img/4.jpg');"></div>
                 <div class="carousel-caption" style="text-align: left;">
-                    <h2 class="text-center">Transformamos su estilo de vida.</h2>
+                    <h2 class="text-center">Transformamos tu estilo de vida.</h2>
                 </div>
             </div>
         </div>

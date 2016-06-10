@@ -105,12 +105,18 @@ $curacao[4]['img'] = "../img2.jpg";*/
 					<h1>NEIVA</h1>
 					<!--<img src="<?php echo _DOMINIO ?>img/master.png" class="img-thumbnail"><br><br>-->
 					<p class="pInternas">
-						La primera privilegiada con esta novedosa alternativa de vivienda que cambia por completo el estilo de vida de sus habitantes y visitantes, es Neiva, en la capital del Huila, a 38 grados centígrados.<br><br>
+						La primera ciudad privilegiada con esta novedosa alternativa de
+						vivienda que cambia por completo el estilo de vida de sus
+						habitantes y visitantes.<br><br>
 
-   
-						Proponemos una ciudad dentro de la ciudad, en donde se integra el comercio, el urbanismo natural, sostenibilidad, comercio, alamedas, kilómetros de ciclo rutas, dos sedes sociales, club playa, parques, biblioteca y una experiencia única que recrea la vivencia del mar.<br><br>
+						Proponemos una ciudad dentro de la ciudad, en donde se integra el
+						comercio, el urbanismo natural, sostenibilidad, alamedas, kilómetros
+						de ciclo rutas, dos sedes sociales, club playa, parques, biblioteca y
+						una experiencia única que recrea la vivencia del mar.<br><br>
 
-						 Es un nuevo estilo de vida, de confort. En Neiva lanzamos el primer proyecto Mar Adentro Gold, con dos conjuntos residenciales independientes llamados Aruba y Curacao.
+						Es un nuevo estilo de vida, de confort. En Neiva lanzamos el primer
+						proyecto Mar Adentro Oro, con dos conjuntos residenciales
+						independientes llamados Aruba y Curacao.
 					</p>
 				</div>
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
@@ -169,7 +175,7 @@ $curacao[4]['img'] = "../img2.jpg";*/
 												<center><a class="btn btn-link" onclick="ma.cambioImagen(2,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn3.png" width="80%"></a></center>
 											</div>
 										</div>
-										Será un auténtico club residencial que se desarrollará en catorce etapas. Una ciudad dentro de la ciudad. Disfruta de los espacios diseñados especialmente para ti. 
+										Mar Adentro Neiva, una ciudad dentro de la ciudad. Disfruta de los espacios diseñados especialmente para ti.
 										</p>
 									</div>
 								</div>
@@ -228,13 +234,17 @@ $curacao[4]['img'] = "../img2.jpg";*/
 
 											<!--<h4 class="tituloSeccion"> CURACAO</h4>-->
 											<p class="pInternas2"><br>
-												Está conformado por 352 apartamentos de tipo vacacional de 61 M2 de
-												dos alcobas principales autónomas e independientes, enfocado a la recreación,
-												cada una con clósets y baños.
-												Entre las dos alcobas está la sala comedor y la cocina en un estilo de vanguardia.
-												Tendrá acceso a la laguna con una zona privada con un espejo de agua para
-												que, sin la necesidad de bañarse, puedan gozar de un espacio social exclusivo
-												del conjunto.
+												En Cuaracao se creará un mundo propio con actividades para toda
+												la familia, lo que permitirá pasar unos días muy entretenidos sin salir
+												del recinto.<br><br>
+
+												Está conformado por 352 apartamentos de tipo vacacional de 61
+												M2 y contará con dos alcobas principales autónomas e
+												independientes.<br><br>
+
+												Este proyecto maneja un estilo vanguardista y tendrá acceso a la
+												laguna en una zona privada que contará con un espejo de agua para
+												que puedan gozar de un espacio social exclusivo del conjunto.
 											</p>
 											<!--<a href="img/big_img1.jpg" data-gallery alt="Cocina" title="Cocina">Ver imágenes</a>-->
 										</div>
@@ -274,14 +284,12 @@ $curacao[4]['img'] = "../img2.jpg";*/
 
 										
 										<p class="pInternas2"> <br>
-											Está conformada por 440 apartamentos de 50 M2, 56 M2 y 65 M2 con
-											programas entre 2 y 3 alcobas.
-											Son apartamentos tradicionales que tienen varios tipos: uno de dos alcobas, otro
-											con media alcoba adicional con la versatilidad para crear allí una habitación de
-											una cama, aumentar el espacio de la sala comedor, crear un estudio, armar sala
-											de televisión, costurero o ampliar la zona social.
-											Otro de 65m2 de 3 alcobas con un estudio en un formato más familiar tradicional.
-											La manzana Aruba tiene su salón comunal, portería con salida a la laguna.
+											Está conformada por 440 apartamentos de 50 a 65 M2 con opción
+											de 2 y 3 alcobas en un concepto más familiar.<br><br>
+											Aruba recreará la sensación de vivir junto al mar, elevando la calidad
+											y estilo de vida de sus habitantes, lo que hará sentir a sus
+											propietarios y visitantes una experiencia única. La manzana Aruba
+											tiene su salón comunal, portería con salida a la laguna.
 										</p>
 										
 									</div>
@@ -388,7 +396,14 @@ $curacao[4]['img'] = "../img2.jpg";*/
 					            <h2 class="tituloSeccion text-left">BROCHURE</h2>
 								<br>
 								<center>
-								<a href="http://www.youblisher.com/p/1433607-Brochure-Mar-Adentro/" target="_blank"><img src="http://www.youblisher.com/files/publications/239/1433607/200x300.jpg" alt="Brochure Mar Adentro"></a><br>
+
+								<iframe class="visible-lg" id="widgetJsPreview" src="http://www.youblisher.com/p/1433607-Brochure-Mar-Adentro/" width="100%" style="min-height:500px" seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true"></iframe>
+								
+								<img class="visible-xs visible-sm" src="http://www.youblisher.com/files/publications/239/1433607/200x300.jpg" alt="Brochure Mar Adentro">
+								<!--<a href="http://www.youblisher.com/p/1433607-Brochure-Mar-Adentro/" target="_blank">
+								</a>-->
+
+								<br><br>
 								<a href="<?php echo _DOMINIO?>files/Brochure.pdf" target="_blank" type="button" class="btn btn-danger fa fa-file-pdf-o" style="padding:2%;border:none">
 								    <i class="fa fa-file-pdf-o">
 								    	<img src="<?php echo _DOMINIO?>img/bajar.png" />

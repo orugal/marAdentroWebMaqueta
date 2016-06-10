@@ -44,7 +44,10 @@
 				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
 					<h2 class="tituloSeccion text-center">LOTES MAR ADENTRO</h2>
 					<p class="pInternas2">
-					Tienes un lote donde quieras desarrollar el concepto de Mar Adentro, Constructora  NIO esta buscando lotes mínimo de 20 hectáreas en adelante para llevar el concepto a las siguientes ciudades: <br><r
+					<strong>Constructora NIO</strong> está buscando lotes de mínimo 20 hectáreas para
+					desarrollar el concepto Mar Adentro y seguir llevando innovación y
+					calidad de vida a más ciudades. Si tienes un lote en alguna de las
+					ciudades mencionadas a continuación contacta con nosotros.
 <br><br>
 					</p>
 					<div class="row" style="margin:0 0 5% 0">

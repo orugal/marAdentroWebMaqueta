@@ -7,7 +7,7 @@
 		            <div class="row">
 			            <div class="col-sm-4">
 				            <ul class="multi-column-dropdown">
-					            <li style="background:#eee"><a href="#"><strong>LÍNEA GOLD</strong></a></li>
+					            <li style="background:#eee"><a href="#"><strong>LÍNEA ORO</strong></a></li>
 					            <li class="divider"></li>
 					            <li><a style="color:#005b84" href="<?php echo _DOMINIO?>proyectos/neiva">NEIVA</a></li>
 					            <li><a style="color:#005b84" href="<?php echo _DOMINIO?>proyectos/flandes">GIRARDOT/FLANDES</a></li>
@@ -44,7 +44,7 @@
           	PROYECTOS <b class="glyphicon glyphicon-triangle-bottom mini right"></b>
           	<ul class="dropdown-menu">
 		        <li class="dropdown-submenu">
-		        	<a style="color:#005b84" tabindex="-1">LÍNEA GOLD <b class="glyphicon glyphicon-triangle-right mini"></b></a>
+		        	<a style="color:#005b84" tabindex="-1">LÍNEA ORO <b class="glyphicon glyphicon-triangle-right mini"></b></a>
 		        	<ul class="dropdown-menu">
 				        <li><a style="color:#005b84" href="<?php echo _DOMINIO?>proyectos/neiva">NEIVA</a></li>
 				        <li><a style="color:#005b84" href="<?php echo _DOMINIO?>proyectos/flandes">GIRARDOT/FLANDES</a></li>

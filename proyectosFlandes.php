@@ -80,7 +80,7 @@ $curacao[2]['img'] = "3.png";
 
 	<?php include("menu.php") ?>
 
-	<div class="container-fluid bgAme">
+	<div class="container-fluid bgFlandes">
 		<div class="container text-center colorMsgCenter">
 			<h1>&nbsp;<!--La Nueva Era de la vivienda en Colombia--></h1>
 		</div>
@@ -94,9 +94,16 @@ $curacao[2]['img'] = "3.png";
 					<h2 class="tituloSeccion text-center">RIVERA DEL MAGDALENA
 </h2>
 					<p class="pInternas">
-						En el eje estratégico lleva del centro del país al sur, en los alrededores de Flandes, en cercanías a Girardot, en la vía al Espinal, e Ibagué, a orillas del río Magdalena, se levanta el proyecto <strong>Mar Adentro</strong> en las categorías Gold, Platino y Diamante, proyectando una mega ciudad que cambiará por completo el aspecto de esta zona y creará un nuevo polo turístico sin precedentes en América Latina.
- 						<br><br>
-						Este mega proyecto contempla zonas de campos de golf, equitación, lagunas, piscinas, naturaleza radiante, interconexión, hoteles, clubes, vivienda, colegios, puestos de salud, bahía, parque temático, entre muchas otras atracciones. 
+						En el eje estratégico que conduce del centro del país al sur, en los
+						alrededores de Flandes, cercanías a Girardot, en la vía al Espinal e
+						Ibagué y a orillas del río Magdalena, se levanta el proyecto <strong>Mar Adentro</strong> en las categorías Oro, Platino y Diamante, proyectando una
+						mega ciudad que cambiará por completo el aspecto de esta zona y
+						creará un nuevo polo turístico sin precedentes en América Latina.<br><br>
+
+						Este mega proyecto contempla zonas de campos de golf,
+						equitación, lagunas, piscinas, naturaleza radiante, interconexión,
+						hoteles, clubes, vivienda, colegios, puestos de salud, bahía, parque
+						temático, entre muchas otras atracciones.
 					</p>
 					<br>
 					<!--
