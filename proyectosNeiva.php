@@ -166,13 +166,13 @@ $curacao[4]['img'] = "../img2.jpg";*/
 										</div>
 										<div class="row">
 											<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-												<center><a class="btn btn-link" onmouseover="ma.cambioImagen(1,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn1.png" width="80%"></a></center>
+												<center><a class="btn btn-link"  onmouseout="ma.cambioImagen(0,'<?php echo _DOMINIO ?>')" onmouseover="ma.cambioImagen(1,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn1.png" width="80%"></a></center>
 											</div>
 											<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-												<center><a class="btn btn-link" onmouseover="ma.cambioImagen(3,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn2.png" width="80%"></a></center>
+												<center><a class="btn btn-link"  onmouseout="ma.cambioImagen(0,'<?php echo _DOMINIO ?>')" onmouseover="ma.cambioImagen(3,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn2.png" width="80%"></a></center>
 											</div>
 											<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-												<center><a class="btn btn-link" onmouseover="ma.cambioImagen(2,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn3.png" width="80%"></a></center>
+												<center><a class="btn btn-link"  onmouseout="ma.cambioImagen(0,'<?php echo _DOMINIO ?>')" onmouseover="ma.cambioImagen(2,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn3.png" width="80%"></a></center>
 											</div>
 										</div>
 										Mar Adentro Neiva, una ciudad dentro de la ciudad. Disfruta de los espacios diseñados especialmente para ti.

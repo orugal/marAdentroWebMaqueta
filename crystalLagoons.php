@@ -135,6 +135,16 @@ energía utilizada por los sistemas tradicionales de filtración.
 					  </div>
 					</div>	
 				</div>
+				<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+										<div class="card">
+					  <img class="img-thumbnail card-img-top" width="100%" src="img/vid/6.png" alt="BINTAN INDONESIA">
+					  <div class="card-block">
+					    <h4 class="card-title">BINTAN INDONESIA</h4>
+					    <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+					    <a onclick="ma.verVideo(5,'BINTAN INDONESIA')" class="btn btn-primary" style="padding:2%;border:none">Ver Video</a>
+					  </div>
+					</div>	
+				</div>
 			</div>
 		</div>
 	</div>
