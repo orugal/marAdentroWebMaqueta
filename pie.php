@@ -91,7 +91,15 @@
 						<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
 							
 						</div>
-						<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12" style="padding:0 0 0 4%;font-size:0.9em">
+						<div class="col-lg-5 col-md-5 col-xs-12 col-sm-12" style="padding:0 0 0 4%;font-size:0.9em">
+							<h4>BOGOTÁ</h4>
+							Constructora NIO S.A.<br>
+							Calle 79 No. 8 - 38<br>
+							Cel.: (+57) 350 860 1628<br>
+							Lunes a Viernes - 8:00 a.m. - 5:30 p.m.
+						</div>
+						<div class="col-lg-5 col-md-5 col-xs-12 col-sm-12" style="padding:0 0 0 4%;font-size:0.9em">
+							<h4>NEIVA</h4>
 							Ciudadela NIO, Av. 26 No 41 - 66<br>
 							info@maradentro.com.co<br>
 							(571) 315 707 6127

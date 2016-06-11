@@ -363,32 +363,33 @@ $curacao[4]['img'] = "../img2.jpg";*/
 					        <div class="tab-pane" id="green">
 					            <h2 class="tituloSeccion text-left">UBICACIÓN</h2>
 					            <div class="row">
+									<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+										<img src="<?php echo _DOMINIO?>img/mapaUbi.png" width="100%" />
+										<!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1407.2215014177818!2d-75.28948233962612!3d2.950528464997472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b7456dbf7af5d%3A0x73d583be25e0dd5b!2sCra.+26+%2341-66%2C+Neiva%2C+Huila!5e0!3m2!1ses!2sco!4v1463068359578" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+									
+									</div>
+								</div>
+								<div class="row" style="margin:2% 0 0 0">
 									<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
-										
-										<p class="text-left">
-											
-										</p>
 										<h2 style="text-align: left;margin:1% 0 0 0 !important;padding:0;font-size: 1.8em;font-weight: 400;text-transform:uppercase">Neiva</h2>
-										<p class="text-left">Sala de ventas: Ciudadela NIO, AV. 26 No. 41-66<br>
-										Cel.: (+57) 315 707 6127<br>
-										Tel.: (8) 8677190<br>
-										info@constructoranio.com</p><br>
+											<p class="text-left">Sala de ventas: Ciudadela NIO, AV. 26 No. 41-66<br>
+											Cel.: (+57) 315 707 6127<br>
+											Tel.: (8) 8677190<br>
+											info@constructoranio.com</p><br>
+									</div>
+									<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
 										<h2 style="text-align: left;margin:1% 0 0 0 !important;padding:0;font-size: 1.8em;font-weight: 400;text-transform:uppercase">Bogotá</h2>
 										<p class="text-left">Constructora NIO S.A.<br>
 										Calle 79 No. 8 - 38<br>
 										Cel.: (+57) 350 860 1628<br>
 										Lunes a Viernes - 8:00 a.m. - 5:30 p.m.</p>
-										<br>
+									</div>
+									<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
 										<h2 style="text-align: left;margin:1% 0 0 0 !important;padding:0;font-size: 1.8em;font-weight: 400">UBICACIÓN LOTE</h2>
 										<p  class="text-left">
-					Ubicado en el sur de la ciudad, zona de gran desarrollo, sobre la avenida al  Caguán<br><br>
+					Ubicado en el sur de la ciudad, zona de gran desarrollo.<br><br>
 										<a href="https://www.google.it/maps/@2.8881221,-75.269591,14z" target="_blank">Ver en Google Maps</a>
 					</p>
-									</div>
-									<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
-										<img src="<?php echo _DOMINIO?>img/mapaUbi.png" width="100%" />
-										<!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1407.2215014177818!2d-75.28948233962612!3d2.950528464997472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b7456dbf7af5d%3A0x73d583be25e0dd5b!2sCra.+26+%2341-66%2C+Neiva%2C+Huila!5e0!3m2!1ses!2sco!4v1463068359578" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
-									
 									</div>
 								</div>
 					        </div>
