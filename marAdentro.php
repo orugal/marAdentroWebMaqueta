@@ -126,9 +126,9 @@ $dia[3]['img'] = "dia/4.jpg";
 				<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-md visible-lg"></div>
 				<div class="col-lg-10 col-md-10 col-xs-12 col-sm-12">
 					    <ul id="tabs" class="nav nav-pills nav-justified">
-					        <li class=""><a class="pestMarA" href="#gold" data-toggle="tab"><strong>MAR ADENTRO ORO</strong></a></li>
-					        <li><a class="pestMarA" href="#platino" data-toggle="tab"><strong>MAR ADENTRO PLATINO</strong></a></li>
-					        <li><a class="pestMarA" href="#diamante" data-toggle="tab"><strong>MAR ADENTRO DIAMANTE</strong></a></li>
+					        <li class=""><a class="pestMarA btn" data-toggle="modal" data-target="#gold"><strong>MAR ADENTRO ORO</strong></a></li>
+					        <li><a class="pestMarA btn" data-toggle="modal" data-target="#platino"><strong>MAR ADENTRO PLATINO</strong></a></li>
+					        <li><a class="pestMarA btn" data-toggle="modal" data-target="#diamante"><strong>MAR ADENTRO DIAMANTE</strong></a></li>
 					    </ul>
 			    </div>
 			    <div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-md visible-lg"></div>
@@ -146,8 +146,17 @@ $dia[3]['img'] = "dia/4.jpg";
 					    <div id="my-tab-content" class="tab-content">
 
 					    	<!-- Tab 1-->
-					        <div class="tab-pane" id="gold">
-					            <h2 class="tituloSeccion text-left">MAR ADENTRO ORO</h2>
+					        <div id="gold" class="modal fade" role="dialog">
+
+					         <div class="modal-dialog modal-lg">
+
+							    <!-- Modal content-->
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal">&times;</button>
+					            	<h4 class="modal-title text-left">MAR ADENTRO ORO</h4>
+					              </div>
+					              <div class="modal-body">	
 					            <div id="myCarousel1" class="carousel slide" data-ride="carousel">
 								  <ol class="carousel-indicators">
 								  	  <?php $cont2=1;foreach($gold as $cu2){ ?>
@@ -189,13 +198,36 @@ $dia[3]['img'] = "dia/4.jpg";
 										Para la <strong>Constructora NIO</strong> la categoría Oro significa dar la mejor calidad a
 										quienes aprecian esta alternativa de vivienda.
 								</p>
-					            
+					            </div><!-- Fin modal body-->
+								 <div class="modal-footer">
+							        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+							      </div>
+
+					            </div>
+					            </div>
 					        </div>
 					        <!-- Fin Tab 1-->
 
+
+
+
+
+
 					        <!-- Tab 2-->
-					        <div class="tab-pane" id="platino">
-					           <h2 class="tituloSeccion text-left">MAR ADENTRO PLATINO</h2>
+					        <div id="platino" class="modal fade" role="dialog">
+
+					         <div class="modal-dialog modal-lg">
+
+							    <!-- Modal content-->
+							    <div class="modal-content">
+							      <div class="modal-header">        
+							      	 <button type="button" class="close" data-dismiss="modal">&times;</button>
+					          		 <h4 class="modal-title text-left">MAR ADENTRO PLATINO</h4>
+					          	 </div>
+					          	 <div class="modal-body">
+					          	 	
+					          	 
+
 					           <div id="myCarousel4" class="carousel slide" data-ride="carousel">
 								  <ol class="carousel-indicators">
 								  	  <?php $cont2=1;foreach($plat as $cu2){ ?>
@@ -233,13 +265,33 @@ $dia[3]['img'] = "dia/4.jpg";
 										En estos espacios podrán disfrutar de ambientes cómodos, contemporáneos,
 										armónicos con la naturaleza y muy exclusivos.
 								</p>
+								</div><!-- fin modal body-->
 
+									 <div class="modal-footer">
+								        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+								      </div>
+								</div>
+								</div>
 					        </div>
 					        <!-- Fin Tab 2-->
 
+
+
+
+
 					        <!-- Tab 3-->
-					        <div class="tab-pane" id="diamante">
-					            <h2 class="tituloSeccion text-left">MAR ADENTRO DIAMANTE</h2>
+					        <div id="diamante"  class="modal fade" role="dialog">
+					        	<div class="modal-dialog modal-lg">
+
+							    <!-- Modal content-->
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        	<button type="button" class="close" data-dismiss="modal">&times;</button>
+
+					            		<h4 class="modal-title text-left">MAR ADENTRO DIAMANTE</h4>
+					            	</div>	
+					            	<div class="modal-body">
+
 					            <div id="myCarousel3" class="carousel slide" data-ride="carousel">
 								  <ol class="carousel-indicators">
 								  	  <?php $cont2=1;foreach($dia as $cu2){ ?>
@@ -282,9 +334,18 @@ $dia[3]['img'] = "dia/4.jpg";
 									arquitectura personalizada dirigida a necesidades específicas y espacios que
 									ayudarán a soñar, convirtiéndolo en el sitio ideal para ser feliz.
 								</p>
+								</div><!-- fin modal body-->
+
+									 <div class="modal-footer">
+								        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+								      </div>
+								</div>
+								</div>
 
 					        </div>
 					        <!-- Fin tab 3-->
+
+
 					    </div>
 					</div>
 				</div>

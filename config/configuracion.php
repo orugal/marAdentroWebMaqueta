@@ -6,7 +6,7 @@
 */
 
 define("_NOMBRE_EMPRESA"                                ,"Mar Adentro");//configurar
-define("_DOMINIO"                 		               ,"http://192.168.0.11/marAdentro/");//configurar
+define("_DOMINIO"                 		               ,"http://192.168.0.12/marAdentroWebMaqueta/");//configurar
 
 
 //DATOS DE ENVIO DE CORREOS

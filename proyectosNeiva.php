@@ -153,7 +153,7 @@ $curacao[4]['img'] = "../img2.jpg";*/
 
 					    <!-- Tab 0-->
 					        <div id="master"  class="modal fade"  role="dialog">
-					        	<div class="modal-dialog" role="document">
+					        	<div class="modal-dialog modal-lg" role="document">
     								<div class="modal-content">
     									 <div class="modal-header">
 							            	<button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -215,7 +215,7 @@ $curacao[4]['img'] = "../img2.jpg";*/
 					        <!-- Fin Tab 0 -->
 					    	<!-- Tab 1-->
 					        <div  id="red" class="modal fade "  role="dialog">
-								 <div class="modal-dialog">
+								 <div class="modal-dialog  modal-lg">
 
 								    <!-- Modal content-->
 								    <div class="modal-content">
@@ -285,7 +285,7 @@ $curacao[4]['img'] = "../img2.jpg";*/
 					        <!-- Tab 2-->
 					        <div id="orange" class="modal fade" role="dialog">
 
-					        	<div class="modal-dialog">
+					        	<div class="modal-dialog  modal-lg">
 
 							    <!-- Modal content-->
 							    <div class="modal-content">
@@ -417,7 +417,8 @@ $curacao[4]['img'] = "../img2.jpg";*/
 									  <div class="modal-body">
 										<center>
 
-										<iframe class="visible-lg" id="widgetJsPreview" src="http://www.youblisher.com/p/1433607-Brochure-Mar-Adentro/" width="100%" style="min-height:500px" seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true"></iframe>
+										<div data-configid="25315702/36445974" style="width:100%; height:500px;" class="issuuembed visible-lg"></div>
+<script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
 										
 										<img class="visible-xs visible-sm" src="http://www.youblisher.com/files/publications/239/1433607/200x300.jpg" alt="Brochure Mar Adentro">
 										<!--<a href="http://www.youblisher.com/p/1433607-Brochure-Mar-Adentro/" target="_blank">
