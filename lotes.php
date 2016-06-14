@@ -95,6 +95,11 @@
 					  </fieldset>
 
 					  <fieldset class="form-group">
+					    <label for="exampleInputEmail1">Ciudad</label>
+					    <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="Escriba la ciudad donde está el lote.">
+					  </fieldset>
+
+					  <fieldset class="form-group">
 					    <label for="exampleInputEmail1">Ubicación</label>
 					    <input type="text" class="form-control" id="ubicacion" name="ubicacion" placeholder="Escriba la ubicación del lote.">
 					  </fieldset>

@@ -11,6 +11,8 @@
 
 //$aruba[0]['img'] = "1.png";
 $aruba[0]['img'] = "../ubiAruba.png";
+$aruba[10]['img'] = "8.jpg";
+$aruba[11]['img'] = "9.jpg";
 $aruba[1]['img'] = "../bgNeivaN.jpg";
 $aruba[2]['img'] = "../img3.jpg";
 $aruba[3]['img'] = "../img1.jpg";
@@ -24,8 +26,11 @@ $aruba[9]['img'] = "7.jpg";
 
 
 
+
 //$curacao[0]['img'] = "1.png";
 $curacao[0]['img'] = "../ubiCura.png";
+$curacao[5]['img'] = "4.jpg";
+$curacao[6]['img'] = "5.jpg";
 $curacao[1]['img'] = "../bgNeivaN.jpg";
 $curacao[2]['img'] = "../img3.jpg";
 $curacao[3]['img'] = "2.png";
@@ -172,13 +177,13 @@ $curacao[4]['img'] = "../img2.jpg";*/
 													</div>
 													<div class="row">
 														<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-															<center><a class="btn btn-link"  onmouseout="ma.cambioImagen(0,'<?php echo _DOMINIO ?>')" onmouseover="ma.cambioImagen(1,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn1.png" width="100%"></a></center>
+															<center><a class="btn btn-link" href="#clubH" data-toggle="tab"  onmouseout="ma.cambioImagen(0,'<?php echo _DOMINIO ?>')" onmouseover="ma.cambioImagen(1,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn1.png" width="100%"></a></center>
 														</div>
 														<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-															<center><a class="btn btn-link"  onmouseout="ma.cambioImagen(0,'<?php echo _DOMINIO ?>')" onmouseover="ma.cambioImagen(3,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn2.png" width="100%"></a></center>
+															<center><a class="btn btn-link" href="#parque" data-toggle="tab"  onmouseout="ma.cambioImagen(0,'<?php echo _DOMINIO ?>')" onmouseover="ma.cambioImagen(3,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn2.png" width="100%"></a></center>
 														</div>
 														<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-															<center><a class="btn btn-link"  onmouseout="ma.cambioImagen(0,'<?php echo _DOMINIO ?>')" onmouseover="ma.cambioImagen(2,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn3.png" width="100%"></a></center>
+															<center><a class="btn btn-link" href="#clubP" data-toggle="tab"  onmouseout="ma.cambioImagen(0,'<?php echo _DOMINIO ?>')" onmouseover="ma.cambioImagen(2,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn3.png" width="100%"></a></center>
 														</div>
 													</div>
 													Mar Adentro Neiva, una ciudad dentro de la ciudad. Disfruta de los espacios diseñados especialmente para ti.
@@ -186,7 +191,7 @@ $curacao[4]['img'] = "../img2.jpg";*/
 												</div>
 											</div>
 
-											<div class="row">
+											<!--<div class="row">
 												
 												<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
 												    <ul id="tabs" class="nav nav-pills nav-justified">
@@ -196,7 +201,7 @@ $curacao[4]['img'] = "../img2.jpg";*/
 												    </ul>
 											    </div>
 												
-										    </div>
+										    </div>-->
 										    <div class="row" style="padding:3%">
 												<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
 												   <?php include("pestMasterPlan.php") ?>

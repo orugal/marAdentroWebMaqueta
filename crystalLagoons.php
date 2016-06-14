@@ -51,7 +51,7 @@
 
 desarrollado y patentado una tecnología única ofreciendo un estilo de vida propio,
 
-donde la playa es la principal atracción. También son líderes en mejorar la calidad
+donde la laguna es la principal atracción. También son líderes en mejorar la calidad
 
 de vida mediante la solución de algunos de los mayores problemas planetarios
 
@@ -59,7 +59,7 @@ como la escasez de agua, la energía, la contaminación y la falta de espacios
 
 públicos abiertos.
 
-La implementación de este mar artificial utiliza hasta 100 veces menos productos
+La implementación de esta laguna hecha por el hombre utiliza hasta 100 veces menos productos
 
 químicos que los sistemas convencionales de piscina y consume solo un 2% de la
 

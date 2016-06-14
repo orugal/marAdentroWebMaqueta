@@ -120,6 +120,7 @@ var ma =
 		var comentario	=	$("#comentario").val();
 		var area		=	$("#area").val();
 		var ubicacion	=	$("#ubicacion").val();
+		var ciudad		=	$("#ciudad").val();
 		var usos		=	$("#usos").val();
 
 		//valido campos
@@ -146,6 +147,10 @@ var ma =
 		else if(area == "")
 		{
 			swal({   title: "Error!",   text: "El campo área es un campo requerido!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else if(ciudad == "")
+		{
+			swal({   title: "Error!",   text: "El campo ciudad es un campo requerido!",   type: "warning",   confirmButtonText: "Aceptar" });
 		}
 		else if(ubicacion == "")
 		{

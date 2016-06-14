@@ -53,8 +53,8 @@ elseif($envio == 2)
 
 	$envio			 =	$funciones->SendMAIL(_MAIL_ADMIN,$asunto,$mensaje_armado,'',$email,_NOMBRE_EMPRESA);
 
-	$queryInserta	 =	sprintf("INSERT INTO lotes(nombre,email,telefono,area,ubicacion,usos,comentario,fecha) values('%s','%s','%s','%s','%s','%s','%s','%s')",
-								$nombre,$email,$telefono,$area,$ubicacion,$usos,$comentario,date("Y-m-d H:i:s"));
+	$queryInserta	 =	sprintf("INSERT INTO lotes(nombre,email,telefono,area,ubicacion,usos,comentario,fecha,ciudad) values('%s','%s','%s','%s','%s','%s','%s','%s','%s')",
+								$nombre,$email,$telefono,$area,$ubicacion,$usos,$comentario,date("Y-m-d H:i:s"),$ciudad);
 	//die($queryInserta);
 	$result			 =	$db->Execute($queryInserta);
 
