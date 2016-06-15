@@ -177,15 +177,15 @@ $curacao[4]['img'] = "../img2.jpg";*/
 													</div>
 													<div class="row">
 														<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-															<center><a class="btn btn-link" href="#clubH" data-toggle="tab"  onmouseout="ma.cambioImagen(0,'<?php echo _DOMINIO ?>')" onmouseover="ma.cambioImagen(1,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn1.png" width="100%"></a></center>
+															<center><a class="btnMaster btn btn-link active" href="#clubH" data-toggle="tab"  onmouseout="ma.cambioImagen(0,'<?php echo _DOMINIO ?>')" onclick="ma.cambioColor(this,0)" onmouseover="ma.cambioImagen(1,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn1.png" width="100%"></a></center>
 														</div>
 														<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-															<center><a class="btn btn-link" href="#parque" data-toggle="tab"  onmouseout="ma.cambioImagen(0,'<?php echo _DOMINIO ?>')" onmouseover="ma.cambioImagen(3,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn2.png" width="100%"></a></center>
+															<center><a class="btnMaster btn btn-link" href="#parque" data-toggle="tab"  onmouseout="ma.cambioImagen(0,'<?php echo _DOMINIO ?>')" onclick="ma.cambioColor(this,1)" onmouseover="ma.cambioImagen(3,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn2.png" width="100%"></a></center>
 														</div>
 														<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-															<center><a class="btn btn-link" href="#clubP" data-toggle="tab"  onmouseout="ma.cambioImagen(0,'<?php echo _DOMINIO ?>')" onmouseover="ma.cambioImagen(2,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn3.png" width="100%"></a></center>
+															<center><a class="btnMaster btn btn-link" href="#clubP" data-toggle="tab"  onmouseout="ma.cambioImagen(0,'<?php echo _DOMINIO ?>')" onclick="ma.cambioColor(this,2)" onmouseover="ma.cambioImagen(2,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn3.png" width="100%"></a></center>
 														</div>
-													</div>
+													</div><br><br>
 													Mar Adentro Neiva, una ciudad dentro de la ciudad. Disfruta de los espacios diseñados especialmente para ti.
 													</p>
 												</div>
@@ -202,7 +202,7 @@ $curacao[4]['img'] = "../img2.jpg";*/
 											    </div>
 												
 										    </div>-->
-										    <div class="row" style="padding:3%">
+										    <div class="row">
 												<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
 												   <?php include("pestMasterPlan.php") ?>
 											    </div>

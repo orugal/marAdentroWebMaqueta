@@ -261,5 +261,23 @@ var ma =
 	cambioImagen:function(btn,dominio)
 	{
 		$("#masterImg").attr("src",dominio+"img/master/img"+btn+".png");
+	},
+	cambioColor:function(e,id)
+	{
+		$(".btnMaster").removeAttr("style");
+		var colores = [
+			{
+				color:"#fee849"
+			},
+			{
+				color:"#005b84"
+			},
+			{
+				color:"#ff2942"
+			}
+		];
+
+		$(e).attr("style","border-bottom:5px solid "+colores[id].color);
+
 	}
 }

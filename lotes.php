@@ -29,7 +29,7 @@
 
 	<?php include("menu.php") ?>
 
-	<div class="container-fluid bgCrystal">
+	<div class="container-fluid bgLotes">
 		<div class="container text-center colorMsgCenter">
 			
 		</div>
