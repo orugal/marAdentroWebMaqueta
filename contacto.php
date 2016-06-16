@@ -7,8 +7,13 @@
 
    Desarrollado por  @orugal
 -->
-
 <?php require("config/configuracion.php"); ?>
+
+<?php
+$ciudades[0]['nombre'] = "Neiva";
+$ciudades[1]['nombre'] = "Girardot / Flandes";
+$ciudades[2]['nombre'] = "Cartagena";
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -77,6 +82,16 @@
 					  <fieldset class="form-group">
 					    <label for="exampleInputEmail1">Teléfono</label>
 					    <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Escriba un número de teléfono de contacto">
+					  </fieldset>
+
+					  <fieldset class="form-group">
+					    <label for="exampleInputEmail1">Ciudad de interés</label>
+					    <select  class="form-control" id="ciudad" name="ciudad" >
+					    		<option value="">Seleccione la ciudad de interés</option>
+					    	<?php foreach($ciudades as $ciu){ ?>
+					    		<option value="<?php echo $ciu['nombre']?>"><?php echo $ciu['nombre']?></option>
+					    	<?php }?>
+					    </select> 	
 					  </fieldset>
 
 					  <fieldset class="form-group">

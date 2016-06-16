@@ -64,6 +64,10 @@ var ma =
 		{
 			swal({   title: "Error!",   text: "El campo teléfono sólo puede contener números!",   type: "warning",   confirmButtonText: "Aceptar" });
 		}
+		else if(ciudad == "")
+		{
+			swal({   title: "Error!",   text: "Seleccione la ciudad de interés!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
 		else if(comentario == "")
 		{
 			swal({   title: "Error!",   text: "El campo comentario es un campo requerido!",   type: "warning",   confirmButtonText: "Aceptar" });
