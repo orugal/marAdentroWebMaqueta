@@ -86,7 +86,7 @@ $ciudades[2]['nombre'] = "Cartagena";
 
 					  <fieldset class="form-group">
 					    <label for="exampleInputEmail1">Ciudad de interés</label>
-					    <select  class="form-control" id="ciudad" name="ciudad" >
+					    <select class="form-control" id="ciudad" name="ciudad" >
 					    		<option value="">Seleccione la ciudad de interés</option>
 					    	<?php foreach($ciudades as $ciu){ ?>
 					    		<option value="<?php echo $ciu['nombre']?>"><?php echo $ciu['nombre']?></option>

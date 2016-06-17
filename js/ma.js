@@ -42,6 +42,7 @@ var ma =
 		var email		=	$("#email").val();
 		var telefono	=	$("#telefono").val();
 		var comentario	=	$("#comentario").val();
+		var ciudad		=	$("#ciudad").val();
 
 		//valido campos
 		if(nombre == "")

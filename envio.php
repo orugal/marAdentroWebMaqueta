@@ -18,12 +18,13 @@ if($envio == 1)
 	$mensaje_armado	.= '<b>Nombres y apellidos:</b> '.$nombre.'<br>';
 	$mensaje_armado	.= '<b>Correo Electronico:</b> '.$email.'<br>';
 	$mensaje_armado	.= '<b>Telefono: </b>'.$telefono.'<br>';
+	$mensaje_armado	.= '<b>Ciudad: </b>'.$ciudad.'<br>';
 	$mensaje_armado	.= '<b>Comentario:</b> '.$comentario.'<br>';
 
 	$envio			 =	$funciones->SendMAIL(_MAIL_ADMIN,$asunto,$mensaje_armado,'',$email,_NOMBRE_EMPRESA);
 
-	$queryInserta	 =	sprintf("INSERT INTO contacto(nombre,email,telefono,comentario,fecha) values('%s','%s','%s','%s','%s')",
-								$nombre,$email,$telefono,$comentario,date("Y-m-d H:i:s"));
+	$queryInserta	 =	sprintf("INSERT INTO contacto(nombre,email,telefono,ciudad,comentario,fecha) values('%s','%s','%s','%s','%s','%s')",
+								$nombre,$email,$telefono,$ciudad,$comentario,date("Y-m-d H:i:s"));
 	//die($queryInserta);
 	$result			 =	$db->Execute($queryInserta);
 
