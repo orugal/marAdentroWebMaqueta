@@ -135,11 +135,11 @@ $curacao[4]['img'] = "../img2.jpg";*/
 				<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-md visible-lg"></div>
 				<div class="col-lg-10 col-md-10 col-xs-12 col-sm-12">
 					    <ul id="tabs" class="nav nav-pills nav-justified">
-					    	<li class=""><a class="pestNeiva" data-toggle="modal" data-target="#master"><strong>MASTER PLAN</strong></a></li>
-					        <li><a class="pestNeiva"  data-toggle="modal" data-target="#red"><strong>CURACAO</strong></a></li>
-					        <li><a class="pestNeiva" data-toggle="modal" data-target="#orange"><strong>ARUBA</strong></a></li>
-					        <li><a class="pestNeiva" data-toggle="modal" data-target="#green"><strong>UBICACIÓN</strong></a></li>
-					        <li><a class="pestNeiva" data-toggle="modal" data-target="#blue"><strong>BROCHURE</strong></a></li>
+					    	<li class=""><a class="pestNeiva btn" data-toggle="modal" data-target="#master"><strong>MASTER PLAN</strong></a></li>
+					        <li><a class="pestNeiva btn"  data-toggle="modal" data-target="#red"><strong>CURACAO</strong></a></li>
+					        <li><a class="pestNeiva btn" data-toggle="modal" data-target="#orange"><strong>ARUBA</strong></a></li>
+					        <li><a class="pestNeiva btn" data-toggle="modal" data-target="#green"><strong>UBICACIÓN</strong></a></li>
+					        <li><a class="pestNeiva btn" data-toggle="modal" data-target="#blue"><strong>BROCHURE</strong></a></li>
 					    </ul>
 			    </div>
 				<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-md visible-lg"></div>
@@ -424,8 +424,9 @@ $curacao[4]['img'] = "../img2.jpg";*/
 
 										<div data-configid="25315702/36445974" style="width:100%; height:500px;" class="issuuembed visible-lg"></div>
 <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
-										
-										<img class="visible-xs visible-sm" src="http://www.youblisher.com/files/publications/239/1433607/200x300.jpg" alt="Brochure Mar Adentro">
+										<a href="https://issuu.com/constructoranio7/docs/brochure_5ded56c74891de" target="_blank" type="button" class="visible-xs visible-sm">
+											<img class="visible-xs visible-sm" src="http://www.youblisher.com/files/publications/239/1433607/200x300.jpg" alt="Brochure Mar Adentro">
+										</a>
 										<!--<a href="http://www.youblisher.com/p/1433607-Brochure-Mar-Adentro/" target="_blank">
 										</a>-->
 
