@@ -6,10 +6,10 @@
 */
 
 define("_NOMBRE_EMPRESA"                                ,"Mar Adentro");//configurar
-define("_DOMINIO"                 		               ,"http://192.168.0.12:8081/marAdentroWebMaqueta/");//configurar
+define("_DOMINIO"                 		               ,"http://192.168.0.14/marAdentro/");//configurar
 
 
-//DATOS DE ENVIO DE CORREOS
+//DATOS DE ENVIO DE CORREOSc
 define('_DIR_PLUGIN'									,'core/phpmailer/');
 define('_MAILER'										,'mail');
 define('_HOST_MAIL'										,'mail.maradentro.com.co');//Configurar

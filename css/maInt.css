@@ -450,3 +450,4 @@ nav.navbar {
 
 .nav-pills>li.active>.pestMarA, .nav-pills>li.active>.pestMarA:focus, .nav-pills>li.active a{;margin:0 2% 0 0;}
 .nav-pills>li.active>.pestMarA, .nav-pills>li.active>.pestMarA:focus, .nav-pills>li.active{color:#fff;border-radius: 0}
+.panel-collapse{padding: 2%}
