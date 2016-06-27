@@ -18,6 +18,8 @@ $cp[1]['img'] = "img/ameSer/3.jpg";
 $cp[2]['img'] = "img/ameSer/4.jpg";
 $cp[3]['img'] = "img/ameSer/5.jpg";
 $cp[4]['img'] = "img/ameSer/6.jpg";
+$cp[5]['img'] = "img/ameSer/7.jpg";
+$cp[6]['img'] = "img/ameSer/8.jpg";
 ?>
 
 <div id="my-tab-content" class="tab-content">
