@@ -120,6 +120,7 @@ $curacao[4]['img'] = "../img2.jpg";*/
 					<h1>NEIVA</h1>
 					<!--<img src="<?php echo _DOMINIO ?>img/master.png" class="img-thumbnail"><br><br>-->
 					<p class="pInternas">
+						<iframe width="100%" height="315" src="https://www.youtube.com/embed/t8fPsfJnHvE" frameborder="0" allowfullscreen></iframe><br><br>
 						La primera ciudad privilegiada con esta novedosa alternativa de
 						vivienda que cambia por completo el estilo de vida de sus
 						habitantes y visitantes.<br><br>
