@@ -11,7 +11,7 @@
 
 $aruba[0]['img'] = "../ubiAruba.png";
 $aruba[11]['img'] = "1.png";
-$aruba[10]['img'] = "8.jpg";
+//$aruba[10]['img'] = "8.jpg";
 //$aruba[11]['img'] = "9.jpg";
 $aruba[1]['img'] = "../bgNeivaN.jpg";
 $aruba[2]['img'] = "../img3.jpg";
@@ -29,7 +29,7 @@ $aruba[9]['img'] = "7.jpg";
 
 $curacao[0]['img'] = "../ubiCura.png";
 $curacao[7]['img'] = "1.png";
-$curacao[5]['img'] = "4.jpg";
+//$curacao[5]['img'] = "4.jpg";
 //$curacao[6]['img'] = "5.jpg";
 $curacao[1]['img'] = "../bgNeivaN.jpg";
 $curacao[2]['img'] = "../img3.jpg";
