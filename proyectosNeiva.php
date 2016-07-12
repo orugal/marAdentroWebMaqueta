@@ -134,9 +134,9 @@ $curacao[4]['img'] = "../img2.jpg";*/
 						proyecto Mar Adentro Oro, con dos conjuntos residenciales
 						independientes llamados Aruba y Curacao.
 					</p><br>
-					<center>
+					<!--<center>
 						<img src="<?php echo _DOMINIO?>img/banner.png" width="50%"/>
-					</center>
+					</center>-->
 				</div>
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
 			</div>
