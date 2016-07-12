@@ -9,10 +9,10 @@
 -->
 <?php 
 
+//$aruba[0]['img'] = "1.png";
 $aruba[0]['img'] = "../ubiAruba.png";
-$aruba[11]['img'] = "1.png";
-//$aruba[10]['img'] = "8.jpg";
-//$aruba[11]['img'] = "9.jpg";
+$aruba[10]['img'] = "8.jpg";
+$aruba[11]['img'] = "9.jpg";
 $aruba[1]['img'] = "../bgNeivaN.jpg";
 $aruba[2]['img'] = "../img3.jpg";
 $aruba[3]['img'] = "../img1.jpg";
@@ -27,10 +27,10 @@ $aruba[9]['img'] = "7.jpg";
 
 
 
+//$curacao[0]['img'] = "1.png";
 $curacao[0]['img'] = "../ubiCura.png";
-$curacao[7]['img'] = "1.png";
-//$curacao[5]['img'] = "4.jpg";
-//$curacao[6]['img'] = "5.jpg";
+$curacao[5]['img'] = "4.jpg";
+$curacao[6]['img'] = "5.jpg";
 $curacao[1]['img'] = "../bgNeivaN.jpg";
 $curacao[2]['img'] = "../img3.jpg";
 $curacao[3]['img'] = "2.png";
@@ -133,7 +133,10 @@ $curacao[4]['img'] = "../img2.jpg";*/
 						Es un nuevo estilo de vida, de confort. En Neiva lanzamos el primer
 						proyecto Mar Adentro Oro, con dos conjuntos residenciales
 						independientes llamados Aruba y Curacao.
-					</p>
+					</p><br>
+					<center>
+						<img src="<?php echo _DOMINIO?>img/banner.png" width="50%"/>
+					</center>
 				</div>
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
 			</div>
@@ -267,7 +270,10 @@ $curacao[4]['img'] = "../img2.jpg";*/
 													    <span class="sr-only">Siguiente</span>
 													  </a>
 													</div>
-
+		
+													  <div class="small text-left">
+													  	Las imágenes utilizadas en este material son ilustrativas y de referencia, los detalles de diseño, materiales y colores están sujetos a cambios. Sin modificar la calidad del proyecto final.
+													  </div>
 
 
 													<!--<h4 class="tituloSeccion"> CURACAO</h4>-->
@@ -337,7 +343,10 @@ $curacao[4]['img'] = "../img2.jpg";*/
 												    <span class="sr-only">Next</span>
 												  </a>
 												</div>
-
+		
+												  <div class="small text-left">
+												  	Las imágenes utilizadas en este material son ilustrativas y de referencia, los detalles de diseño, materiales y colores están sujetos a cambios. Sin modificar la calidad del proyecto final.
+												  </div>
 												
 												<p class="pInternas2"> <br>
 													Está conformada por 440 apartamentos de 50 a 65 M2 con opción

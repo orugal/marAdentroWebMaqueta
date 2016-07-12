@@ -193,6 +193,11 @@ $dia[3]['img'] = "dia/4.jpg";
 								    <span class="sr-only">Siguiente</span>
 								  </a>
 								</div>
+
+		
+		  <div class="small text-left">
+		  	Las imágenes utilizadas en este material son ilustrativas y de referencia, los detalles de diseño, materiales y colores están sujetos a cambios. Sin modificar la calidad del proyecto final.
+		  </div>
 								<p class="pInternas2"><br>
 										El oro se asocia con felicidad, lujo y exclusividad. Entre sus mayores
 										propiedades está su calidad pues después de muchos años mantiene intacto el
@@ -264,6 +269,11 @@ $dia[3]['img'] = "dia/4.jpg";
 								    <span class="sr-only">Siguiente</span>
 								  </a>
 								</div>
+
+		
+		  <div class="small text-left">
+		  	Las imágenes utilizadas en este material son ilustrativas y de referencia, los detalles de diseño, materiales y colores están sujetos a cambios. Sin modificar la calidad del proyecto final.
+		  </div>
 								<p class="pInternas2"><br>
 										La experiencia Platino evoca ese metal noble que se destaca como el símbolo
 										de un estilo vanguardista, con bellas y muy completas posibilidades que
@@ -328,6 +338,11 @@ $dia[3]['img'] = "dia/4.jpg";
 								    <span class="sr-only">Siguiente</span>
 								  </a>
 								</div>
+								
+		
+		  <div class="small text-left">
+		  	Las imágenes utilizadas en este material son ilustrativas y de referencia, los detalles de diseño, materiales y colores están sujetos a cambios. Sin modificar la calidad del proyecto final.
+		  </div>
 								<p class="pInternas2"><br>
 									Mar Adentro Diamante es perfección, pureza, triunfo, firmeza, dureza, brillo y
 									luminosidad, las características de esta categoría de NIO en su proyecto <strong>Mar Adentro</strong>. <br><br>

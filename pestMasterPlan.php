@@ -48,7 +48,11 @@ $cp[6]['img'] = "img/ameSer/8.jpg";
 		    <span class="sr-only">Siguiente</span>
 		  </a>
 		</div>
-
+		
+		
+		  <div class="small text-left">
+		  	Las imágenes utilizadas en este material son ilustrativas y de referencia, los detalles de diseño, materiales y colores están sujetos a cambios. Sin modificar la calidad del proyecto final.
+		  </div>
 		<div class="row" style="margin:2% 0 0 0">
 			<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
 				<ul>
@@ -95,6 +99,10 @@ $cp[6]['img'] = "img/ameSer/8.jpg";
 		    <span class="sr-only">Siguiente</span>
 		  </a>
 		</div>
+
+		  <div class="small text-left">
+		  	Las imágenes utilizadas en este material son ilustrativas y de referencia, los detalles de diseño, materiales y colores están sujetos a cambios. Sin modificar la calidad del proyecto final.
+		  </div>
 		<p class="pInternas2"><br>
 
 
@@ -152,6 +160,11 @@ $cp[6]['img'] = "img/ameSer/8.jpg";
 		    <span class="sr-only">Siguiente</span>
 		  </a>
 		</div>
+		
+		
+		  <div class="small text-left">
+		  	Las imágenes utilizadas en este material son ilustrativas y de referencia, los detalles de diseño, materiales y colores están sujetos a cambios. Sin modificar la calidad del proyecto final.
+		  </div>
 		<p class="pInternas2"><br>
 			<div class="row" style="margin:2% 0 0 0">
 			<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
