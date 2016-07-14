@@ -187,12 +187,17 @@ var ma =
 				showLoaderOnConfirm: true
 			}, 
 				function(){   
-					 var formulario = $("#contacto").serialize();
+					 //var formulario = $("#contacto").serialize();
+					 var formulario = new FormData(document.getElementById("contacto"));
+					 formData.append("envio", "2");
 					 $.ajax({
 				          type: "POST",
 				          url: "envio.php",
-				          data: formulario+"&envio=2",
+				          data: formulario,
 				          dataType:"json",
+					      cache: false,
+					      contentType: false,
+					      processData: false,
 				          beforeSend: function(objeto){
 				          },
 				          success: function(respuesta)

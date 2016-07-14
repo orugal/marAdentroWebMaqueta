@@ -82,7 +82,7 @@
 					</div>
 
 					<p class="text-left">Complete el siguiente formulario y nos pondremos en contacto con usted.</p>
-					<form id="contacto" method="post" action="" class="text-left">
+					<form id="contacto" method="post" action="" class="text-left" enctype="multipart/form-data">
 
 					  <fieldset class="form-group">
 					    <label for="exampleInputEmail1">Nombre</label>
@@ -120,8 +120,13 @@
 					  </fieldset>
 
 					  <fieldset class="form-group">
+					    <label for="exampleInputEmail1">Archivo adjunto</label>
+					    <input type="file" class="form-control" id="archivo" name="archivo" placeholder="Seleccione un archivo adjunto.">
+					  </fieldset>
+
+					  <fieldset class="form-group">
 					    <label for="exampleInputEmail1">Comentario</label>
-					    <textarea class="form-control" id="comentario" name="comentario" placeholder="Escriba un texto breve que nos ayude con la descripción del lote."></textarea>
+					    <textarea class="form-control" id="comentario" name="comentario" placeholder="Escriba una breve reseña."></textarea>
 					  </fieldset>
 
 					   <fieldset class="form-group">
