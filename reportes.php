@@ -67,7 +67,7 @@ if(isset($_GET['r']))
 				$tabla .= "<tr>";
 				foreach($value2 as $key2 =>$val)
 				{
-					$tabla .= "<td style='border:1px solid #000'>".strtoupper($val)."</td>";
+					$tabla .= "<td style='border:1px solid #000'>".$val."</td>";
 				}
 				$tabla .= "</tr>";
 			}

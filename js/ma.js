@@ -189,7 +189,7 @@ var ma =
 				function(){   
 					 //var formulario = $("#contacto").serialize();
 					 var formulario = new FormData(document.getElementById("contacto"));
-					 formData.append("envio", "2");
+					 formulario.append("envio", "2");
 					 $.ajax({
 				          type: "POST",
 				          url: "envio.php",
@@ -208,7 +208,7 @@ var ma =
 				            }
 				            else
 				            {
-				              swal({   title: "Mensaje no enviado!",   text: "El mensaje no pudo ser enviado, intente de nuevo más tarde!.",   type: "error",   confirmButtonText: "Aceptar",   showLoaderOnConfirm: true, });
+				              swal({   title: "Mensaje no enviado!",   text: respuesta.mensaje,   type: "error",   confirmButtonText: "Aceptar",   showLoaderOnConfirm: true, });
 				            }
 			            },
 			            error: function (var1,var2,var3){

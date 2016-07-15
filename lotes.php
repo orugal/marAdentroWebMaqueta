@@ -120,8 +120,8 @@
 					  </fieldset>
 
 					  <fieldset class="form-group">
-					    <label for="exampleInputEmail1">Archivo adjunto</label>
-					    <input type="file" class="form-control" id="archivo" name="archivo" placeholder="Seleccione un archivo adjunto.">
+					    <label for="exampleInputEmail1">Archivo adjunto <span class="small">(Máximo 1 MB. Archivos jpg, png, pdf, doc, docx, xls, xlsx.)</span></label>
+					    <input type="file" class="form-control" id="archivo" name="archivo" placeholder="Archivos jpg, png, pdf, doc, docx, xls, xlsx.">
 					  </fieldset>
 
 					  <fieldset class="form-group">
