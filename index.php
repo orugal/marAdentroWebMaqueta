@@ -14,14 +14,9 @@
 		<title>Mar Adentro - Home</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta charset=utf-8>
-		<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,400italic,500italic,700,700italic,900italic,900&subset=latin,greek,vietnamese,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
-		<link rel="stylesheet" type="text/css" href="css/ma.css" />
-		<link rel="stylesheet" type="text/css" href="css/full-slider.css" />
-		<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
-		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+		<meta http-equiv="expires" content="Sat, 30 Jul 2016 11:12:01 GMT" />
+		<meta http-equiv="Cache-control" content="public">
+		
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -143,6 +138,14 @@ Nuestra meta es brindarte la mejor calidad de vida .</h2>
 					</div>
 			</div>	
 	</div>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
+	<link rel="stylesheet" type="text/css" href="css/ma.css" />
+	<link rel="stylesheet" type="text/css" href="css/full-slider.css" />
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,400italic,500italic,700,700italic,900italic,900&subset=latin,greek,vietnamese,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,700' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
 	<script type="text/javascript" src="js/R-preloadcssimages.jquery.js"></script>
