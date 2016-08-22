@@ -66,7 +66,7 @@ $ciudades[2]['nombre'] = "Cartagena";
 					<h2 style="text-align: left;margin:1% 0 0 0 !important;padding:0;font-size: 1.8em;font-weight: 400">Bogotá</h2>
 					<p class="text-left">Constructora NIO S.A.<br>
 					Calle 79 No. 8 - 38<br>
-					Cel.: (+57) 350 860 1628<br>
+					Cel.: (+57) 315 707 6127<br>
 					Lunes a Viernes - 8:00 a.m. - 5:30 p.m.</p>
 
 
