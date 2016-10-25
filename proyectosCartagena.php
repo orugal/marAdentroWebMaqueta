@@ -127,16 +127,17 @@ $curacao[2]['img'] = "3.png";
 		<div class="container">
 
 			<div class="row">
-				<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 visible-md visible-lg"></div>
-				<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-md visible-lg"></div>
+				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
 					<center>
 					    <ul id="tabs" class="nav nav-pills nav-justified">
 					        <li><a href="#yellow" data-toggle="tab">AMENITIES</a></li>
 					        <li><a href="#green" data-toggle="tab">UBICACIÓN</a></li>
+					        <li><a href="#legales"  data-toggle="modal" data-target="#legales">NOTAS LEGALES</a></li>
 					    </ul>
 				    </center>
 			    </div>
-			    <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 visible-md visible-lg"></div>
+			    <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-md visible-lg"></div>
 		    </div>
 		</div>
 	</div>

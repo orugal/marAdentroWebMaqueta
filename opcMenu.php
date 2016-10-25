@@ -1,7 +1,7 @@
 <ul class="nav navbar-nav">
     <li class=""><a href="<?php echo _DOMINIO?>marAdentro">MAR ADENTRO</a></li>
 <!-- Menú sólo movil-->
-    <li class="dropdown visible-sm visible-xs">
+    <li class="dropdown visible-sm visible-xs visible-md">
 	            <a href="#" class="dropdown-toggle" data-toggle="dropdown">PROYECTOS <b class="caret"></b></a>
 	            <ul class="dropdown-menu multi-column columns-3">
 		            <div class="row">
@@ -39,8 +39,8 @@
 
 
 
-    <li class="dropdown visible-lg visible-md">
-         <a class="dropdown-toggle" data-toggle="dropdown"	>
+    <li class="dropdown visible-lg">
+         <a class="dropdown-toggle" data-toggle="dropdown">
           	PROYECTOS <b class="glyphicon glyphicon-triangle-bottom mini right"></b>
           	<ul class="dropdown-menu">
 		        <li class="dropdown-submenu">

@@ -42,7 +42,10 @@
 				      <a class="navbar-brand visible-lg visible-md margin" href="<?php echo _DOMINIO?>home">
 				      	<img src="img/logoBlanco.png" width="250px" />
 				      </a>
-				      <a class="navbar-brand visible-xs visible-sm" href="<?php echo _DOMINIO?>home" style="margin-top:-61px">
+				      <a class="navbar-brand visible-xs" href="<?php echo _DOMINIO?>home" style="margin-top:-61px">
+				      	<img src="img/logoBlanco.png" width="100%" />
+				      </a>
+				      <a class="navbar-brand visible-sm" href="<?php echo _DOMINIO?>home" style="margin-top:-30px">
 				      	<img src="img/logoBlanco.png" width="100%" />
 				      </a>
 				    </div>
@@ -160,5 +163,44 @@ Nuestra meta es brindarte la mejor calidad de vida .</h2>
 		});
 
 	</script>
+
+	<style type="text/css">
+	@media (max-width: 1000px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}
+</style>
 	</body>
 </html>

@@ -83,10 +83,10 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-lg visible-md"></div>
-				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12" style="margin-top:1%">
+				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-4  visible-lg visible-md visible-xs" style="margin-top:1%">
 					<img src="<?php echo _DOMINIO?>img/logo.png" width="100%" />
 				</div>
-				<div class="col-lg-7 col-md-7 col-xs-12 col-sm-12 textPie">
+				<div class="col-lg-7 col-md-7 col-xs-12 col-sm-4 textPie">
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
 							
@@ -105,9 +105,16 @@
 							(571) 315 707 6127
 						</div>
 					</div>
-					
+				</div> 
+				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-4  visible-sm" style="margin-top:1%">
+					<img src="<?php echo _DOMINIO?>img/logo.png" width="100%" />
 				</div>
-				<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12" style="margin-top:1%">
+
+				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-4  visible-sm" style="margin-top:1%">
+					<img src="<?php echo _DOMINIO?>img/logoNio.png" width="50%" />
+				</div>
+
+				<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12  visible-lg visible-md visible-xs" style="margin-top:1%">
 					<img src="<?php echo _DOMINIO?>img/logoNio.png" width="100%" />
 				</div>
 				<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-lg visible-md"></div>
