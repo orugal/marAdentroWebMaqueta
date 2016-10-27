@@ -109,8 +109,8 @@ $curacao[2]['img'] = "3.png";
 						de Mar Adentro con la categoría Diamante con toda la exclusividad,
 						el lujo y la última tendencia en viviendas inteligencias		
 						que <strong>Constructora NIO</strong> desarrolla en Colombia.		
-					</p>
-					<br>
+					</p><br>
+					<a data-toggle="modal" data-target="#legales" style="float:left;cursor:pointer">Notas legales</a>
 					<!--
 					<center><a href="<?php echo _DOMINIO?>files/Brochure.pdf" target="_blank" type="button" class="btn btn-danger fa fa-file-pdf-o" style="padding:2%;border:none">
 					    <i class="fa fa-file-pdf-o">
@@ -133,7 +133,7 @@ $curacao[2]['img'] = "3.png";
 					    <ul id="tabs" class="nav nav-pills nav-justified">
 					        <li><a href="#yellow" data-toggle="tab">AMENITIES</a></li>
 					        <li><a href="#green" data-toggle="tab">UBICACIÓN</a></li>
-					        <li><a href="#legales"  data-toggle="modal" data-target="#legales">NOTAS LEGALES</a></li>
+					        <!--<li><a href="#legales"  data-toggle="modal" data-target="#legales">NOTAS LEGALES</a></li>-->
 					    </ul>
 				    </center>
 			    </div>

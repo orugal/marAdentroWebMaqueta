@@ -77,7 +77,11 @@ energía utilizada por los sistemas tradicionales de filtración.
 <br><br>
 
 					
-					<center><a class="btn btn-danger" href="http://www.crystal-lagoons.com/" style="padding:2%;border:none" target="_blank" title="CRYSTAL LAGOONS">Visitar Sitio Oficial</a></center>
+					<center>
+						<a href="http://www.crystal-lagoons.com/" style="padding:2%;border:none" target="_blank" title="CRYSTAL LAGOONS">
+							<img src="img/btnCrystalLagoons.png" width="50%">
+						</a>
+					</center>
 					</p>
 				</div>
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>

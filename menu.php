@@ -35,7 +35,7 @@
 		</div>
 	</div>
 
-<div id="legales" class="modal fade" role="dialog">
+<div id="legales" class="modal fade" role="dialog" style="z-index:1051">
  <div class="modal-dialog modal-lg">
 
     <!-- Modal content-->

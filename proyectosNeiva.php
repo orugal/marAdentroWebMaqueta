@@ -134,7 +134,7 @@ $curacao[4]['img'] = "../img2.jpg";*/
 						proyecto Mar Adentro Oro, con dos conjuntos residenciales
 						independientes llamados Aruba y Curacao.
 					</p><br>
-					<!--<a data-toggle="modal" data-target="#legales" style="float:left;cursor:pointer">Notas legales</a>-->
+					<a data-toggle="modal" data-target="#legales" style="float:left;cursor:pointer">Notas legales</a>
 					<!--<center>
 						<img src="<?php echo _DOMINIO?>img/banner.png" width="50%"/>
 					</center>-->
@@ -155,7 +155,7 @@ $curacao[4]['img'] = "../img2.jpg";*/
 					        <li><a class="pestNeiva btn" data-toggle="modal" data-target="#orange"><strong>ARUBA</strong></a></li>
 					        <li><a class="pestNeiva btn" data-toggle="modal" data-target="#green"><strong>UBICACIÓN</strong></a></li>
 					        <li><a class="pestNeiva btn" data-toggle="modal" data-target="#blue"><strong>BROCHURE</strong></a></li>
-					        <li><a class="pestNeiva btn" data-toggle="modal" data-target="#legales"><strong>NOTAS LEGALES</strong></a></li>
+					        <!--<li><a class="pestNeiva btn" data-toggle="modal" data-target="#legales"><strong>NOTAS LEGALES</strong></a></li>-->
 					    </ul>
 			    </div>
 				<div class="col-lg-1 col-md-1 col-xs-12 col-sm-12 visible-md visible-lg"></div>
@@ -183,7 +183,7 @@ $curacao[4]['img'] = "../img2.jpg";*/
 							             </div>
 							             <div class="modal-body">
 								            <div class="row saltoGaleria">
-												<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+												<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12" style="text-align: left;padding: 5%">
 													<p class="pInternas2">
 													<!--<img src="<?php echo _DOMINIO ?>img/master.png" class="img-thumbnail"><br><br>-->
 													<div class="row">
@@ -202,7 +202,8 @@ $curacao[4]['img'] = "../img2.jpg";*/
 															<center><a class="btnMaster btn btn-link" href="#clubP" data-toggle="tab"  onmouseout="ma.cambioImagen(0,'<?php echo _DOMINIO ?>')" onclick="ma.cambioColor(this,2)" onmouseover="ma.cambioImagen(2,'<?php echo _DOMINIO ?>')"><img src="<?php echo _DOMINIO ?>img/master/btn3.png" width="100%"></a></center>
 														</div>
 													</div><br><br>
-													Mar Adentro Neiva, una ciudad dentro de la ciudad. Disfruta de los espacios diseñados especialmente para ti.
+													Mar Adentro Neiva, una ciudad dentro de la ciudad. Disfruta de los espacios diseñados especialmente para ti.<br>
+													<a data-toggle="modal" data-target="#legales" style="cursor:pointer">Notas legales</a>
 													</p>
 												</div>
 											</div>
