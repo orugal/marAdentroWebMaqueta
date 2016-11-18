@@ -1,9 +1,9 @@
 <?php 
-$parque[0]['img'] = "img/parque/1.jpg";
-$parque[1]['img'] = "img/parque/2.jpg";
-$parque[2]['img'] = "img/parque/3.jpg";
-$parque[3]['img'] = "img/parque/4.png";
-$parque[4]['img'] = "img/parque/5.jpg";
+//$parque[0]['img'] = "img/parque/1.jpg";
+$parque[0]['img'] = "img/parque/2.jpg";
+$parque[1]['img'] = "img/parque/3.jpg";
+$parque[2]['img'] = "img/parque/4.png";
+$parque[3]['img'] = "img/parque/5.jpg";
 
 $ch[0]['img'] = "img/club/1.jpg";
 $ch[1]['img'] = "img/club/2.jpg";
@@ -20,6 +20,13 @@ $cp[3]['img'] = "img/ameSer/5.jpg";
 $cp[4]['img'] = "img/ameSer/6.jpg";
 $cp[5]['img'] = "img/ameSer/7.jpg";
 $cp[6]['img'] = "img/ameSer/8.jpg";
+$cp[7]['img'] = "img/ameSer/9.jpg";
+$cp[8]['img'] = "img/ameSer/10.jpg";
+$cp[9]['img'] = "img/ameSer/11.jpg";
+$cp[10]['img'] = "img/ameSer/12.jpg";
+$cp[11]['img'] = "img/ameSer/13.jpg";
+$cp[12]['img'] = "img/ameSer/14.jpg";
+$cp[13]['img'] = "img/ameSer/15.jpg";
 ?>
 
 <div id="my-tab-content" class="tab-content">
