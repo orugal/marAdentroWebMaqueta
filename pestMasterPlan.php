@@ -12,7 +12,7 @@ $ch[3]['img'] = "img/club/4.jpg";
 $ch[4]['img'] = "img/club/5.jpg";
 $ch[5]['img'] = "img/club/6.jpg";
 
-$cp[0]['img'] = "img/ameSer/1.jpg";
+//$cp[0]['img'] = "img/ameSer/1.jpg";
 //$cp[1]['img'] = "img/ameSer/2.jpg";
 $cp[1]['img'] = "img/ameSer/3.jpg";
 $cp[2]['img'] = "img/ameSer/4.jpg";
