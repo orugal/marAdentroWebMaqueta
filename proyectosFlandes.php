@@ -22,6 +22,14 @@ $curacao[0]['img'] = "1.png";
 $curacao[1]['img'] = "2.png";
 $curacao[2]['img'] = "3.png";
 
+$img[]['img'] = 'img/flandes/1.jpg';
+$img[]['img'] = 'img/flandes/3.jpg';
+$img[]['img'] = 'img/flandes/4.jpg';
+$img[]['img'] = 'img/flandes/5.jpg';
+$img[]['img'] = 'img/flandes/6.jpg';
+$img[]['img'] = 'img/flandes/7.jpg';
+$img[]['img'] = 'img/flandes/8.jpg';
+
 ?>
 
 <?php require("config/configuracion.php"); ?>
@@ -161,16 +169,19 @@ $curacao[2]['img'] = "3.png";
 					            <h2 class="tituloSeccion text-left">MASTER PLAN</h2>
 					           	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 								  <ol class="carousel-indicators">
-								    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-								    <!--<li data-target="#myCarousel" data-slide-to="1"></li>-->
+								    <?php $cont2=1;foreach($img as $imgs){ ?>
+								    	<li data-target="#myCarousel" data-slide-to="0" class="<?php if($cont2==1){ echo 'active';}?>"></li>
+								  	<?php $cont2++;}?>
 								  </ol>
 
 								  <!-- Wrapper for slides -->
 								  <div class="carousel-inner" role="listbox">
-
-								    <div class="item active">
-								      <a href="<?php echo _DOMINIO?>img/flandes/1.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/flandes/1.jpg" alt=""></a>
+								  	
+								  <?php $cont=1;foreach($img as $imgs1){ ?>
+								    <div class="item <?php if($cont==1){ echo 'active';}?>">
+								      <a href="<?php echo _DOMINIO?><?php echo $imgs1['img']?>" data-gallery><img width="100%"  src="<?php echo _DOMINIO?><?php echo $imgs1['img']?>" /></a>
 								    </div>
+								 <?php $cont++;}?> 
 
 								    <!--<div class="item">
 								      <a href="<?php echo _DOMINIO?>img/flandes/2.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/flandes/2.jpg" alt=""></a>

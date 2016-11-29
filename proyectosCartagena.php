@@ -166,6 +166,11 @@ $curacao[2]['img'] = "3.png";
 							    <li data-target="#myCarousel" data-slide-to="8"></li>
 							    <li data-target="#myCarousel" data-slide-to="9"></li>
 							    <li data-target="#myCarousel" data-slide-to="10"></li>
+							    <li data-target="#myCarousel" data-slide-to="11"></li>
+							    <li data-target="#myCarousel" data-slide-to="12"></li>
+							    <li data-target="#myCarousel" data-slide-to="13"></li>
+							    <li data-target="#myCarousel" data-slide-to="14"></li>
+							    <li data-target="#myCarousel" data-slide-to="15"></li>
 							  </ol>
 
 							  <!-- Wrapper for slides -->
@@ -213,6 +218,30 @@ $curacao[2]['img'] = "3.png";
 
 							    <div class="item">
 							      <a href="<?php echo _DOMINIO?>img/cartagena/9.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/9.jpg" alt=""></a>
+							    </div>
+
+							    <div class="item">
+							      <a href="<?php echo _DOMINIO?>img/cartagena/11.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/11.jpg" alt=""></a>
+							    </div>
+
+							    <div class="item">
+							      <a href="<?php echo _DOMINIO?>img/cartagena/12.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/12.jpg" alt=""></a>
+							    </div>
+
+							    <div class="item">
+							      <a href="<?php echo _DOMINIO?>img/cartagena/13.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/13.jpg" alt=""></a>
+							    </div>
+
+							    <div class="item">
+							      <a href="<?php echo _DOMINIO?>img/cartagena/14.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/14.jpg" alt=""></a>
+							    </div>
+
+							    <div class="item">
+							      <a href="<?php echo _DOMINIO?>img/cartagena/15.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/15.jpg" alt=""></a>
+							    </div>
+
+							    <div class="item">
+							      <a href="<?php echo _DOMINIO?>img/cartagena/16.jpg" data-gallery><img src="<?php echo _DOMINIO?>img/cartagena/16.jpg" alt=""></a>
 							    </div>
 
 							  </div>
