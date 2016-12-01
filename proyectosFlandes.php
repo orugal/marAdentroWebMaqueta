@@ -109,8 +109,8 @@ $img[]['img'] = 'img/flandes/8.jpg';
 			<div class="row">
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
 				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
-					<h2 class="tituloSeccion text-center">RIVERA DEL MAGDALENA
-</h2>
+					<h2 style="margin-bottom:5px;padding-bottom: 5px" class="tituloSeccion text-center">RIVERA DEL MAGDALENA</h2>
+					<h3 style="padding-top: 0;margin-top: 0;font-family: 'Roboto';color:#084368">PRÓXIMAMENTE GRAN LANZAMIENTO</h3><br>
 					<p class="pInternas">
 						En el eje estratégico que conduce del centro del país al sur, en los
 						alrededores de Flandes, cercanías a Girardot, en la vía al Espinal e
@@ -147,6 +147,7 @@ $img[]['img'] = 'img/flandes/8.jpg';
 					    <ul id="tabs" class="nav nav-pills nav-justified">
 					        <li><a href="#yellow" data-toggle="tab">MASTER PLAN</a></li>
 					        <li><a href="#green" data-toggle="tab">UBICACIÓN</a></li>
+					        <li><a href="http://www.maradentro.com.co/contacto">REG&Iacute;STRESE</a></li>
 					        <!--<li><a href="#legales" data-toggle="modal" data-target="#legales">NOTAS LEGALES</a></li>-->
 					    </ul>
 				    </center>
