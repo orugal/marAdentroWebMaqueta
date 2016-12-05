@@ -210,4 +210,36 @@ elseif($envio == 2)
 	}
 	
 }
+else if($envio == 3)
+{
+	$asunto			 =	'Participante concurso México -  '._NOMBRE_EMPRESA;
+	$mensaje_armado	 =	'Se ha enviado un mensaje por medio del formulario del concurso méxico de '._NOMBRE_EMPRESA.':<br><br><br>';
+	$mensaje_armado	.= '<b>Nombres y apellidos:</b> '.$nombre.' '.$apellidos.'<br>';
+	$mensaje_armado	.= '<b>Documento de identidad:</b> '.$documento.'<br>';
+	$mensaje_armado	.= '<b>Ciudad:</b> '.$ciudad.'<br>';
+	$mensaje_armado	.= '<b>Proyecto:</b> '.$proyecto.'<br>';
+	$mensaje_armado	.= '<b>Torre:</b> '.$torre.'<br>';
+	$mensaje_armado	.= '<b>Apartamento:</b> '.$apto.'<br>';
+	$mensaje_armado	.= '<b>Celular:</b> '.$telefono.'<br>';
+	$mensaje_armado	.= '<b>Correo electrónico:</b> '.$email.'<br>';
+
+	$envio			 =	$funciones->SendMAIL(_MAIL_ADMIN,$asunto,$mensaje_armado,'',$email,_NOMBRE_EMPRESA);
+
+	$queryInserta	 =	sprintf("INSERT INTO concursoMexico(nombre,apellidos,documento,ciudad,proyecto,torre,apto,telefono,email,fecha) values('%s','%s','%s','%s','%s','%s','%s','%s','%s','%s')",
+								$nombre,$apellidos,$documento,$ciudad,$proyecto,$torre,$apto,$telefono,$email,date("Y-m-d H:i:s"));
+	//die($queryInserta);
+	$result			 =	$db->Execute($queryInserta);
+
+	if($envio == 1)
+	{
+		$salida = array("mensaje"=>"Enviado con correctamente",
+			            "continuar"=>1);
+	}
+	else
+	{
+		$salida = array("mensaje"=>"Mensaje no pudo ser enviado",
+			            "continuar"=>0);
+	}
+	echo json_encode($salida);
+}
 ?>

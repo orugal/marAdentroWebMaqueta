@@ -131,7 +131,7 @@ $curacao[2]['img'] = "3.png";
 				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
 					<center>
 					    <ul id="tabs" class="nav nav-pills nav-justified">
-					        <li><a href="#yellow" data-toggle="tab">AMENITIES</a></li>
+					        <li><a href="#yellow" data-toggle="tab">RENDERS</a></li>
 					        <li><a href="#green" data-toggle="tab">UBICACIÓN</a></li>
 					        <!--<li><a href="#legales"  data-toggle="modal" data-target="#legales">NOTAS LEGALES</a></li>-->
 					    </ul>
@@ -152,7 +152,7 @@ $curacao[2]['img'] = "3.png";
 					    <div id="my-tab-content" class="tab-content">
 
 					        <div class="tab-pane" id="yellow">
-					            <h2 class="tituloSeccion text-left">AMENITIES</h2>
+					            <h2 class="tituloSeccion text-left">RENDERS</h2>
 					           	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 							  <ol class="carousel-indicators">
 							    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -171,6 +171,7 @@ $curacao[2]['img'] = "3.png";
 							    <li data-target="#myCarousel" data-slide-to="13"></li>
 							    <li data-target="#myCarousel" data-slide-to="14"></li>
 							    <li data-target="#myCarousel" data-slide-to="15"></li>
+							    <li data-target="#myCarousel" data-slide-to="16"></li>
 							  </ol>
 
 							  <!-- Wrapper for slides -->

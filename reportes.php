@@ -52,6 +52,12 @@ if(isset($_GET['r']))
 			$result	    = $db->getAll($query);
 			$n 			= "Reporte Lotes";
 		}
+		elseif($_GET['r'] == 3)//concurso
+		{
+			$query 		= sprintf("SELECT * FROM concursoMexico");
+			$result	    = $db->getAll($query);
+			$n 			= "Reporte Concurso México";
+		}
 		//var_dump($result);
 		//pinto la tabla
 		$tabla = "<table border='none' cellspacing='0' cellpadding='0'>";
@@ -287,6 +293,7 @@ if(isset($_GET['r']))
         <p id="profile-name" class="profile-name-card"></p>
         <a href="reporteContacto" class="btn btn-primary btn-block">REPORTE CONTACTO</a>
         <a href="reporteLotes" class="btn btn-primary btn-block">REPORTE LOTES</a>
+        <a href="reporteConcurso" class="btn btn-primary btn-block">REPORTE CONCURSO</a>
     </div><!-- /card-container -->
 </div><!-- /container -->
 <?php } ?>

@@ -24,11 +24,21 @@ $curacao[2]['img'] = "3.png";
 
 $img[]['img'] = 'img/flandes/1.jpg';
 $img[]['img'] = 'img/flandes/3.jpg';
+$img[]['img'] = 'img/flandes/9.jpg';
 $img[]['img'] = 'img/flandes/4.jpg';
 $img[]['img'] = 'img/flandes/5.jpg';
 $img[]['img'] = 'img/flandes/6.jpg';
 $img[]['img'] = 'img/flandes/7.jpg';
 $img[]['img'] = 'img/flandes/8.jpg';
+$img[]['img'] = 'img/flandes/10.jpg';
+$img[]['img'] = 'img/flandes/11.jpg';
+$img[]['img'] = 'img/flandes/12.jpg';
+$img[]['img'] = 'img/flandes/13.jpg';
+$img[]['img'] = 'img/flandes/14.jpg';
+$img[]['img'] = 'img/flandes/15.jpg';
+$img[]['img'] = 'img/flandes/16.jpg';
+$img[]['img'] = 'img/flandes/17.jpg';
+$img[]['img'] = 'img/flandes/18.jpg';
 
 ?>
 
@@ -109,8 +119,8 @@ $img[]['img'] = 'img/flandes/8.jpg';
 			<div class="row">
 				<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 visible-lg visible-md"></div>
 				<div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
-					<h2 class="tituloSeccion text-center">RIVERA DEL MAGDALENA
-</h2>
+					<h2 style="margin-bottom:5px;padding-bottom: 5px" class="tituloSeccion text-center">RIVIERA DEL MAGDALENA</h2>
+					<h3 style="padding-top: 0;margin-top: 0;font-family: 'Roboto';color:#084368">PRÓXIMAMENTE GRAN LANZAMIENTO</h3><br>
 					<p class="pInternas">
 						En el eje estratégico que conduce del centro del país al sur, en los
 						alrededores de Flandes, cercanías a Girardot, en la vía al Espinal e
@@ -145,8 +155,9 @@ $img[]['img'] = 'img/flandes/8.jpg';
 				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
 					<center>
 					    <ul id="tabs" class="nav nav-pills nav-justified">
-					        <li><a href="#yellow" data-toggle="tab">MASTER PLAN</a></li>
+					        <li><a href="#yellow" data-toggle="tab">RENDERS</a></li>
 					        <li><a href="#green" data-toggle="tab">UBICACIÓN</a></li>
+					        <li><a href="http://www.maradentro.com.co/contacto">REG&Iacute;STRESE</a></li>
 					        <!--<li><a href="#legales" data-toggle="modal" data-target="#legales">NOTAS LEGALES</a></li>-->
 					    </ul>
 				    </center>
@@ -166,7 +177,7 @@ $img[]['img'] = 'img/flandes/8.jpg';
 					    <div id="my-tab-content" class="tab-content">
 
 					        <div class="tab-pane" id="yellow">
-					            <h2 class="tituloSeccion text-left">MASTER PLAN</h2>
+					            <h2 class="tituloSeccion text-left">RENDERS</h2>
 					           	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 								  <ol class="carousel-indicators">
 								    <?php $cont2=1;foreach($img as $imgs){ ?>

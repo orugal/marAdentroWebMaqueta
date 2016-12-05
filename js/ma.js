@@ -220,6 +220,111 @@ var ma =
 		}
 
 	},
+	sendConcurso:function()
+	{
+		var nombre		=	$("#nombre").val();
+		var apellidos		=	$("#apellidos").val();
+		var documento		=	$("#documento").val();
+		var ciudad		=	$("#ciudad").val();
+		var proyecto		=	$("#proyecto").val();
+		var torre		=	$("#torre").val();
+		var apto		=	$("#apto").val();
+		var telefono		=	$("#telefono").val();
+		var email		=	$("#email").val();
+		var terminos		=	$("#terminos").val();
+
+		//valido campos
+		if(nombre == "")
+		{
+			swal({   title: "Error!",   text: "El campo nombre es un campo requerido!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else if(apellidos == "")
+		{
+			swal({   title: "Error!",   text: "El campo apellidos es un campo requerido!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else if(documento == "")
+		{
+			swal({   title: "Error!",   text: "El campo número de documento es un campo requerido!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else if(ciudad == "")
+		{
+			swal({   title: "Error!",   text: "El campo ciudad es un campo requerido!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else if(proyecto == "")
+		{
+			swal({   title: "Error!",   text: "Debe seleccionar el proyecto!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else if(torre == "")
+		{
+			swal({   title: "Error!",   text: "El campo torre es un campo requerido!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else if(apto == "")
+		{
+			swal({   title: "Error!",   text: "El campo número de apartamento es un campo requerido!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else if(apto == "")
+		{
+			swal({   title: "Error!",   text: "El campo número de apartamento es un campo requerido!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else if(telefono == "")
+		{
+			swal({   title: "Error!",   text: "El campo celular es un campo requerido!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else if(email == "")
+		{
+			swal({   title: "Error!",   text: "El campo email es un campo requerido!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else if(email != "" && !ma.validarEmail(email))
+		{
+			swal({   title: "Error!",   text: "El campo del correo electrónico no es valido!",   type: "warning",   confirmButtonText: "Aceptar" });
+		}
+		else
+		{
+
+			swal({   
+				title: "Confirmación",   
+				text: "Está a punto de enviar este formulario, desea continuar?",   
+				type: "warning",   
+				showCancelButton: true,   
+				confirmButtonColor: "#DD6B55",   
+				confirmButtonText: "Continuar",   
+				closeOnConfirm: false,
+				showLoaderOnConfirm: true
+			}, 
+				function(){   
+					 //var formulario = $("#contacto").serialize();
+					 var formulario = new FormData(document.getElementById("contacto"));
+					 formulario.append("envio", "3");
+					 $.ajax({
+				          type: "POST",
+				          url: "envio.php",
+				          data: formulario,
+				          dataType:"json",
+					      cache: false,
+					      contentType: false,
+					      processData: false,
+				          beforeSend: function(objeto){
+				          },
+				          success: function(respuesta)
+				          {
+				            if(respuesta.continuar)
+				            {
+				            	document.location="gracias";
+				            }
+				            else
+				            {
+				              swal({   title: "Mensaje no enviado!",   text: respuesta.mensaje,   type: "error",   confirmButtonText: "Aceptar",   showLoaderOnConfirm: true, });
+				            }
+			            },
+			            error: function (var1,var2,var3){
+			                
+			            }
+				     });
+			});
+			
+		}
+
+	},
 	validarEmail:function(email) 
 	{
 	    expr = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;

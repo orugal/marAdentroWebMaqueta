@@ -16,11 +16,13 @@ RewriteRule ^gestionDeTierras$ lotes.php
 RewriteRule ^reportes$ reportes.php
 RewriteRule ^reporteContacto$ reportes.php?r=1
 RewriteRule ^reporteLotes$ reportes.php?r=2
+RewriteRule ^reporteConcurso$ reportes.php?r=3
 
 RewriteRule ^proyectos/neiva$ proyectosNeiva.php
 RewriteRule ^proyectos/cartagena$ proyectosCartagena.php
 RewriteRule ^proyectos/flandes$ proyectosFlandes.php
 RewriteRule ^amenities/neiva$ amenitiesNeiva.php
+RewriteRule ^concursoNioMexico$ formEstandar.php
 
 <IfModule mod_deflate.c>
 <FilesMatch ".(js|jpg|jpeg|gif|png|css|txt|html)$">

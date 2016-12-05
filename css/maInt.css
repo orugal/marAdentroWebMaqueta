@@ -134,6 +134,13 @@ nav.navbar {
       background-size: cover;
       padding: 10%;
 }
+.bgMexico{background: url(../img/bannerMexico.png)no-repeat center center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 20%;
+}
 
 .bgUbi{background: url(../img/bgUbi.png)no-repeat bottom center; 
       -webkit-background-size: cover;

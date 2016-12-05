@@ -11,7 +11,6 @@
 
 //$aruba[0]['img'] = "1.png";
 $aruba[0]['img'] = "../ubiAruba.png";
-$aruba[10]['img'] = "8.jpg";
 //$aruba[11]['img'] = "9.jpg";
 $aruba[1]['img'] = "../bgNeivaN.jpg";
 $aruba[2]['img'] = "../img3.jpg";
@@ -21,8 +20,9 @@ $aruba[5]['img'] = "2.png";
 $aruba[6]['img'] = "5.png";
 $aruba[7]['img'] = "3.jpg";
 $aruba[8]['img'] = "4.jpg";
-//$aruba[5]['img'] = "6.png";
-$aruba[9]['img'] = "7.jpg";
+$aruba[9]['img'] = "6.jpg";
+$aruba[10]['img'] = "7.jpg";
+$aruba[11]['img'] = "8.jpg";
 
 
 
